@@ -1,0 +1,383 @@
+#easyFrontendFormular input[type=text], #easyFrontendFormular input[type=submit], #easyFrontendFormular textarea, #window.transitionEnabled{
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+#easyFrontendFormular {
+	line-height:1em;
+	font-size:12px;
+	border: 1px solid #d8d8d8;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background:#ffffff;
+	padding:15px;
+	border-spacing: 0;
+	color:#8b8b8b;
+	width: 100%;
+	outline: 1px #F5F5F3;
+	margin: 0;
+	font-family:"Droid Sans", Verdana, Arial, Helvetica, sans-serif;
+	-webkit-box-shadow: 0px 0px 10px #ededed;	/* webkit browser*/ -moz-box-shadow: 0px 0px 10px #ededed;	/* firefox */ box-shadow: 0px 0px 10px #ededed;}
+
+#easyFrontendFormular > label, #easyFrontendFormular > div.usereditdiv > label {
+	display:block;
+	font-weight:normal;
+	text-align:right;
+	float:left;
+	width:25%;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color: #333;
+	border-right: 1px dashed #ccc;
+	padding: 5px 20px;	
+	height:17px;
+}
+
+#easyFrontendFormular textarea, #easyFrontendFormular select, #easyFrontendFormular input[type="text"] {
+	width:60%;
+	margin: 2px 0px 2px 10px;
+}
+#easyFrontendFormular p {	display:none; }
+#easyFrontendFormular p + p {border-bottom:0px !important; display:inline-block; }
+#easyFrontendFormular h1, .easy-show-error-div h2 {
+	font-size:14px;
+	font-weight:normal;
+	margin-bottom:8px;
+	margin-left:10px;
+	padding:20px;	
+	font-size:20px;
+	color: #333;
+	border-bottom: 1px dashed  #b9b9b9;
+}
+#easyFrontendFormular h2 {
+	font-size:14px;
+	font-weight:normal;
+	margin-bottom:8px;
+	padding: 5px 20px;
+	font-size:16px;
+	border-right: 1px dashed #ccc;
+	width:25%;
+	text-align:right;
+	color: #333;
+}
+
+#easyFrontendFormular .easy-show-error-div h2 {
+	padding-top:10px ;
+	margin-left:-15px ;
+	border-right: 0px ;
+	text-align:left ;
+	width:96%;
+}
+#easyFrontendFormular > label > span.small {
+	display:none;
+}
+
+#easyFrontendFormular span.row {
+    min-height: 17px;
+    display:inline-block;
+	margin:0px 0px 3px 9px;
+	width:60%;
+	max-width: 75%;
+}
+
+#easyFrontendFormular span.row * {
+	margin: 0px 1px;
+}
+
+#easyFrontendFormular span.row > select:nth-last-child(2),
+#easyFrontendFormular span.row > *:nth-last-child(2) ~ select {
+	width:auto;
+	max-width: 33%;
+}
+#easyFrontendFormular span.row > input:nth-last-child(2),
+#easyFrontendFormular span.row > *:nth-last-child(2) ~ input {
+	max-width: 48%;
+}
+#easyFrontendFormular span.row > select:nth-last-child(3),
+#easyFrontendFormular span.row > *:nth-last-child(3) ~ select {
+	width:auto;
+	max-width: 30%;
+}
+#easyFrontendFormular span.row > input:nth-last-child(3),
+#easyFrontendFormular span.row > *:nth-last-child(3) ~ input {
+    max-width: 32%;
+}
+
+#easyFrontendFormular span.row img {
+	width: auto !important;
+}
+
+#easy-form-from, #easy-form-to {
+	text-align: center;
+}
+#easy-form-to, #easy-form-from { width: 90px !important; text-align: center; }
+#date-from-hour, #date-to-hour,#date-from-min, #date-to-min  { width: 49px !important;}
+#easyFrontendFormular .formblock {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	width:60%;
+	font-size:12px;
+	margin:2px 0 10px 10px;
+	display:inline-block;
+}
+
+#easyFrontendFormular .showError {
+	padding:6px;
+	width:100%;
+	font-family :Verdana;
+	font-size:12px;
+	font-weight:bold;
+	color:#E80000;
+	margin-left: 4px;
+}
+#easyFrontendFormular select, #easyFrontendFormular input[type=text], #easyFrontendFormular input[type="text"], #easyFrontendFormular input[type=password], #easyFrontendFormular textarea {
+	-webkit-border-radius: 2px !important; -moz-border-radius: 2px !important; border-radius: 2px !important;
+	background-color:#fff !important;
+	color: #8b8b8b !important;
+	padding:3px !important;
+	height:27px !important;
+	border: 1px solid #cfcfcf;
+	-webkit-box-shadow: inset 0px 0px 2px #ededed; /* webkit browser*/ -moz-box-shadow: inset 0px 0px 2px #ededed; /* firefox */ box-shadow: inset 0px 0px 2px #ededed;
+}
+#easyFrontendFormular select {height:28px !important;}
+#easyFrontendFormular textarea{ height: 50px !important;}
+
+#easyFrontendFormular input:focus, #easyFrontendFormular textarea:focus, #easyFrontendFormular select:focus {
+	border: 1px solid #d9b266;
+	-webkit-box-shadow: 0px 0px 3px #d9b266;	/* webkit browser*/ -moz-box-shadow: 0px 0px 3px #d9b266;	/* firefox */ box-shadow: 0px 0px 3px #d9b266;
+}
+#easyFrontendFormular select:focus,#easyFrontendFormular input[type=text]:focus {background: #fff;}
+#easyFrontendFormular .form-error { border: 1px solid #E80000 !important; }
+#easyFrontendFormular .easy-button , #easyFrontendFormular input[type="submit"]{
+	-webkit-border-radius: 2px !important; -moz-border-radius: 2px !important; border-radius: 2px !important;
+	background: #faee9c; /* Old browsers */
+	background: url('../admin/button-bg.png');
+	border:1px solid #dab528 !important;
+	font-family: Arial !important;
+	display:inline-block !important;
+	color:#7b5504 !important;
+	line-height:1.1 !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	padding:6px 12px !important;
+	text-decoration:none !important;
+	cursor:pointer !important;
+	-webkit-transition: all 0.2s linear !important;
+	-moz-transition: all 0.2s linear !important;
+	-o-transition: all 0.2s linear !important;
+	-ms-transition: all 0.2s linear !important;
+	transition: all 0.2s linear !important;
+}
+
+.easy-button:hover, #easyFrontendFormular input[type=submit]:hover{
+	color:#ffffff;
+	-moz-box-shadow: 0px 0px 5px #dab528;
+	-webkit-box-shadow: 0px 0px 5px #dab528;
+	-o-box-shadow: 0px 0px 5px #dab528;
+	box-shadow: 0px 0px 5px #dab528;
+}
+
+.easy-button.deactive1,.easy-button.deactive2, #easyFrontendFormular input[type=submit].deactive1, #easyFrontendFormular input[type=submit].deactive2 {
+	cursor: default;
+	background: #f4dd39;
+}
+
+#easyFrontendFormular :focus{
+	outline-color: #d9b266;
+}
+
+#easyFrontendFormular .easy_show_price_submit {
+	color: #000 !important;
+	font-weight: normal;
+	display:block;
+	font-size: 14px;
+}
+
+#easyFrontendFormular pre{
+	background: none ;
+	font-family:Verdana;
+	padding:2px !important;
+	margin-bottom: 4px;
+}
+#easyFrontendFormular .hide-it {
+	visibility:hidden;
+	max-width:1px;
+	max-height:1px;
+	position:absolute;
+	overflow:hidden;
+}
+#easyFrontendFormular label.easy-show-error  {
+	color: #ff0000;
+	text-align:left;
+	font-size:12px;
+	font-weight:normal;
+	width: 55%;
+	display: block;
+	max-width:70%;
+	padding:0px;
+	margin: 3px 0px 3px 34%;
+	float:none !important;
+	border:0px;
+	height:auto;
+
+}
+#easyFrontendFormular label.easy-show-error + label.easy-show-error{
+	margin-top: 3px;
+}
+#easyFrontendFormular input[type="checkbox"] + label.easy-show-error{
+	border-left:0px !important;
+	float: right !important;
+	margin:0px !important;
+	padding:0px;
+}
+#easyFrontendFormular input[type="radio"] + label.easy-show-error{
+	border-left:0px !important;
+	float: right !important;
+	margin:0px !important;
+	padding:0px;
+}
+#easyFrontendFormular span.radio {
+    width: 55%;
+    display: inline-block;
+    max-width:68%;
+    margin:0px 0px 8px 10px;
+}
+
+#easyFrontendFormular span.radio span {
+    display: block;
+}
+
+#easyFrontendFormular img {
+    box-shadow: none;
+}
+#easyFrontendFormular .formblock label.easy-show-error  {
+	margin-left:0px;
+}
+#easyFrontendFormular .easy-show-error-div {
+	display: inline-block;
+	width:93%;
+	color: #ff0000 !important;
+	margin-bottom: 0px;
+	padding: 20px;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-bottom:10px !important;
+}
+#easyFrontendFormular .easy-show-error-div + h1 {
+	margin-top:6px;
+	border-top: 1px dashed  #b9b9b9;
+}
+#easyFrontendFormular .hide-it + h1 {
+	margin-top:0px;
+	border-top: 0px;
+}
+#easy-show-error > li > label {
+	display: normal !important;
+	float: none !important;
+	font-weight: normal !important;
+	text-align: left !important;
+	cursor:pointer !important;
+	width:100% !important;
+}
+#easyFrontendFormular .easy-show-error-div ul {list-style-type: disc; margin:0px; padding: 0px;margin-left: 15px;margin-top: 10px; }
+#easyFrontendFormular .easy-show-error-div ul li {margin-bottom: 5px; }
+#easyFrontendFormular .easy-show-error-div p {margin: 1em 0px 0px 0px;}
+
+#easyFrontendFormular .easy-form-price {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-weight: normal;
+}
+
+#easyFrontendFormular .ui-datepicker{
+	font-size:10px !important;
+}
+
+#easyFrontendFormular .ui-state-default{
+	text-align:center !important;
+}
+
+.easy_form_success {
+	margin-left:auto;
+	text-align:center;
+	margin-right:auto;
+}
+.easy-button.back {
+	margin-left:10px;
+}
+@media screen and (max-width: 950px){
+	#easyFrontendFormular label.easy-show-errorf {
+		margin-left: 34%;
+		background: #000;
+	}
+}
+@media screen and (max-width: 575px){
+	#easyFrontendFormular h1 {
+		padding-left:0px;
+	}
+	#easyFrontendFormular h2 {
+		margin: 11px 0px 0px 0px;
+		text-align: left;
+		padding-left: 18px;
+		border:0px;
+		width: 100%;
+	}
+	#easyFrontendFormular .easy-show-error-div {
+		padding: 0px;
+	}
+	#easyFrontendFormular .easy-show-error-div h2 {
+		padding:0px;
+	}
+
+	#easyFrontendFormular > label, #easyFrontendFormular > div.usereditdiv > label {
+		margin: 14px  0px 0px 18px;
+		display:block;
+		text-align:left;
+		vertical-align: bottom;
+		height: 16px;
+		font-weight: bold;
+		border:0px;
+		padding:0px;
+		width: 100%;
+	}
+	#easyFrontendFormular small, #easyFrontendFormular .small {
+		display: block;
+		font-size: 11px;
+		width: 100%;
+		text-align: left;
+	}
+	#easyFrontendFormular label.easy-show-error {
+		margin: 5px 0px 4px 33%;
+		margin-left: 20px;
+		display:block;
+		text-align:left;
+		width: 95%;
+		max-width: 95%;
+	}
+	#easyFrontendFormular label.easy-show-error + label.easy-show-error {
+		margin-top:2px;
+	}
+	#easyFrontendFormular span.row {
+		margin: 0px 0px 2px 18px;
+		width:90%;
+        min-height: 17px;
+		max-width:90%;
+	}
+	#easyFrontendFormular > input[type="text"] {
+		margin: 0px 0px 2px 18px;
+		width:90%;
+	}
+	#easyFrontendFormular > textarea {
+		margin: 0px 0px 2px 18px;
+		width:90%;
+	}
+	#easyFrontendFormular select {
+		margin: 0px 0px 2px 18px;
+		width:90%;
+	}
+}

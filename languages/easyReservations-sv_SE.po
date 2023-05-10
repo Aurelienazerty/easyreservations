@@ -1,0 +1,5506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easyReservations 3.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-05 21:12+0200\n"
+"PO-Revision-Date: 2017-07-05 21:12+0200\n"
+"Last-Translator: Jörgen <sjoholmjorgen@gmail.com>\n"
+"Language-Team: kjeell.se <digidocs@kjeell.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: easyReservations_admin_main.php:39 easyReservations_admin_main.php:55
+#: easyReservations_admin_main.php:71 easyReservations_admin_main.php:1059
+#: easyReservations_admin_resources.php:22 lib/functions/admin.php:19
+msgid "Reservation"
+msgstr "Reservation"
+
+#: easyReservations_admin_main.php:39 easyReservations_admin_main.php:55
+#: easyReservations_admin_main.php:71 easyReservations_admin_resources.php:218
+msgid "Reservations"
+msgstr "Reservationer"
+
+#: easyReservations_admin_main.php:40
+msgid "moved to trash"
+msgstr "flyttad till papperskorg"
+
+#: easyReservations_admin_main.php:40
+msgid "Undo"
+msgstr "Ångra"
+
+#: easyReservations_admin_main.php:56
+msgid "restored from trash"
+msgstr "återställd från papperskorg"
+
+#: easyReservations_admin_main.php:72
+msgid "deleted permanently"
+msgstr "permanent raderad"
+
+#: easyReservations_admin_main.php:84
+msgid "Custom information deleted"
+msgstr "Valfri information raderad"
+
+#: easyReservations_admin_main.php:85
+msgid "Custom information isn't existing"
+msgstr "Valfri information existerar inte"
+
+#: easyReservations_admin_main.php:98
+msgid "Custom price deleted"
+msgstr "Valfritt pris raderat"
+
+#: easyReservations_admin_main.php:99
+msgid "Custom price isn't existing"
+msgstr "Valfritt pris existerar inte"
+
+#: easyReservations_admin_main.php:120 easyReservations_admin_main.php:208
+msgid "Wrong money format in custom price"
+msgstr "Fel prisformat i prisfältet"
+
+#: easyReservations_admin_main.php:166 easyReservations_admin_main.php:249
+msgid "Price couldn't be fixed, input isn't valid money format"
+msgstr "Priset kunde inte anges, indatan är inte ett giltigt prisformat"
+
+#: easyReservations_admin_main.php:172
+msgid "Reservation edited."
+msgstr "Reservationen redigerad"
+
+#: easyReservations_admin_main.php:182
+#, php-format
+msgid "Reservation #%1$d copied as #%2$d"
+msgstr "Reservation #%1$d kopierad som #%2$d"
+
+#: easyReservations_admin_main.php:253
+#, php-format
+msgid "Reservation #%d added"
+msgstr "Reservation #%d tillagd"
+
+#: easyReservations_admin_main.php:264 lib/functions/ajax.php:400
+#: lib/functions/ajax.php:410
+msgid "Wrong date format"
+msgstr "Fel datumformat"
+
+#: easyReservations_admin_main.php:285
+msgid ""
+"This is how the price would get calculated now. After changing filters, base "
+"price or settings or the reservations price it wont match the fixed price "
+"anymore."
+msgstr ""
+"Så här skulle priset bli kalkylerat nu. Efter att ha ändrat filter,"
+"standardpris eller inställningar eller reservations priset så kommer det "
+"inte att överensstämma med det fasta priset längre."
+
+#: easyReservations_admin_main.php:309
+msgid "Email sent successfully"
+msgstr "E-post har sänts framgåmgsrikt"
+
+#: easyReservations_admin_main.php:337
+msgid "Reservation approved"
+msgstr "Reservation godkänd"
+
+#: easyReservations_admin_main.php:338
+msgid "Reservation rejected"
+msgstr "Reservation avvisad"
+
+#: easyReservations_admin_main.php:353
+msgid "Reservations Dashboard"
+msgstr "Reservations Kontrollpanel"
+
+#: easyReservations_admin_main.php:354 easyReservations_admin_resources.php:203
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: easyReservations_admin_main.php:366 easyReservations_admin_main.php:978
+#: easyReservations_admin_main.php:1003 easyReservations_admin_main.php:1311
+#: easyReservations_admin_main.php:1482 lib/core/core.php:339
+#: lib/modules/hourlycal/hourlycal.php:202 lib/modules/paypal/paypal.php:344
+msgid "None"
+msgstr "Inget"
+
+#: easyReservations_admin_main.php:479 easyReservations_admin_main.php:856
+#: easyReservations_admin_resources.php:1364
+msgid "choose date"
+msgstr "välj datum"
+
+#: easyReservations_admin_main.php:570
+msgid "full"
+msgstr "fullbelagd"
+
+#: easyReservations_admin_main.php:900 lib/functions/admin.php:341
+#: lib/modules/statistics/statistics.php:499
+msgid "Upcoming reservations"
+msgstr "Kommande reservationer"
+
+#: easyReservations_admin_main.php:917 lib/functions/admin.php:342
+msgid "New reservations"
+msgstr "Nya reservationer"
+
+#: easyReservations_admin_main.php:945
+msgid "What's happening today"
+msgstr ""
+
+#: easyReservations_admin_main.php:945
+msgid "workload today"
+msgstr "arbetsbelastning idag"
+
+#: easyReservations_admin_main.php:955
+msgid "Arrival today"
+msgstr "Ankomster idag"
+
+#: easyReservations_admin_main.php:957 easyReservations_admin_main.php:1074
+#: easyReservations_admin_main.php:1239 easyReservations_admin_main.php:1417
+#: easyReservations_admin_resources.php:737
+#: easyReservations_admin_settings.php:787
+#: easyReservations_admin_settings.php:1017 lib/core/core.php:287
+#: lib/functions/admin.php:351 lib/functions/ajax.php:777
+#: lib/functions/ajax.php:818 lib/modules/htmlmails/htmlmails.php:127
+#: lib/modules/import/import.php:72 lib/modules/paypal/creditcards.php:225
+#: lib/modules/paypal/creditcards.php:250
+#: lib/modules/paypal/creditcards.php:345 lib/modules/paypal/paypal.php:225
+#: lib/modules/paypal/paypal.php:242 lib/modules/search/attributes.php:115
+#: lib/modules/statistics/statistics.php:718
+#: lib/modules/useredit/useredit.php:343 lib/modules/useredit/useredit.php:677
+#: lib/modules/useredit/useredit.php:785
+msgid "Name"
+msgstr "Namn"
+
+#: easyReservations_admin_main.php:957 easyReservations_admin_main.php:1092
+#: easyReservations_admin_main.php:1268 easyReservations_admin_main.php:1444
+#: easyReservations_admin_main.php:1559 easyReservations_admin_settings.php:426
+#: js/tinyMCE/tinyMCE_shortcode_add.php:123
+#: js/tinyMCE/tinyMCE_shortcode_add.php:183 lib/functions/admin.php:357
+#: lib/functions/ajax.php:795 lib/functions/ajax.php:836
+#: lib/modules/hourlycal/hourlycal.php:181
+#: lib/modules/hourlycal/hourlycal.php:201
+#: lib/modules/htmlmails/htmlmails.php:122
+#: lib/modules/htmlmails/htmlmails.php:385 lib/modules/import/import.php:74
+#: lib/modules/invoice/invoice.php:586 lib/modules/search/search.php:69
+#: lib/modules/statistics/statistics.php:521
+#: lib/modules/statistics/statistics.php:720
+#: lib/modules/useredit/useredit.php:348 lib/modules/useredit/useredit.php:552
+msgid "Resource"
+msgstr "Resurs"
+
+#: easyReservations_admin_main.php:957 easyReservations_admin_main.php:1088
+#: easyReservations_admin_main.php:1259 easyReservations_admin_main.php:1435
+#: easyReservations_admin_resources.php:675
+#: easyReservations_admin_resources.php:713
+#: easyReservations_admin_resources.php:969
+#: easyReservations_form_shortcode.php:420 lib/functions/admin.php:359
+#: lib/functions/ajax.php:791 lib/functions/ajax.php:832
+#: lib/modules/htmlmails/htmlmails.php:124 lib/modules/import/import.php:72
+#: lib/modules/statistics/statistics.php:524
+#: lib/modules/statistics/statistics.php:721
+#: lib/modules/useredit/useredit.php:345 lib/modules/useredit/useredit.php:679
+#: lib/modules/useredit/useredit.php:789
+msgid "Persons"
+msgstr "Personer"
+
+#: easyReservations_admin_main.php:957 easyReservations_admin_main.php:1289
+#: easyReservations_admin_main.php:1466 easyReservations_admin_main.php:1493
+#: easyReservations_admin_resources.php:552
+#: easyReservations_admin_resources.php:704
+#: easyReservations_admin_resources.php:729
+#: easyReservations_admin_resources.php:1049
+#: easyReservations_admin_resources.php:1056
+#: easyReservations_admin_settings.php:268
+#: easyReservations_form_shortcode.php:142
+#: easyReservations_form_shortcode.php:421
+#: js/tinyMCE/tinyMCE_shortcode_add.php:191 lib/functions/admin.php:109
+#: lib/functions/admin.php:366 lib/functions/ajax.php:363
+#: lib/functions/ajax.php:803 lib/functions/ajax.php:844
+#: lib/modules/hourlycal/hourlycal.php:185
+#: lib/modules/htmlmails/htmlmails.php:136
+#: lib/modules/htmlmails/htmlmails.php:387 lib/modules/search/search.php:54
+#: lib/modules/search/search.php:58 lib/modules/search/search.php:355
+#: lib/modules/statistics/statistics.php:722
+#: lib/modules/useredit/useredit.php:350 lib/modules/useredit/useredit.php:682
+#: lib/modules/useredit/useredit.php:746 lib/modules/useredit/useredit.php:848
+#: lib/modules/useredit/useredit.php:911
+msgid "Price"
+msgstr "Pris"
+
+#: easyReservations_admin_main.php:982
+msgid "Departure today"
+msgstr "Avresor idag"
+
+#: easyReservations_admin_main.php:1031
+#: easyReservations_admin_resources.php:1017
+#: easyReservations_admin_resources.php:1050
+#: easyReservations_admin_settings.php:423
+#: easyReservations_admin_settings.php:425
+#: easyReservations_admin_settings.php:946
+#: easyReservations_admin_settings.php:995
+#: easyReservations_admin_settings.php:1039
+#: easyReservations_admin_settings.php:1247
+#: lib/modules/search/attributes.php:119
+msgid "Type"
+msgstr "Typ"
+
+#: easyReservations_admin_main.php:1031 easyReservations_admin_main.php:1303
+#: easyReservations_admin_main.php:1478 lib/functions/ajax.php:733
+msgid "Approved"
+msgstr "Godkända"
+
+#: easyReservations_admin_main.php:1031 easyReservations_admin_main.php:1303
+#: easyReservations_admin_main.php:1478 lib/functions/ajax.php:722
+#: lib/functions/ajax.php:733
+msgid "Pending"
+msgstr "Väntande"
+
+#: easyReservations_admin_main.php:1031 easyReservations_admin_main.php:1303
+#: easyReservations_admin_main.php:1478 lib/functions/ajax.php:723
+#: lib/functions/ajax.php:733
+msgid "Rejected"
+msgstr "Avvisade"
+
+#: easyReservations_admin_main.php:1031 easyReservations_admin_main.php:1303
+#: lib/functions/ajax.php:733
+msgid "Trashed"
+msgstr "Kastade"
+
+#: easyReservations_admin_main.php:1032
+#: easyReservations_admin_resources.php:551
+#: easyReservations_admin_settings.php:270
+#: easyReservations_form_shortcode.php:418 lib/modules/coupons/coupons.php:35
+#: lib/modules/useredit/useredit.php:358
+msgid "Time"
+msgstr "Tid"
+
+#: easyReservations_admin_main.php:1032 lib/modules/useredit/useredit.php:359
+#: overview.php:160
+msgid "Past"
+msgstr "Tidigare"
+
+#: easyReservations_admin_main.php:1032 overview.php:110 overview.php:161
+msgid "Present"
+msgstr "Närvarande"
+
+#: easyReservations_admin_main.php:1032 lib/modules/useredit/useredit.php:361
+#: overview.php:162
+msgid "Future"
+msgstr "Framtida"
+
+#: easyReservations_admin_main.php:1059 easyReservations_admin_main.php:1550
+#: easyReservations_admin_main.php:1565 lib/functions/admin.php:256
+#: lib/functions/ajax.php:922
+msgid "Approve"
+msgstr "Godkänn"
+
+#: easyReservations_admin_main.php:1059 easyReservations_admin_main.php:1550
+#: easyReservations_admin_main.php:1565 lib/functions/admin.php:258
+#: lib/functions/ajax.php:923
+msgid "Reject"
+msgstr "Avvisa"
+
+#: easyReservations_admin_main.php:1059
+msgid "View"
+msgstr "Visa"
+
+#: easyReservations_admin_main.php:1061 lib/functions/admin.php:260
+#: lib/functions/ajax.php:921 lib/modules/search/attributes.php:136
+msgid "Edit"
+msgstr "Redigera"
+
+#: easyReservations_admin_main.php:1078 lib/functions/admin.php:109
+#: lib/functions/ajax.php:773 lib/functions/ajax.php:814
+#: lib/modules/import/import.php:73 lib/modules/statistics/statistics.php:719
+#: lib/modules/useredit/useredit.php:344 lib/modules/useredit/useredit.php:676
+msgid "Date"
+msgstr "Datum"
+
+#: easyReservations_admin_main.php:1084 easyReservations_admin_main.php:1275
+#: easyReservations_admin_main.php:1453 easyReservations_admin_settings.php:802
+#: easyReservations_admin_settings.php:1022 lib/functions/admin.php:356
+#: lib/functions/ajax.php:787 lib/functions/ajax.php:828
+#: lib/modules/htmlmails/htmlmails.php:128 lib/modules/import/import.php:72
+#: lib/modules/paypal/creditcards.php:344 lib/modules/useredit/useredit.php:786
+#: lib/modules/useredit/useredit.php:873
+msgid "Email"
+msgstr "E-post"
+
+#: easyReservations_admin_main.php:1089 easyReservations_admin_main.php:1261
+#: easyReservations_admin_main.php:1437 easyReservations_admin_settings.php:434
+#: easyReservations_admin_settings.php:733
+#: easyReservations_admin_settings.php:1007
+#: lib/modules/htmlmails/htmlmails.php:125
+#: lib/modules/htmlmails/htmlmails.php:382
+msgid "Adults"
+msgstr "Vuxna"
+
+#: easyReservations_admin_main.php:1089 easyReservations_admin_main.php:1263
+#: easyReservations_admin_main.php:1439 easyReservations_admin_resources.php:27
+#: easyReservations_admin_resources.php:97
+#: easyReservations_admin_resources.php:676
+#: easyReservations_admin_settings.php:435
+#: easyReservations_admin_settings.php:1012
+#: lib/modules/htmlmails/htmlmails.php:126
+msgid "Children"
+msgstr "Barn"
+
+#: easyReservations_admin_main.php:1097 easyReservations_admin_main.php:1279
+#: easyReservations_admin_main.php:1457 easyReservations_admin_settings.php:817
+#: easyReservations_admin_settings.php:1027 lib/functions/admin.php:363
+#: lib/functions/ajax.php:797 lib/functions/ajax.php:838
+#: lib/modules/htmlmails/htmlmails.php:129
+#: lib/modules/htmlmails/htmlmails.php:384 lib/modules/import/import.php:74
+#: lib/modules/useredit/useredit.php:791
+msgid "Country"
+msgstr "Land"
+
+#: easyReservations_admin_main.php:1141
+msgid "GuestContact"
+msgstr "Gästkontakt"
+
+#: easyReservations_admin_main.php:1222 easyReservations_admin_main.php:1289
+msgid "Edit reservation"
+msgstr "Redigera reservation"
+
+#: easyReservations_admin_main.php:1225
+msgid "Really delete this reservation permanently?"
+msgstr "Verkligen ta bort denna reservation permanent?"
+
+#: easyReservations_admin_main.php:1225
+#: easyReservations_admin_resources.php:265
+#: lib/modules/useredit/useredit.php:62 lib/modules/useredit/useredit.php:63
+#: lib/modules/useredit/useredit.php:126 lib/modules/useredit/useredit.php:132
+msgid "delete"
+msgstr "radera"
+
+#: easyReservations_admin_main.php:1227
+msgid "Really move this reservation to trash?"
+msgstr "Verkligen flytta denna reservation till papperskorgen?"
+
+#: easyReservations_admin_main.php:1227
+msgid "trash"
+msgstr "papperskorg"
+
+#: easyReservations_admin_main.php:1243 easyReservations_admin_main.php:1421
+#: easyReservations_admin_resources.php:761 lib/modules/coupons/coupons.php:75
+#: lib/modules/useredit/useredit.php:787
+msgid "From"
+msgstr "Från"
+
+#: easyReservations_admin_main.php:1252 easyReservations_admin_main.php:1428
+#: easyReservations_admin_main.php:1565
+#: easyReservations_admin_resources.php:765 lib/modules/coupons/coupons.php:79
+#: lib/modules/useredit/useredit.php:788
+msgid "To"
+msgstr "Till"
+
+#: easyReservations_admin_main.php:1280 easyReservations_admin_main.php:1458
+#: lib/modules/useredit/useredit.php:697
+msgid "Unknown"
+msgstr "Okänd"
+
+#: easyReservations_admin_main.php:1289
+msgid "Copy"
+msgstr "Kopia"
+
+#: easyReservations_admin_main.php:1297 easyReservations_admin_main.php:1472
+msgid "Status & Price"
+msgstr "Status & Pris"
+
+#: easyReservations_admin_main.php:1302 easyReservations_admin_main.php:1477
+#: easyReservations_admin_resources.php:220
+#: easyReservations_admin_resources.php:541
+#: easyReservations_admin_settings.php:288
+#: easyReservations_admin_settings.php:1457 lib/functions/admin.php:360
+#: lib/functions/ajax.php:785 lib/functions/ajax.php:826
+#: lib/modules/import/import.php:72 lib/modules/statistics/statistics.php:522
+#: lib/modules/useredit/useredit.php:347 lib/modules/useredit/useredit.php:353
+#: lib/modules/useredit/useredit.php:678 lib/modules/useredit/useredit.php:907
+msgid "Status"
+msgstr "Status"
+
+#: easyReservations_admin_main.php:1306 easyReservations_admin_main.php:1489
+#: lib/functions/ajax.php:781 lib/functions/ajax.php:822
+#: lib/modules/import/import.php:73 lib/modules/useredit/useredit.php:681
+msgid "Reserved"
+msgstr "Reserverad"
+
+#: easyReservations_admin_main.php:1310 easyReservations_admin_main.php:1481
+msgid "Assign user"
+msgstr "Tilldela användare"
+
+#: easyReservations_admin_main.php:1318
+msgid "Fixed Price"
+msgstr "Fast pris"
+
+#: easyReservations_admin_main.php:1322 easyReservations_admin_main.php:1396
+#: lib/functions/ajax.php:972 lib/modules/htmlmails/htmlmails.php:137
+#: lib/modules/htmlmails/htmlmails.php:388
+#: lib/modules/statistics/statistics.php:523
+#: lib/modules/useredit/useredit.php:746
+msgid "Paid"
+msgstr "Betald"
+
+#: easyReservations_admin_main.php:1331
+msgid "Send mail"
+msgstr "Skicka e-post"
+
+#: easyReservations_admin_main.php:1336
+msgid "Send mail to user on edit"
+msgstr "Skicka e-post till användare vid redigering"
+
+#: easyReservations_admin_main.php:1394
+msgid "set price"
+msgstr "lägg in pris"
+
+#: easyReservations_admin_main.php:1395
+msgid "fix the sum of the normal calculation"
+msgstr "fastställ summan av den normala kalkyleringen"
+
+#: easyReservations_admin_main.php:1412
+msgid "Add Reservation"
+msgstr "Lägg till reservation"
+
+#: easyReservations_admin_main.php:1466
+msgid "Add reservation"
+msgstr "Lägg till reservation"
+
+#: easyReservations_admin_main.php:1494
+msgid "Fix Price"
+msgstr "Fast pris"
+
+#: easyReservations_admin_main.php:1503
+msgid "Add custom field"
+msgstr "Lägg till anpassat fält"
+
+#: easyReservations_admin_main.php:1509
+msgid "Editable"
+msgstr "Redigerbar"
+
+#: easyReservations_admin_main.php:1509 easyReservations_admin_main.php:1524
+msgid "Visible"
+msgstr "Synlig"
+
+#: easyReservations_admin_main.php:1509 easyReservations_admin_main.php:1524
+#: easyReservations_admin_settings.php:833
+#: easyReservations_admin_settings.php:1045
+msgid "Hidden"
+msgstr "Dold"
+
+#: easyReservations_admin_main.php:1509 easyReservations_admin_main.php:1524
+msgid "for Guest"
+msgstr "för Gäst"
+
+#: easyReservations_admin_main.php:1511 lib/functions/admin.php:857
+msgid "Add custom Field"
+msgstr "Lägg till eget fält"
+
+#: easyReservations_admin_main.php:1518
+msgid "Add custom price field"
+msgstr "Lägg till anpassade prisfält"
+
+#: easyReservations_admin_main.php:1524
+msgid "Selectable"
+msgstr "Valbar"
+
+#: easyReservations_admin_main.php:1526
+msgid "Add custom Price Field"
+msgstr "Lägg till eget prisfält"
+
+#: easyReservations_admin_main.php:1550
+msgid "Approve the reservation"
+msgstr "Godkänn reservation"
+
+#: easyReservations_admin_main.php:1550
+msgid "Reject the reservation"
+msgstr "Avvisa reservation"
+
+#: easyReservations_admin_main.php:1564 easyReservations_admin_main.php:1586
+msgid "Send mail to guest"
+msgstr "Skicka e-post till gäst"
+
+#: easyReservations_admin_main.php:1564
+msgid "Has been paid"
+msgstr "Har betalats"
+
+#: easyReservations_admin_main.php:1565
+msgid "the reservation, write a message and press send"
+msgstr "reservationen, skriv ett meddelande och klicka på skicka"
+
+#: easyReservations_admin_main.php:1565
+msgid "The Guest will recieve that message in an email"
+msgstr "Gästen får det meddelandet i ett e-postmeddelande"
+
+#: easyReservations_admin_main.php:1586 lib/modules/useredit/useredit.php:76
+msgid "Send"
+msgstr "Skicka"
+
+#: easyReservations_admin_main_stats.php:35
+#: lib/classes/reservation.class.php:1260
+#: lib/modules/statistics/statistics.php:429
+#: lib/modules/useredit/useredit.php:354
+msgid "approved"
+msgstr "godkänd"
+
+#: easyReservations_admin_main_stats.php:35
+#: lib/classes/reservation.class.php:1260
+#: lib/modules/statistics/statistics.php:429
+#: lib/modules/useredit/useredit.php:356
+msgid "rejected"
+msgstr "avvisad"
+
+#: easyReservations_admin_main_stats.php:35
+#: lib/classes/reservation.class.php:1260
+#: lib/modules/statistics/statistics.php:429
+#: lib/modules/useredit/useredit.php:355
+msgid "pending"
+msgstr "väntande"
+
+#: easyReservations_admin_resources.php:11
+msgid "the base price changes to"
+msgstr "grundpriset ändrat till"
+
+#: easyReservations_admin_resources.php:24
+#: easyReservations_admin_resources.php:711
+msgid "Person"
+msgstr "Person"
+
+#: easyReservations_admin_resources.php:25
+msgid "Person and Day"
+msgstr "Person och Dag"
+
+#: easyReservations_admin_resources.php:26
+#: easyReservations_admin_resources.php:93
+msgid "Adult"
+msgstr "Vuxna"
+
+#: easyReservations_admin_resources.php:29
+msgid "the price increases by"
+msgstr "priset ökar med"
+
+#: easyReservations_admin_resources.php:30
+msgid "the price decreases by"
+msgstr "prissänkningar efter"
+
+#: easyReservations_admin_resources.php:37
+#, php-format
+msgid "If %s to calculate is "
+msgstr "Om %s att beräkna är "
+
+#: easyReservations_admin_resources.php:39
+#, php-format
+msgid "between %1$s and %2$s"
+msgstr "mellan %1$s och %2$s"
+
+#: easyReservations_admin_resources.php:70
+#: easyReservations_admin_resources.php:71
+#: easyReservations_admin_resources.php:72
+#: easyReservations_admin_resources.php:73
+#: easyReservations_admin_resources.php:74
+#: easyReservations_admin_resources.php:75
+#: easyReservations_admin_resources.php:76
+#: easyReservations_admin_resources.php:114
+msgid "and"
+msgstr "och"
+
+#: easyReservations_admin_resources.php:72
+msgid "in calendar week"
+msgstr "i kalendervecka"
+
+#: easyReservations_admin_resources.php:73
+#: easyReservations_admin_resources.php:75
+msgid "in"
+msgstr "i"
+
+#: easyReservations_admin_resources.php:74
+msgid "in quarter"
+msgstr "i kvartal"
+
+#: easyReservations_admin_resources.php:85
+msgid "Stay"
+msgstr "Stannar"
+
+#: easyReservations_admin_resources.php:87
+#, php-format
+msgid "guest stays %s days or more"
+msgstr "gäst stannar % s dagar eller mer"
+
+#: easyReservations_admin_resources.php:89
+msgid "Pers"
+msgstr "Pers"
+
+#: easyReservations_admin_resources.php:91
+#, php-format
+msgid "%s or more persons reserve"
+msgstr "% s eller flera personer reserverar"
+
+#: easyReservations_admin_resources.php:95
+#, php-format
+msgid "%s or more adults reserve"
+msgstr "% s eller fler vuxna reserverar"
+
+#: easyReservations_admin_resources.php:99
+#, php-format
+msgid "%s or more children's reserve"
+msgstr "% s eller fler barn reserverar"
+
+#: easyReservations_admin_resources.php:101
+msgid "Loyal"
+msgstr "Lojal"
+
+#: easyReservations_admin_resources.php:107
+#, php-format
+msgid "guest comes the %1$s%2$s time"
+msgstr "gäst kommer %1$s%2$s tid"
+
+#: easyReservations_admin_resources.php:109
+msgid "Early"
+msgstr "Tidig"
+
+#: easyReservations_admin_resources.php:111
+#, php-format
+msgid "the guest reserves %s days before his arrival"
+msgstr "gäst reserverar % s dagar före hans ankomst"
+
+#: easyReservations_admin_resources.php:115
+msgid "If"
+msgstr "Om"
+
+#: easyReservations_admin_resources.php:119
+msgid "Base"
+msgstr "Bas"
+
+#: easyReservations_admin_resources.php:123
+#: easyReservations_admin_resources.php:1053 lib/modules/coupons/coupons.php:37
+msgid "Discount"
+msgstr "Rabatt"
+
+#: easyReservations_admin_resources.php:126
+#: easyReservations_admin_resources.php:129
+msgid "Charge"
+msgstr "Kostnad"
+
+#: easyReservations_admin_resources.php:142
+msgid "Resource and all its reservations deleted"
+msgstr "Resursen och alla tillhörande reservationer raderade"
+
+#: easyReservations_admin_resources.php:143
+msgid "Resource deleted, but reservations couldnt"
+msgstr "Resursen raderat, men reservationerna kunde inte raderas"
+
+#: easyReservations_admin_resources.php:158
+#: easyReservations_admin_resources.php:190
+#, php-format
+msgid "Resource #%d added"
+msgstr "Resurs #%d tillagd"
+
+#: easyReservations_admin_resources.php:191
+msgid "Please enter a Title"
+msgstr "Ange en rubrik"
+
+#: easyReservations_admin_resources.php:203
+msgid "Reservations Resources"
+msgstr "Bokningsresurser"
+
+#: easyReservations_admin_resources.php:203
+msgid "Post View"
+msgstr "Visa post"
+
+#: easyReservations_admin_resources.php:214
+#: easyReservations_admin_settings.php:563
+#: easyReservations_admin_settings.php:583
+#: easyReservations_admin_settings.php:1202
+#: easyReservations_admin_settings.php:1246 lib/modules/paypal/paypal.php:178
+#: lib/modules/useredit/useredit.php:395
+msgid "Title"
+msgstr "Rubrik"
+
+#: easyReservations_admin_resources.php:215
+#: easyReservations_admin_settings.php:1245
+#: easyReservations_admin_settings.php:1400 lib/functions/admin.php:350
+#: lib/modules/import/import.php:72 lib/modules/useredit/useredit.php:342
+#: lib/modules/useredit/useredit.php:675 lib/modules/useredit/useredit.php:871
+msgid "ID"
+msgstr "ID"
+
+#: easyReservations_admin_resources.php:216
+msgid "Quantity"
+msgstr "Antal"
+
+#: easyReservations_admin_resources.php:217
+msgid "Base Price"
+msgstr "Standardpris"
+
+#: easyReservations_admin_resources.php:219
+#: easyReservations_admin_resources.php:549
+#: easyReservations_admin_resources.php:592
+msgid "Filter"
+msgstr "Filter"
+
+#: easyReservations_admin_resources.php:221
+#: easyReservations_admin_settings.php:862
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: easyReservations_admin_resources.php:244
+#: js/tinyMCE/tinyMCE_shortcode_add.php:132
+msgid "Full"
+msgstr "Fullbelagd"
+
+#: easyReservations_admin_resources.php:245 lib/modules/search/search.php:432
+msgid "Available"
+msgstr "Tillgänglig"
+
+#: easyReservations_admin_resources.php:250
+#: easyReservations_admin_resources.php:536
+#: lib/modules/useredit/useredit.php:61 lib/modules/useredit/useredit.php:131
+msgid "edit"
+msgstr "redigera"
+
+#: easyReservations_admin_resources.php:253
+msgid "edit "
+msgstr "redigera"
+
+#: easyReservations_admin_resources.php:262
+msgid "edit post"
+msgstr "redigera post"
+
+#: easyReservations_admin_resources.php:263
+msgid "edit resource"
+msgstr "redigera resurs"
+
+#: easyReservations_admin_resources.php:264
+msgid "copy resource settings"
+msgstr "kopiera resursens inställningar"
+
+#: easyReservations_admin_resources.php:265
+msgid "Really delete this resource and all its reservations?"
+msgstr "Vill du verkligen radera denna resurs och dess alla reservationer?"
+
+#: easyReservations_admin_resources.php:280
+msgid "Resource's count names changed"
+msgstr "Resursens räknings namn ändrad"
+
+#: easyReservations_admin_resources.php:298
+msgid "Requirements edited"
+msgstr "Krav redigerat"
+
+#: easyReservations_admin_resources.php:308
+msgid "Base price edited"
+msgstr "Baspris redigerat"
+
+#: easyReservations_admin_resources.php:309
+#: easyReservations_admin_resources.php:358
+msgid "Insert right money format"
+msgstr "Ange rätt pengar format"
+
+#: easyReservations_admin_resources.php:318
+msgid "Count of resource space edited"
+msgstr "Räkning av resursutrymme som redigerats"
+
+#: easyReservations_admin_resources.php:331
+msgid "Price setting changed"
+msgstr "Prisinställningar ändrade"
+
+#: easyReservations_admin_resources.php:340
+msgid "Resource permission edited"
+msgstr "Resursens behörigheter ändrade"
+
+#: easyReservations_admin_resources.php:341
+#: easyReservations_admin_settings.php:160
+msgid "Only admins can change the permissions for"
+msgstr "Enbart admin kan ändra behörigheterna för"
+
+#: easyReservations_admin_resources.php:341
+msgid "resource"
+msgstr "resurs"
+
+#: easyReservations_admin_resources.php:348
+msgid "Billing unit changed"
+msgstr "Faktureringsenheten ändrats"
+
+#: easyReservations_admin_resources.php:357
+msgid "Children's discount edited"
+msgstr "Barnrabatt redigerad"
+
+#: easyReservations_admin_resources.php:370
+msgid "Tax percentage has to be numeric"
+msgstr "Momsprocenten måste vara numerisk"
+
+#: easyReservations_admin_resources.php:424
+msgid "Enter a starting date"
+msgstr "Ange ett startdatum"
+
+#: easyReservations_admin_resources.php:428
+msgid "Enter an ending date"
+msgstr "Ange ett slutdatum"
+
+#: easyReservations_admin_resources.php:439
+msgid "Select a condition"
+msgstr "Välj ett villkor"
+
+#: easyReservations_admin_resources.php:442
+msgid ""
+"No arrival or departure possible - use unavailability filter to disable "
+"reservations by time"
+msgstr ""
+"Ingen ankomst eller avresa möjlig - använd otillgänglighetsfiltret för att "
+"inaktivera reservationer per tid"
+
+#: easyReservations_admin_resources.php:500
+msgid "Please give the filter a name"
+msgstr "Ange ett namn för filtret"
+
+#: easyReservations_admin_resources.php:508
+#, php-format
+msgid "From %1$s till %2$s"
+msgstr "Från %1$s till %2$s"
+
+#: easyReservations_admin_resources.php:541
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: easyReservations_admin_resources.php:550
+#: easyReservations_admin_resources.php:742
+msgid "Priority"
+msgstr "Prioritet"
+
+#: easyReservations_admin_resources.php:588
+msgid "No price filter set"
+msgstr "Inget prisfilter angivet"
+
+#: easyReservations_admin_resources.php:593
+#: easyReservations_admin_resources.php:747
+#: easyReservations_admin_resources.php:1026
+msgid "Condition"
+msgstr "Villkor"
+
+#: easyReservations_admin_resources.php:614
+#: easyReservations_admin_resources.php:617
+msgid "calculate"
+msgstr "beräkna"
+
+#: easyReservations_admin_resources.php:614
+#: easyReservations_admin_resources.php:617
+msgid "check"
+msgstr "kryssa"
+
+#: easyReservations_admin_resources.php:614
+msgid "resource is unavailable"
+msgstr "resursen är otillgänglig"
+
+#: easyReservations_admin_resources.php:617
+msgid "resources condition change to"
+msgstr "resurser villkorsändras till"
+
+#: easyReservations_admin_resources.php:623
+#: easyReservations_admin_resources.php:633 lib/functions/ajax.php:724
+msgid "All"
+msgstr "Alla"
+
+#: easyReservations_admin_resources.php:656
+msgid "No filter set"
+msgstr "Inget filter angivet"
+
+#: easyReservations_admin_resources.php:669
+msgid "Price simulator"
+msgstr "Prissimulator"
+
+#: easyReservations_admin_resources.php:705
+msgid "Base price per billing unit"
+msgstr "Grundpris per faktureringsenhet"
+
+#: easyReservations_admin_resources.php:706
+msgid "Children's discount per billing unit"
+msgstr "Barnrabatt per faktureringsenhet"
+
+#: easyReservations_admin_resources.php:707
+msgid "Billing"
+msgstr "Fakturering"
+
+#: easyReservations_admin_resources.php:707
+#: easyReservations_admin_resources.php:773
+msgid "Unit"
+msgstr "Enhet"
+
+#: easyReservations_admin_resources.php:707
+msgid "Hourly billing"
+msgstr "Pris per timme"
+
+#: easyReservations_admin_resources.php:707
+msgid "Daily billing"
+msgstr "Pris per dag"
+
+#: easyReservations_admin_resources.php:707
+msgid "Weekly billing"
+msgstr "Pris per vecka"
+
+#: easyReservations_admin_resources.php:707
+msgid "Monthly billing"
+msgstr "Pris per månad"
+
+#: easyReservations_admin_resources.php:707
+msgid "Calculate base price only once"
+msgstr "Kalkylera baspris endast en gång"
+
+#: easyReservations_admin_resources.php:707
+#: easyReservations_admin_settings.php:544 lib/functions/admin.php:144
+msgid "Price per person"
+msgstr "Pris per person"
+
+#: easyReservations_admin_resources.php:708 lib/modules/import/import.php:73
+#: lib/modules/statistics/statistics.php:594
+msgid "Taxes"
+msgstr "Moms"
+
+#: easyReservations_admin_resources.php:708
+#: easyReservations_admin_resources.php:728
+#: easyReservations_admin_resources.php:1432
+#: easyReservations_admin_settings.php:412 lib/modules/invoice/invoice.php:650
+msgid "Add"
+msgstr "Lägg till"
+
+#: easyReservations_admin_resources.php:709 lib/modules/search/search.php:54
+msgid "Availability"
+msgstr "Tillgänglighet"
+
+#: easyReservations_admin_resources.php:710
+msgid "Resources count"
+msgstr "Räkna resurser "
+
+#: easyReservations_admin_resources.php:711
+msgid "Availability by"
+msgstr "Tillgänglighet via"
+
+#: easyReservations_admin_resources.php:711
+msgid "Object"
+msgstr "Ämne"
+
+#: easyReservations_admin_resources.php:712
+#: easyReservations_admin_resources.php:713
+#: easyReservations_admin_resources.php:963
+#: easyReservations_admin_resources.php:971
+#: easyReservations_admin_settings.php:691
+#: easyReservations_admin_settings.php:737
+#: easyReservations_admin_settings.php:764
+msgid "Min"
+msgstr "Min"
+
+#: easyReservations_admin_resources.php:712
+#: easyReservations_admin_resources.php:713
+#: easyReservations_admin_resources.php:963
+#: easyReservations_admin_resources.php:971
+#: easyReservations_admin_settings.php:697
+#: easyReservations_admin_settings.php:743
+#: easyReservations_admin_settings.php:770 lib/modules/search/search.php:351
+msgid "Max"
+msgstr "Max"
+
+#: easyReservations_admin_resources.php:714
+#: easyReservations_admin_resources.php:977
+msgid "Arrival possible on"
+msgstr "Ankomst möjlig den"
+
+#: easyReservations_admin_resources.php:715
+#: easyReservations_admin_resources.php:992
+msgid "Departure possible on"
+msgstr "Avresa möjlig den"
+
+#: easyReservations_admin_resources.php:716
+msgid "Required  permission"
+msgstr "Kräver behörighet"
+
+#: easyReservations_admin_resources.php:717
+msgid "Filters"
+msgstr "Filtreras"
+
+#: easyReservations_admin_resources.php:720
+msgid "Resources settings"
+msgstr "Resurs inställningar"
+
+#: easyReservations_admin_resources.php:720
+#: easyReservations_admin_resources.php:1071
+#: lib/modules/invoice/invoice.php:571 lib/modules/search/attributes.php:199
+#: lib/modules/search/search.php:123
+msgid "Save"
+msgstr "Spara"
+
+#: easyReservations_admin_resources.php:730
+msgid "Unavailability"
+msgstr "Otillgänglighet"
+
+#: easyReservations_admin_resources.php:731
+#: easyReservations_admin_resources.php:956
+msgid "Requirements"
+msgstr "Krav"
+
+#: easyReservations_admin_resources.php:749
+msgid "Filter by time"
+msgstr "Filtrera efter tid"
+
+#: easyReservations_admin_resources.php:756
+msgid "Date range"
+msgstr "Datumintervall"
+
+#: easyReservations_admin_resources.php:778
+#: lib/modules/hourlycal/hourlycal.php:205
+#: lib/modules/htmlmails/htmlmails.php:119
+msgid "Hours"
+msgstr "Timmar"
+
+#: easyReservations_admin_resources.php:779
+#: easyReservations_admin_resources.php:815
+#: easyReservations_admin_resources.php:832
+#: easyReservations_admin_resources.php:903
+#: easyReservations_admin_resources.php:927
+msgid "select nothing to change price/availability for entire"
+msgstr "ange inget för att ändra pris/tillgänglighet för hela"
+
+#: easyReservations_admin_resources.php:815
+msgid "calendar week"
+msgstr "kalendervecka"
+
+#: easyReservations_admin_resources.php:831
+msgid "Calendar Week"
+msgstr "Kalendervecka"
+
+#: easyReservations_admin_resources.php:901
+msgid "Months"
+msgstr "Månader"
+
+#: easyReservations_admin_resources.php:903
+msgid "quarter"
+msgstr "kvartal"
+
+#: easyReservations_admin_resources.php:926
+msgid "Quarter"
+msgstr "Kvartal"
+
+#: easyReservations_admin_resources.php:927
+msgid "year"
+msgstr "år"
+
+#: easyReservations_admin_resources.php:935
+#: lib/modules/paypal/creditcards.php:253
+msgid "Year"
+msgstr "År"
+
+#: easyReservations_admin_resources.php:1010
+msgid "Filter by condition"
+msgstr "Filtrera efter tillstånd"
+
+#: easyReservations_admin_resources.php:1019
+msgid "between reservation and arrival"
+msgstr "mellan reservation och ankomst"
+
+#: easyReservations_admin_resources.php:1020
+msgid "Recurring guests"
+msgstr "Återkommande gäst"
+
+#: easyReservations_admin_resources.php:1021
+msgid "Amount of"
+msgstr "Antal"
+
+#: easyReservations_admin_resources.php:1022
+#: easyReservations_admin_resources.php:1354
+#: lib/modules/statistics/statistics.php:161
+msgid "persons"
+msgstr "personer"
+
+#: easyReservations_admin_resources.php:1023
+#: easyReservations_admin_resources.php:1355
+msgid "adults"
+msgstr "vuxna"
+
+#: easyReservations_admin_resources.php:1024
+#: easyReservations_admin_resources.php:1356
+msgid "children's"
+msgstr "barns"
+
+#: easyReservations_admin_resources.php:1029
+#: lib/modules/paypal/creditcards.php:322 lib/modules/paypal/paypal.php:191
+#: lib/modules/paypal/paypal.php:208 lib/modules/paypal/paypal.php:222
+#: lib/modules/paypal/paypal.php:239 lib/modules/paypal/paypal.php:253
+#: lib/modules/paypal/paypal.php:268 lib/modules/sync/sync.php:31
+#: lib/modules/useredit/useredit.php:385
+msgid "Mode"
+msgstr "Läge"
+
+#: easyReservations_admin_resources.php:1031
+msgid "Price per reservation"
+msgstr "Pris per reservation"
+
+#: easyReservations_admin_resources.php:1032
+msgid "Price per billing"
+msgstr "Pris per fakturering"
+
+#: easyReservations_admin_resources.php:1033
+msgid "Price per persons"
+msgstr "Pris per person"
+
+#: easyReservations_admin_resources.php:1034
+msgid "Price per adults"
+msgstr "Pris per vuxen"
+
+#: easyReservations_admin_resources.php:1035
+msgid "Price per children's"
+msgstr "Pris per barn"
+
+#: easyReservations_admin_resources.php:1036
+#, php-format
+msgid "Price per billing %s and persons"
+msgstr "Pris per fakturering %s och personer"
+
+#: easyReservations_admin_resources.php:1037
+#, php-format
+msgid "Price per billing %s and adults"
+msgstr "Pris per fakturering %s och vuxna"
+
+#: easyReservations_admin_resources.php:1038
+#, php-format
+msgid "Price per billing %s and children's"
+msgstr "Pris per fakturering %s och barn"
+
+#: easyReservations_admin_resources.php:1039
+msgid "Percent"
+msgstr "Procent"
+
+#: easyReservations_admin_resources.php:1042
+msgid "Only the first condition match from high to low will be given"
+msgstr "Endast det första villkoret matchar från hög till låg kommer att ges"
+
+#: easyReservations_admin_resources.php:1052
+msgid "Extra Charge"
+msgstr "Extra Kostnad"
+
+#: easyReservations_admin_resources.php:1054
+msgid "Change base price"
+msgstr "Ändra standardpris"
+
+#: easyReservations_admin_resources.php:1063
+#: easyReservations_admin_resources.php:1349
+msgid "Add filter"
+msgstr "Lägg till filter"
+
+#: easyReservations_admin_resources.php:1071
+msgid "Resources Numbers/Names"
+msgstr "Resursers nummer/namn"
+
+#: easyReservations_admin_resources.php:1109
+msgid "Edit filter"
+msgstr "Redigera filter"
+
+#: easyReservations_admin_resources.php:1353
+msgid "visits"
+msgstr "besök"
+
+#: easyReservations_admin_resources.php:1405
+msgid "Copy resource"
+msgstr "Kopiera resurs"
+
+#: easyReservations_admin_resources.php:1405
+msgid "Add resource"
+msgstr "Lägg till resurs"
+
+#: easyReservations_admin_resources.php:1410
+msgid ""
+"This will add a custom post that's private and only visible in forms and "
+"admin"
+msgstr ""
+"Detta lägger till ett eget fält som är privat och enbart synligt i formulär "
+"och admin."
+
+#: easyReservations_admin_resources.php:1413
+msgid "Resource's Title"
+msgstr "Resursens rubrik"
+
+#: easyReservations_admin_resources.php:1417
+msgid "Resource's Content"
+msgstr "Resursens innehåll"
+
+#: easyReservations_admin_resources.php:1421
+msgid "Resource Image"
+msgstr "Bild för resurs"
+
+#: easyReservations_admin_settings.php:14
+msgid "Database cleaned"
+msgstr "Databasen rensad"
+
+#: easyReservations_admin_settings.php:18
+#: easyReservations_form_shortcode.php:68 lib/functions/ajax.php:231
+#: lib/modules/coupons/coupons.php:134 lib/modules/invoice/invoice.php:357
+#: lib/modules/paypal/creditcards.php:280 lib/modules/paypal/paypal.php:71
+msgid "Back"
+msgstr "Tillbaka"
+
+#: easyReservations_admin_settings.php:33
+msgid "General settings saved"
+msgstr "Generella inställningar sparade"
+
+#: easyReservations_admin_settings.php:137
+msgid "Email settings saved"
+msgstr "E-post inställningar sparade"
+
+#: easyReservations_admin_settings.php:152
+#, php-format
+msgid "Form%ssaved"
+msgstr "Formulär%ssparad"
+
+#: easyReservations_admin_settings.php:159
+msgid "Permissions changed"
+msgstr "Behörigheter ändrade"
+
+#: easyReservations_admin_settings.php:165
+#, php-format
+msgid "Form %s has been deleted"
+msgstr "Formulär %s har raderats"
+
+#: easyReservations_admin_settings.php:177
+#, php-format
+msgid "Form %s has been added"
+msgstr "Formulär %s har lagts till"
+
+#: easyReservations_admin_settings.php:178
+msgid "Please enter a name for the form"
+msgstr "Ange ett namn för formuläret"
+
+#: easyReservations_admin_settings.php:198
+msgid "Reservations Settings"
+msgstr "Inställningar för reservationen"
+
+#: easyReservations_admin_settings.php:203
+msgid "General"
+msgstr "Generellt"
+
+#: easyReservations_admin_settings.php:204
+#: js/tinyMCE/tinyMCE_shortcode_add.php:81
+#: js/tinyMCE/tinyMCE_shortcode_add.php:119 lib/modules/search/search.php:33
+msgid "Form"
+msgstr "Formulär"
+
+#: easyReservations_admin_settings.php:206
+#: easyReservations_admin_settings.php:908
+#: easyReservations_admin_settings.php:1049
+#: lib/modules/htmlmails/htmlmails.php:130
+msgid "Custom"
+msgstr "Eget"
+
+#: easyReservations_admin_settings.php:208
+msgid "Emails"
+msgstr "E-post"
+
+#: easyReservations_admin_settings.php:210
+msgid "About"
+msgstr "Om"
+
+#: easyReservations_admin_settings.php:255
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#: easyReservations_admin_settings.php:255
+msgid "Grey"
+msgstr "Grå"
+
+#: easyReservations_admin_settings.php:256
+#: easyReservations_admin_settings.php:302
+#: easyReservations_admin_settings.php:1471 lib/core/core.php:16
+msgid "Premium"
+msgstr "Premium"
+
+#: easyReservations_admin_settings.php:263
+msgid "minutes"
+msgstr "minuter"
+
+#: easyReservations_admin_settings.php:267
+msgid "Support email"
+msgstr "Support e-post"
+
+#: easyReservations_admin_settings.php:268
+msgid "Money format"
+msgstr "Pengar format"
+
+#: easyReservations_admin_settings.php:268
+msgid "after"
+msgstr "efter"
+
+#: easyReservations_admin_settings.php:268
+msgid "before"
+msgstr "före"
+
+#: easyReservations_admin_settings.php:268
+msgid "Whitespace between price and currency sign"
+msgstr "Mellanslag mellan pris och valutasymbol"
+
+#: easyReservations_admin_settings.php:268
+msgid "Th. seperator"
+msgstr "Tusenavskiljare"
+
+#: easyReservations_admin_settings.php:268
+msgid "Dec. seperator"
+msgstr "Öresavskiljare"
+
+#: easyReservations_admin_settings.php:268
+msgid "show decimals"
+msgstr "visa decimaler"
+
+#: easyReservations_admin_settings.php:268
+msgid "round"
+msgstr "avrunda"
+
+#: easyReservations_admin_settings.php:268
+msgid "Example"
+msgstr "Exempel"
+
+#: easyReservations_admin_settings.php:269
+msgid "Date format"
+msgstr "Datumformat"
+
+#: easyReservations_admin_settings.php:270
+msgid ""
+"Enable display of time and that the time gets used to calculate the billing "
+"units instead of only the date"
+msgstr ""
+"Aktivera visning av tid och att tiden vänjer sig vid att beräkna "
+"faktureringsheter istället för endast datum"
+
+#: easyReservations_admin_settings.php:271
+msgid "Admin Style"
+msgstr "Adminutseende"
+
+#: easyReservations_admin_settings.php:272
+msgid "Merge resources"
+msgstr "Slå samman resurser"
+
+#: easyReservations_admin_settings.php:272
+#, php-format
+msgid ""
+"Only allow %s reservations at the same time in all resources regardless of "
+"the resource counts"
+msgstr ""
+"Tillåt endast %s reservationer samtidigt i alla resurser oavsett att resurs "
+"räknas"
+
+#: easyReservations_admin_settings.php:273
+msgid "Block time"
+msgstr "Blockera tid"
+
+#: easyReservations_admin_settings.php:273
+msgid "Block"
+msgstr "Blockera"
+
+#: easyReservations_admin_settings.php:273
+msgid "before and"
+msgstr "före och"
+
+#: easyReservations_admin_settings.php:273
+msgid "after reservations"
+msgstr "efter reservationer"
+
+#: easyReservations_admin_settings.php:274
+msgid "Tutorial"
+msgstr "Guide"
+
+#: easyReservations_admin_settings.php:274
+msgid "Enable tutorial mode"
+msgstr "Aktivera guideläge"
+
+#: easyReservations_admin_settings.php:274
+#: easyReservations_admin_settings.php:1106
+msgid "Reset"
+msgstr "Återställ"
+
+#: easyReservations_admin_settings.php:275
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: easyReservations_admin_settings.php:275
+msgid "Delete settings, reservations and resources"
+msgstr "Radera inställningar, reservationer och resurser vid avinstallation"
+
+#: easyReservations_admin_settings.php:278
+msgid "Important guests"
+msgstr "Viktiga gäster"
+
+#: easyReservations_admin_settings.php:278
+msgid ""
+"Enter emails of important guests; saperated by comma. Reservations with this "
+"email will be highlighted."
+msgstr ""
+"Ange e-post för viktiga gäster; separerade med kommatecken. Bokningar med "
+"detta e-postmeddelande kommer att markeras."
+
+#: easyReservations_admin_settings.php:279
+msgid "Execute scripts"
+msgstr "Köra skript"
+
+#: easyReservations_admin_settings.php:279
+msgid "After successful reservation."
+msgstr "Efter successfull reservation"
+
+#: easyReservations_admin_settings.php:280
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: easyReservations_admin_settings.php:280
+#: easyReservations_admin_settings.php:1366 lib/functions/admin.php:490
+#: lib/modules/htmlmails/htmlmails.php:150 lib/modules/invoice/invoice.php:780
+#: lib/modules/paypal/creditcards.php:372
+#: lib/modules/paypal/creditcards.php:416 lib/modules/search/attributes.php:127
+#: lib/modules/useredit/useredit.php:372 lib/modules/useredit/useredit.php:460
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: easyReservations_admin_settings.php:296
+#: easyReservations_admin_settings.php:1465
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: easyReservations_admin_settings.php:299
+#: easyReservations_admin_settings.php:1468
+msgid "Report bug"
+msgstr "Rapportera bugg"
+
+#: easyReservations_admin_settings.php:305
+#: easyReservations_admin_settings.php:1474
+msgid "Rate the Plugin"
+msgstr "Betygsätt tillägget"
+
+#: easyReservations_admin_settings.php:315
+msgid "Clean Database"
+msgstr "Rensa databas"
+
+#: easyReservations_admin_settings.php:315
+msgid "Clean"
+msgstr "Rensa"
+
+#: easyReservations_admin_settings.php:321
+msgid "Delete all unapproved old reservations"
+msgstr "Radera alla icke godkända gamla reservationer"
+
+#: easyReservations_admin_settings.php:332
+msgid "Change Permissions"
+msgstr "Ändra behörigheter"
+
+#: easyReservations_admin_settings.php:332
+msgid "Set"
+msgstr "Ställ"
+
+#: easyReservations_admin_settings.php:337 lib/functions/admin.php:20
+msgid "Dashboard"
+msgstr "Kontrollpanel"
+
+#: easyReservations_admin_settings.php:341
+#: easyReservations_admin_settings.php:714
+#: easyReservations_admin_settings.php:1002 lib/functions/admin.php:21
+msgid "Resources"
+msgstr "Resurser"
+
+#: easyReservations_admin_settings.php:345 lib/core/core.php:217
+#: lib/functions/admin.php:339 lib/modules/statistics/statistics.php:24
+msgid "Statistics"
+msgstr "Statistik"
+
+#: easyReservations_admin_settings.php:349 lib/functions/admin.php:23
+#: lib/modules/paypal/paypal.php:183 lib/modules/useredit/useredit.php:364
+msgid "Settings"
+msgstr "Inställningar"
+
+#: easyReservations_admin_settings.php:403
+#: easyReservations_admin_settings.php:405
+#: js/tinyMCE/tinyMCE_shortcode_add.php:9
+msgid "Standard"
+msgstr "Standard"
+
+#: easyReservations_admin_settings.php:427
+#: easyReservations_admin_settings.php:597
+#: easyReservations_admin_settings.php:953
+#: lib/modules/htmlmails/htmlmails.php:116
+msgid "Arrival date"
+msgstr "Ankomst datum"
+
+#: easyReservations_admin_settings.php:428
+#: easyReservations_admin_settings.php:627
+#: easyReservations_admin_settings.php:958
+msgid "Arrival hour"
+msgstr "Ankomst timme"
+
+#: easyReservations_admin_settings.php:429
+#: easyReservations_admin_settings.php:657
+#: easyReservations_admin_settings.php:963
+msgid "Arrival minute"
+msgstr "Ankomst minut"
+
+#: easyReservations_admin_settings.php:430
+#: easyReservations_admin_settings.php:612
+#: easyReservations_admin_settings.php:968
+#: lib/modules/htmlmails/htmlmails.php:117
+msgid "Departure date"
+msgstr "Avresedatum"
+
+#: easyReservations_admin_settings.php:431
+#: easyReservations_admin_settings.php:642
+#: easyReservations_admin_settings.php:978
+msgid "Departure hour"
+msgstr "Avrese timme"
+
+#: easyReservations_admin_settings.php:432
+#: easyReservations_admin_settings.php:672
+#: easyReservations_admin_settings.php:983
+msgid "Departure minute"
+msgstr "Avrese minut"
+
+#: easyReservations_admin_settings.php:433
+#: easyReservations_admin_settings.php:687
+#: easyReservations_admin_settings.php:973
+msgid "Billing units"
+msgstr "Faktureringsheter"
+
+#: easyReservations_admin_settings.php:471
+#: easyReservations_admin_settings.php:601
+#: easyReservations_admin_settings.php:616
+#: easyReservations_admin_settings.php:791
+#: easyReservations_admin_settings.php:806
+#: easyReservations_admin_settings.php:899
+#: easyReservations_admin_settings.php:1248 lib/modules/lang/lang.php:112
+msgid "Value"
+msgstr "Värde"
+
+#: easyReservations_admin_settings.php:499
+msgid "Display featured image"
+msgstr "Visa presenterade bilden"
+
+#: easyReservations_admin_settings.php:500
+#: js/tinyMCE/tinyMCE_shortcode_add.php:195
+#: lib/modules/hourlycal/hourlycal.php:189 lib/modules/search/search.php:29
+#: lib/modules/search/search.php:50
+msgid "Width"
+msgstr "Bredd"
+
+#: easyReservations_admin_settings.php:501 lib/modules/search/search.php:50
+msgid "Height"
+msgstr "Höjd"
+
+#: easyReservations_admin_settings.php:509
+msgid "Display content with"
+msgstr "Visa innehåll med"
+
+#: easyReservations_admin_settings.php:509
+#: easyReservations_admin_settings.php:517
+msgid "characters"
+msgstr "tecken"
+
+#: easyReservations_admin_settings.php:517
+msgid "Display excerpt with"
+msgstr "Visa utdrag med"
+
+#: easyReservations_admin_settings.php:532
+msgid "Required"
+msgstr "Krävs"
+
+#: easyReservations_admin_settings.php:541
+msgid "Price per billing unit"
+msgstr "Pris per faktureringsenhet"
+
+#: easyReservations_admin_settings.php:559
+#: js/tinyMCE/tinyMCE_shortcode_add.php:127
+#: js/tinyMCE/tinyMCE_shortcode_add.php:187 lib/modules/search/search.php:21
+msgid "Style"
+msgstr "Stil"
+
+#: easyReservations_admin_settings.php:567
+msgid "Max-length"
+msgstr "Max-längd"
+
+#: easyReservations_admin_settings.php:573
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: easyReservations_admin_settings.php:579
+msgid "Errors"
+msgstr "Errors"
+
+#: easyReservations_admin_settings.php:580
+msgid ""
+"Shows the warning messages in form. Is required for the multiple "
+"reservations form function."
+msgstr ""
+"Visar varningsmeddelanden i formuläret. Krävs för flera bokningars formulär "
+"funktion."
+
+#: easyReservations_admin_settings.php:588
+msgid "Message"
+msgstr "Meddelande"
+
+#: easyReservations_admin_settings.php:598
+msgid "Field with datepicker for the arrival date. Is required in any form."
+msgstr "Fält med datumväljare för ankomstdatumet. Krävs i något formulär."
+
+#: easyReservations_admin_settings.php:613
+msgid ""
+"Field with datepicker for the departure date. Can be replaced by billing "
+"units selection or deleted so that every reservation lasts one billing unit."
+msgstr ""
+"Fält med datumväljare för avresedatum. Kan ersättas av faktureringsenheters "
+"val eller tas bort så att varje bokning varar en faktureringsenhet."
+
+#: easyReservations_admin_settings.php:628
+msgid ""
+"Select for arrival hour. Can be replaced by a hidden field and defaults to "
+"12:00 if not in form."
+msgstr ""
+"Välj för ankomst timme. Kan ersättas av ett dolt fält och standardvärden "
+"till 12.00, om det inte finns i formuläret."
+
+#: easyReservations_admin_settings.php:631
+#: easyReservations_admin_settings.php:646
+#: easyReservations_admin_settings.php:661
+#: easyReservations_admin_settings.php:676
+#: easyReservations_admin_settings.php:703
+#: easyReservations_admin_settings.php:718
+#: easyReservations_admin_settings.php:749
+#: easyReservations_admin_settings.php:776
+#: easyReservations_admin_settings.php:821
+msgid "Selected"
+msgstr "Vald"
+
+#: easyReservations_admin_settings.php:643
+msgid ""
+"Select for departure hour. Can be replaced by a hidden field and defaults to "
+"12:00 if not in form."
+msgstr ""
+"Välj för avfärds timme. Kan ersättas av ett dolt fält och standardvärden "
+"till 12.00, om det inte finns i formuläret."
+
+#: easyReservations_admin_settings.php:658
+msgid "Select for arrival minute."
+msgstr "Välj för ankomst minut."
+
+#: easyReservations_admin_settings.php:673
+msgid "Select for departure minute."
+msgstr "Välj för avfärds minut."
+
+#: easyReservations_admin_settings.php:688
+msgid ""
+"Select of billing units to define the length of stay. Can be replaced by "
+"depature date field or defaults to one billing unit if not in form."
+msgstr ""
+"Välj fakturerings enheter för att definiera längden på vistelsen. Kan "
+"ersättas av avrese datumfält eller standard till en faktureringsenheten om "
+"den inte finns i formuläretet."
+
+#: easyReservations_admin_settings.php:715
+msgid ""
+"Select of resources. Is required and can only be replaced by hidden field. "
+"You can exclude resources with comma saperated IDs."
+msgstr ""
+"Välj resurser. Det krävs och kan endast bytas ut mot dolt fält. Du kan "
+"utesluta resurser med komma separerade IDs."
+
+#: easyReservations_admin_settings.php:723 lib/modules/search/search.php:41
+msgid "Exclude"
+msgstr "Exkludera"
+
+#: easyReservations_admin_settings.php:734
+msgid "Select of adults. Is required and can only be replaced by hidden field."
+msgstr "Välj för vuxna. Det krävs och kan endast bytas ut mot dolt fält."
+
+#: easyReservations_admin_settings.php:760
+#: lib/modules/useredit/useredit.php:790
+msgid "Children's"
+msgstr "Barn"
+
+#: easyReservations_admin_settings.php:761
+msgid "Select of children's. Can be replaced by hidden field or deleted."
+msgstr "Välj för barn. Kan ersättas av dolt fält eller tas bort."
+
+#: easyReservations_admin_settings.php:788
+msgid "Text field for name. Is required in any form."
+msgstr "Textfält för namn. Krävs i någon form."
+
+#: easyReservations_admin_settings.php:803
+#: easyReservations_admin_settings.php:818
+#: easyReservations_admin_settings.php:869
+msgid "Text field for email. Is required in any form."
+msgstr "Textfält för e-post. Krävs i någon form."
+
+#: easyReservations_admin_settings.php:834
+msgid ""
+"Date and information fields can be replaced by hidden fields to force the "
+"selection without the guest choosing or seeing it. They are helpful for "
+"special offers or forms for just one resource."
+msgstr ""
+"Datum och informationsfält kan ersättas av dolda fält för att tvinga "
+"inställningen utan gästen utsett eller ser det. De är till hjälp för "
+"specialerbjudanden eller formulär för bara en resurs."
+
+#: easyReservations_admin_settings.php:838
+#: easyReservations_admin_settings.php:1053
+msgid "Resources infobox"
+msgstr "Infobox resurser "
+
+#: easyReservations_admin_settings.php:839
+msgid ""
+"Shows the information title, image, content and excerpt of the currently "
+"selected resource."
+msgstr ""
+"Visar titelinformationen, bild, innehåll och utdrag ur den valda resursen."
+
+#: easyReservations_admin_settings.php:843
+msgid "Size"
+msgstr "Storlek"
+
+#: easyReservations_admin_settings.php:845
+msgid "Big"
+msgstr "Stor"
+
+#: easyReservations_admin_settings.php:845
+msgid "Medium"
+msgstr "Medium"
+
+#: easyReservations_admin_settings.php:849
+msgid "Featured image"
+msgstr "Dagens bild"
+
+#: easyReservations_admin_settings.php:853
+msgid "Show title"
+msgstr "Visa titel"
+
+#: easyReservations_admin_settings.php:858
+msgid "Content"
+msgstr "Innehåll"
+
+#: easyReservations_admin_settings.php:868
+#: easyReservations_admin_settings.php:1058
+#: lib/modules/useredit/useredit.php:875
+msgid "Captcha"
+msgstr "Captcha"
+
+#: easyReservations_admin_settings.php:872
+msgid "Color of code"
+msgstr "Färg på koden"
+
+#: easyReservations_admin_settings.php:874
+msgid "Black"
+msgstr "Svart"
+
+#: easyReservations_admin_settings.php:874
+#: js/tinyMCE/tinyMCE_shortcode_add.php:128
+msgid "White"
+msgstr "Vit"
+
+#: easyReservations_admin_settings.php:882
+msgid "display price"
+msgstr "visa pris"
+
+#: easyReservations_admin_settings.php:883
+msgid "Shows the price as of selections."
+msgstr "Visar priset per val."
+
+#: easyReservations_admin_settings.php:886
+msgid "Text before price"
+msgstr "Text före pris"
+
+#: easyReservations_admin_settings.php:895
+#: easyReservations_admin_settings.php:1105
+#: easyReservations_admin_settings.php:1232
+#: js/tinyMCE/tinyMCE_shortcode_add.php:154 lib/modules/search/search.php:61
+#: lib/modules/useredit/useredit.php:850 lib/modules/useredit/useredit.php:877
+msgid "Submit"
+msgstr "Skicka"
+
+#: easyReservations_admin_settings.php:896
+msgid "Button to submit the form."
+msgstr "Knappen för att skicka formuläret."
+
+#: easyReservations_admin_settings.php:909
+#, php-format
+msgid ""
+"Can be any form element, can have an impact on the price and are used to get "
+"more information. Define them %s first"
+msgstr ""
+"Kan vara någon formulär element, kan ha en inverkan på priset och används "
+"för att få mer information. Definiera dem %s först"
+
+#: easyReservations_admin_settings.php:912
+#: easyReservations_admin_settings.php:963
+#: easyReservations_admin_settings.php:983
+msgid "Select field"
+msgstr "Välj fält"
+
+#: easyReservations_admin_settings.php:940
+msgid "Date fields"
+msgstr "Datum fält"
+
+#: easyReservations_admin_settings.php:947
+#: easyReservations_admin_settings.php:996
+#: easyReservations_admin_settings.php:1107
+#: easyReservations_admin_settings.php:1374
+msgid "Default"
+msgstr "Standard"
+
+#: easyReservations_admin_settings.php:953
+#: easyReservations_admin_settings.php:968
+msgid "Text field with datepicker"
+msgstr "Textfält med datumväljare"
+
+#: easyReservations_admin_settings.php:958
+#: easyReservations_admin_settings.php:978
+msgid "Select field as of the time pattern selection"
+msgstr "Välj fält som av tids urvalsmönstret"
+
+#: easyReservations_admin_settings.php:973
+msgid "Select field to choose length of stay"
+msgstr "Välj fältet för att välja vistelsens längd"
+
+#: easyReservations_admin_settings.php:989
+msgid "Information fields"
+msgstr "Informations fält"
+
+#: easyReservations_admin_settings.php:1002
+msgid "Select of resource"
+msgstr "Välj resurs"
+
+#: easyReservations_admin_settings.php:1007
+msgid "Select field for adults"
+msgstr "Välj fält för vuxna"
+
+#: easyReservations_admin_settings.php:1012
+msgid "Select field for children's"
+msgstr "Välj fält för barn"
+
+#: easyReservations_admin_settings.php:1017
+msgid "Text field for name"
+msgstr "Textfält för namn"
+
+#: easyReservations_admin_settings.php:1022
+msgid "Text field for mail"
+msgstr "Textfält för e-post"
+
+#: easyReservations_admin_settings.php:1027
+msgid "Select field of country's"
+msgstr "Välj fält för land"
+
+#: easyReservations_admin_settings.php:1033
+msgid "Special fields"
+msgstr "Särskilda fält"
+
+#: easyReservations_admin_settings.php:1045
+msgid "Fix information and hide from guest"
+msgstr "Fixa information och dölj från gäst"
+
+#: easyReservations_admin_settings.php:1049
+msgid "Custom form elements to get more information"
+msgstr "Anpassade formulärelement för att få mer information"
+
+#: easyReservations_admin_settings.php:1053
+msgid "Displays information of currently selected resource"
+msgstr "Visar information om valda resursen"
+
+#: easyReservations_admin_settings.php:1058
+msgid "To verify only humans use the form"
+msgstr "För att verifiera endast människor som använder formuläret"
+
+#: easyReservations_admin_settings.php:1062
+#: js/tinyMCE/tinyMCE_shortcode_add.php:165
+#: lib/modules/useredit/useredit.php:912
+msgid "Show price"
+msgstr "Visa pris"
+
+#: easyReservations_admin_settings.php:1062
+msgid "Display price live"
+msgstr "Visa pris live"
+
+#: easyReservations_admin_settings.php:1066
+msgid "Error"
+msgstr "Error"
+
+#: easyReservations_admin_settings.php:1066
+msgid "Displays errors"
+msgstr "Visa errors"
+
+#: easyReservations_admin_settings.php:1070
+msgid "Submit button"
+msgstr "Skicka knapp"
+
+#: easyReservations_admin_settings.php:1070
+msgid "Button to submit the form"
+msgstr "Knappen för att skicka formuläret"
+
+#: easyReservations_admin_settings.php:1075
+msgid "Format"
+msgstr "Format"
+
+#: easyReservations_admin_settings.php:1080
+msgid "Label"
+msgstr "Etikett"
+
+#: easyReservations_admin_settings.php:1080
+msgid "Used for description of tags. Should be before the tag."
+msgstr "Används för beskrivning av taggar. Bör vara före taggen."
+
+#: easyReservations_admin_settings.php:1083
+msgid "Sub-label"
+msgstr "Sub-etikett"
+
+#: easyReservations_admin_settings.php:1083
+msgid "Small sub-label. Should be used inside labels."
+msgstr "Liten sub-etikett. Bör användas inuti etiketter."
+
+#: easyReservations_admin_settings.php:1086
+msgid "Row"
+msgstr "Rad"
+
+#: easyReservations_admin_settings.php:1086
+msgid ""
+"To use multiple elements in one row. It may be nesecarry to define their "
+"width's."
+msgstr ""
+"Om du vill använda flera element i en rad. Det kan vara nödvändigt att "
+"definiera deras bredd."
+
+#: easyReservations_admin_settings.php:1089
+msgid "Bold"
+msgstr "Fet"
+
+#: easyReservations_admin_settings.php:1089
+msgid "Bold text"
+msgstr "Fet text"
+
+#: easyReservations_admin_settings.php:1092
+msgid "Italic"
+msgstr "Kursiv"
+
+#: easyReservations_admin_settings.php:1092
+msgid "Italic text"
+msgstr "Kursiv text"
+
+#: easyReservations_admin_settings.php:1095
+msgid "Headline"
+msgstr "Rubrik"
+
+#: easyReservations_admin_settings.php:1095
+msgid "Big headline."
+msgstr "Stor rubrik"
+
+#: easyReservations_admin_settings.php:1098
+msgid "Sub-headline"
+msgstr "Under rubrik"
+
+#: easyReservations_admin_settings.php:1098
+msgid "Smaller headline to divide the form."
+msgstr "Mindre rubrik för att dela upp formuläret."
+
+#: easyReservations_admin_settings.php:1170
+msgid "Custom field edited"
+msgstr "Anpassat fält redigerat"
+
+#: easyReservations_admin_settings.php:1175
+msgid "Added custom field"
+msgstr "Ytterliggare egna fält"
+
+#: easyReservations_admin_settings.php:1181
+msgid "Custom field deleted"
+msgstr "Anpassat fält raderat"
+
+#: easyReservations_admin_settings.php:1195
+msgid "Add and edit custom fields"
+msgstr "Lägg till och redigera egna fält"
+
+#: easyReservations_admin_settings.php:1210
+msgid "Price field"
+msgstr "Pris fält"
+
+#: easyReservations_admin_settings.php:1214
+msgid "Field has influence on price"
+msgstr "Fältet har inflytande på pris"
+
+#: easyReservations_admin_settings.php:1219
+msgid "Form Element"
+msgstr "Formulär element"
+
+#: easyReservations_admin_settings.php:1249
+msgid "Else"
+msgstr "Eller"
+
+#: easyReservations_admin_settings.php:1272
+msgid "condition"
+msgid_plural "conditions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: easyReservations_admin_settings.php:1285
+msgid "No custom fields defined"
+msgstr "Inga anpassade fält definierade"
+
+#: easyReservations_admin_settings.php:1365
+#: lib/modules/paypal/creditcards.php:391 overview.php:163
+msgid "Active"
+msgstr "Aktiv"
+
+#: easyReservations_admin_settings.php:1373
+msgid "Subject"
+msgstr "Ärende"
+
+#: easyReservations_admin_settings.php:1391
+msgid "Tags"
+msgstr "Taggar"
+
+#: easyReservations_admin_settings.php:1398
+msgid "wordwrap"
+msgstr "radbrytning"
+
+#: easyReservations_admin_settings.php:1399
+msgid "message from admin"
+msgstr "meddelande från admin"
+
+#: easyReservations_admin_settings.php:1401 lib/modules/invoice/invoice.php:584
+msgid "name"
+msgstr "namn"
+
+#: easyReservations_admin_settings.php:1402 lib/modules/invoice/invoice.php:585
+msgid "email"
+msgstr "e-post"
+
+#: easyReservations_admin_settings.php:1403 lib/modules/invoice/invoice.php:581
+msgid "arrival date"
+msgstr "ankomstdatum"
+
+#: easyReservations_admin_settings.php:1404 lib/modules/invoice/invoice.php:582
+msgid "departure date"
+msgstr "avresedatum"
+
+#: easyReservations_admin_settings.php:1405 lib/modules/invoice/invoice.php:583
+msgid "amount of billing units"
+msgstr "mängd av faktureringsenheter"
+
+#: easyReservations_admin_settings.php:1406 lib/modules/invoice/invoice.php:588
+msgid "amount of adults and children"
+msgstr "mängd vuxna och barn"
+
+#: easyReservations_admin_settings.php:1407 lib/modules/invoice/invoice.php:589
+msgid "amount of adults"
+msgstr "antal vuxna"
+
+#: easyReservations_admin_settings.php:1408 lib/modules/invoice/invoice.php:590
+msgid "amount of children"
+msgstr "mängd av barn"
+
+#: easyReservations_admin_settings.php:1409 lib/modules/invoice/invoice.php:591
+msgid "country of guest"
+msgstr "gästens land"
+
+#: easyReservations_admin_settings.php:1410
+msgid "name of resource"
+msgstr "namn på resurs"
+
+#: easyReservations_admin_settings.php:1411
+msgid "name of resource number"
+msgstr "namn på resursnummer"
+
+#: easyReservations_admin_settings.php:1412 lib/modules/invoice/invoice.php:593
+msgid "price of reservation"
+msgstr "pris på bokningen"
+
+#: easyReservations_admin_settings.php:1413 lib/modules/invoice/invoice.php:594
+msgid "paid amount"
+msgstr "inbetalt belopp"
+
+#: easyReservations_admin_settings.php:1414
+msgid "custom fields"
+msgstr "egna fält"
+
+#: easyReservations_admin_settings.php:1415
+msgid "show changes after edits"
+msgstr "visa ändringar efter redigering"
+
+#: easyReservations_admin_settings.php:1416
+msgid "link to user control panel"
+msgstr "länk till användar kontrollpanel"
+
+#: easyReservations_admin_settings.php:1433 lib/core/core.php:325
+#: lib/modules/htmlmails/htmlmails.php:134
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: easyReservations_admin_settings.php:1477
+msgid "Chrome Extension"
+msgstr "Chrome Extension"
+
+#: easyReservations_form_shortcode.php:22 lib/modules/search/search.php:209
+msgid "Room"
+msgstr "Rum"
+
+#: easyReservations_form_shortcode.php:23
+#: js/tinyMCE/tinyMCE_shortcode_add.php:99 lib/modules/paypal/paypal.php:196
+#: lib/modules/paypal/paypal.php:212 lib/modules/paypal/paypal.php:227
+#: lib/modules/paypal/paypal.php:244 lib/modules/paypal/paypal.php:257
+#: lib/modules/paypal/paypal.php:273 lib/modules/useredit/useredit.php:309
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: easyReservations_form_shortcode.php:24 lib/modules/useredit/useredit.php:487
+msgid "Your reservation is complete"
+msgstr "Din reservation är utförd"
+
+#: easyReservations_form_shortcode.php:25
+msgid "Your reservation was sent"
+msgstr "Din bokning skickades"
+
+#: easyReservations_form_shortcode.php:26
+msgid "Reservation was validated succesfully"
+msgstr "Reservationen har validerats succefullt"
+
+#: easyReservations_form_shortcode.php:423
+msgid "Add another reservation"
+msgstr "Lägg till ytterligare reservation"
+
+#: easyReservations_form_shortcode.php:424
+msgid "Submit all reservations"
+msgstr "Skicka alla reservationer"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:5
+msgid "You are not allowed to access this file."
+msgstr "Du tillåts inte få åtkomst till denna fil."
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:20
+msgid "easyReservations Shortcode Creator"
+msgstr "easyReservations Shortcode Skaparen"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:77
+#: lib/modules/hourlycal/hourlycal.php:202 lib/modules/paypal/paypal.php:199
+#: lib/modules/paypal/paypal.php:213 lib/modules/paypal/paypal.php:230
+#: lib/modules/paypal/paypal.php:260 lib/modules/paypal/paypal.php:277
+#: lib/modules/search/attributes.php:121
+msgid "Select"
+msgstr "Välj"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:80
+msgid "choose"
+msgstr "välj"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:82 lib/modules/search/search.php:57
+msgid "Calendar"
+msgstr "Kalender"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:84
+msgid "Choose type of shortcode"
+msgstr "Välj typ av kortkod"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:90
+#: js/tinyMCE/tinyMCE_shortcode_add.php:206
+msgid ""
+"The shortcodes wont work if more then one of the same type are on the same "
+"site"
+msgstr ""
+"Kortkoden fungerar inte om mer än en av samma typ används på samma sida"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:90
+#: js/tinyMCE/tinyMCE_shortcode_add.php:206
+msgid "This can happen with posts in category-views or on homepage"
+msgstr "Detta kan hända med inlägg i kategorivy eller på startsida"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:90
+#: js/tinyMCE/tinyMCE_shortcode_add.php:206
+msgid "To prevent this add the shortcodes after the [more] tag"
+msgstr "För att förhindra detta, ange kortkod efter [mer] tagg"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:96
+msgid "Insert"
+msgstr "Infoga"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:113
+#: js/tinyMCE/tinyMCE_shortcode_add.php:115
+#: lib/modules/hourlycal/hourlycal.php:178 lib/modules/search/search.php:18
+msgid "Custom Style"
+msgstr "Anpassad stil"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:120
+msgid "Select form template"
+msgstr "Välj formulärmall"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:124
+msgid "Attached to reservations if no resource [tag] in form"
+msgstr "Bifogat till reservationer om ingen resurs [tagg] i formuläret"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:128
+msgid "Blue"
+msgstr "Blå"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:128
+msgid "Select style"
+msgstr "Välj stil"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:131
+msgid "Multiple reservations"
+msgstr "Multipla reservationer"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:132
+msgid "Allow multiple reservations in a"
+msgstr "Tillåt flera reservationer i ett"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:132
+msgid "Popup"
+msgstr "Popup"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:132
+#: js/tinyMCE/tinyMCE_shortcode_add.php:135
+msgid "Overlay"
+msgstr "Överlappad"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:135
+msgid ""
+"If multiple reservations are enabled the overlay will show the list of the "
+"reservations."
+msgstr ""
+"Om flera reservationer är aktiverade visar överlagringen listan över de "
+"reservationer."
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:138
+msgid "Overlay message"
+msgstr "Överlappande meddelande"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:142
+msgid "Overlay sub-message"
+msgstr "Överlappande sub-meddelande"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:146 lib/modules/search/search.php:70
+msgid "Name for resources"
+msgstr "Resursens namn"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:150
+msgid "Persons in list"
+msgstr "Personer i listan"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:154
+msgid ""
+"After submit one or multiple reservations the overlay or page will show this "
+"messages, the price and, if available, the paypal button and the credit "
+"cards form."
+msgstr ""
+"Efter att ha lämnat in en eller flera reservationer kommer överläggning "
+"eller sidan att visa detta budskap, priset och, om möjligt, den paypal "
+"knappen och kreditkorts formuläret."
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:157
+msgid "Submit message"
+msgstr "Lägg till meddelande"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:161
+msgid "Submit sub-message"
+msgstr "Lägg till sub-meddelande"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:169
+#: lib/modules/paypal/creditcards.php:224
+#: lib/modules/paypal/creditcards.php:244
+msgid "Credit Card"
+msgstr "Kreditkort"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:169
+msgid ""
+"If the credit card form is enabled this messages will be shown after a "
+"successfully submit of it."
+msgstr ""
+"Om kreditkortsformuläret är aktiverat kommer detta inlägg att visas efter "
+"att framgångsrikt lämnat in det."
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:172
+msgid "Credit Card message"
+msgstr "Kreditkorts meddelande"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:176
+msgid "Credit Card sub-message"
+msgstr "Kreditkorts delmeddelande"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:179
+msgid "Only add one form per page or post"
+msgstr "Lägg bara till ett formulär per sida eller inlägg"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:184
+#: lib/modules/hourlycal/hourlycal.php:182
+msgid "Select default resource"
+msgstr "Välj förvald resurs"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:188
+msgid "simple"
+msgstr "enkel"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:188 lib/modules/search/search.php:22
+msgid "modern"
+msgstr "modern"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:188
+msgid "Select calendar style"
+msgstr "Välj kalenderstil"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:192
+#: lib/modules/hourlycal/hourlycal.php:186
+msgid "no"
+msgstr "nej"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:192
+#: lib/modules/hourlycal/hourlycal.php:186
+msgid "Show price in calendar"
+msgstr "Visa pris i kalender"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:199
+msgid "Check"
+msgstr "Kryss"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:200
+msgid ""
+"Check resources global possible arrival and departure days so they cant be "
+"clicked"
+msgstr ""
+"Kolla resursernas globala möjliga ankomst och avresedag, så de inte kan "
+"klickas på"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:203
+msgid "This shortcode adds an availability calendar to the post or page"
+msgstr ""
+"Denna kortkod lägger till en tillgänglighetskalender på inlägg eller sida"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:203
+msgid ""
+"You can combine it with a form or the edit-form by add it to the same page"
+msgstr ""
+"Du kan kombinera det med ett formulär genom att lägga till det på samma sida"
+
+#: js/tinyMCE/tinyMCE_shortcode_add.php:203
+msgid "Only add the calendar once per page or post"
+msgstr "Lägg bara in kalendern 1 gång per sida eller inlägg"
+
+#: lib/classes/reservation.class.php:877
+msgid "Please enter your name"
+msgstr "Vänligen ange ditt namn"
+
+#: lib/classes/reservation.class.php:883
+msgid "Please enter a correct email"
+msgstr "Vänligen ange en korrekt e-postadress"
+
+#: lib/classes/reservation.class.php:888
+msgid "Please enter correct dates"
+msgstr "Var god ange korrekta datum"
+
+#: lib/classes/reservation.class.php:894
+msgid "The departure date has to be after the arrival date"
+msgstr "Avresedagen måste vara efter ankomstdagen"
+
+#: lib/classes/reservation.class.php:900
+msgid "Adults has to be a number at least one"
+msgstr "Vuxna måste vara ett nummer minst en"
+
+#: lib/classes/reservation.class.php:906
+msgid "Children's has to be a number"
+msgstr "Barn måste vara ett nummer"
+
+#: lib/classes/reservation.class.php:915 lib/modules/search/search.php:427
+msgid "Not available at"
+msgstr "Inte tillgänglig den"
+
+#: lib/classes/reservation.class.php:916 lib/classes/reservation.class.php:917
+msgid "Selected time is occupied"
+msgstr "Vald tid är otillgänglig"
+
+#: lib/classes/reservation.class.php:931
+msgid "The arrival date has to be in future"
+msgstr "Ankomstdatumet måste vara i framtiden"
+
+#: lib/classes/reservation.class.php:972
+#, php-format
+msgid "At least %1$s persons in %2$s"
+msgstr "Minst %1$s personer i %2$s"
+
+#: lib/classes/reservation.class.php:979
+#, php-format
+msgid "Maximum %1$s persons in %2$s"
+msgstr "Max %1$s personer i %2$s"
+
+#: lib/classes/reservation.class.php:986
+#, php-format
+msgid "At least %1$s %2$s in %3$s"
+msgstr "Minst %1$s %2$s i %3$s"
+
+#: lib/classes/reservation.class.php:993
+#, php-format
+msgid "Maximum %1$s %2$s in %3$s"
+msgstr "Maximalt %1$s %2$s in %3$s"
+
+#: lib/classes/reservation.class.php:1005
+#, php-format
+msgid "Arrival only possible on %s"
+msgstr "Ankomst är endast möjlig %s"
+
+#: lib/classes/reservation.class.php:1016
+#, php-format
+msgid "Departure only possible on %s"
+msgstr "Avresa är endast möjlig %s"
+
+#: lib/classes/reservation.class.php:1023
+#, php-format
+msgid "Arrival only possible from %s"
+msgstr "Ankomst är endast möjlig från %s"
+
+#: lib/classes/reservation.class.php:1027
+#, php-format
+msgid "Arrival only possible till %s"
+msgstr "Ankomst är endast möjlig till %s"
+
+#: lib/classes/reservation.class.php:1033
+#, php-format
+msgid "Departure only possible from %s"
+msgstr "Avresa är endast möjlig från %s"
+
+#: lib/classes/reservation.class.php:1037
+#, php-format
+msgid "Departure only possible till %s"
+msgstr "Avresa är endast möjlig från %s"
+
+#: lib/classes/reservation.class.php:1245
+msgid "The arrival date was edited"
+msgstr "Ankomstdatumet redigerades"
+
+#: lib/classes/reservation.class.php:1246
+msgid "The departure date was edited"
+msgstr "Avresedatumet redigerades"
+
+#: lib/classes/reservation.class.php:1247
+msgid "The name was edited"
+msgstr "Namnet redigerades"
+
+#: lib/classes/reservation.class.php:1248
+msgid "The email was edited"
+msgstr "E-posten redigerades"
+
+#: lib/classes/reservation.class.php:1249
+msgid "The amount of adults was edited"
+msgstr "Antal vuxna redigerades"
+
+#: lib/classes/reservation.class.php:1250
+msgid "The amount of children was edited"
+msgstr "Mängden barn har redigerats"
+
+#: lib/classes/reservation.class.php:1251
+msgid "The country was edited"
+msgstr "Landet redigerades"
+
+#: lib/classes/reservation.class.php:1252
+msgid "The resource was edited"
+msgstr "Resursen redigerades"
+
+#: lib/classes/reservation.class.php:1253
+msgid "Custom fields got edited"
+msgstr "Eget fält redigerades"
+
+#: lib/classes/reservation.class.php:1254
+msgid "Prices got edited"
+msgstr "Priserna fick redigeras"
+
+#: lib/classes/reservation.class.php:1260 lib/modules/useredit/useredit.php:357
+msgid "trashed"
+msgstr "kastade"
+
+#: lib/core/core.php:28
+msgid "Checked for updates"
+msgstr "Kontrollerad efter uppdateringar"
+
+#: lib/core/core.php:31
+msgid "Logging in"
+msgstr "Loggar in"
+
+#: lib/core/core.php:34
+#, php-format
+msgid "Module %s activated"
+msgstr "Modul %s är aktiverad"
+
+#: lib/core/core.php:37
+msgid "Logged out"
+msgstr "Utloggad"
+
+#: lib/core/core.php:39
+msgid "All installed modules activated"
+msgstr "Alla installerade moduler är aktiverade"
+
+#: lib/core/core.php:41
+msgid "All installed modules deactivated"
+msgstr "Alla installerade moduler är deaktiverade"
+
+#: lib/core/core.php:46
+msgid "updated"
+msgstr "uppdaterad"
+
+#: lib/core/core.php:49
+msgid "installed"
+msgstr "installerad"
+
+#: lib/core/core.php:54
+#, php-format
+msgid "Failure at updating module %1$s - %2$s"
+msgstr "Misslyckades att uppdatera modul %1$s - %2$s"
+
+#: lib/core/core.php:55
+#, php-format
+msgid "Failure at extracting module %1$s - %2$s"
+msgstr "Misslyckande vid extrahering av modul %1$s - %2$s"
+
+#: lib/core/core.php:57
+#, php-format
+msgid "Module %1$s %2$s"
+msgstr "Modul %1$s %2$s"
+
+#: lib/core/core.php:59
+#, php-format
+msgid "Module %s deactivated"
+msgstr "Modul %s avaktiverad"
+
+#: lib/core/core.php:74
+#, php-format
+msgid "Module %s deleted"
+msgstr "Modul %s raderad"
+
+#: lib/core/core.php:107
+#, php-format
+msgid "Module %s installed successfully"
+msgstr "Modul %s har installerats"
+
+#: lib/core/core.php:109
+msgid "Upload failed"
+msgstr "Uppladdningen misslyckades"
+
+#: lib/core/core.php:110 lib/modules/import/import.php:46
+msgid "Wrong file"
+msgstr "Fel fil"
+
+#: lib/core/core.php:121 lib/modules/invoice/invoice.php:347
+#: lib/modules/useredit/useredit.php:743 lib/modules/useredit/useredit.php:916
+msgid "Invoice"
+msgstr "Faktura"
+
+#: lib/core/core.php:122
+msgid ""
+"Generate totally customizable Invoices automatically from predefined "
+"templates. Including an editor for admins, invoices as email attachments and "
+"correct A4 Letter formats."
+msgstr ""
+"Generera helt anpassningsbara fakturor automatiskt från fördefinierade "
+"mallar. Inklusive en editor för admins, fakturor som e-postbilagor och "
+"korrigera A4 Brev format."
+
+#: lib/core/core.php:130
+msgid "htmlMails"
+msgstr "htmlMails"
+
+#: lib/core/core.php:131
+msgid ""
+"Style your emails with HTML to increase the appearance of your hospitality."
+msgstr "Styla din e-post med HTML för att öka utseendet på din gästfrihet."
+
+#: lib/core/core.php:139 lib/modules/paypal/paypal.php:63
+msgid "Payment"
+msgstr "Betalning"
+
+#: lib/core/core.php:140
+msgid ""
+"Integration of multiple payment gateways like PayPal, Google Wallet, "
+"Authorize.net, 2checkout, DIBSpayment or Ogone. Further implementing of "
+"Stripe.com Credit Cards gateway and a function to store credit cards for "
+"manual treatment. Automatically approve new reservations and/or after "
+"payment.."
+msgstr ""
+"Integration av flera olika betalningsalternativ som PayPal, Google Wallet, "
+"Authorize.net, 2Checkout, DIBSpayment eller Ogone. Ytterligare genomförande "
+"av Stripe.com kreditkort gateway och en funktion för att lagra kreditkort "
+"för manuell behandling. Automatiskt godkänna nya bokningar och/eller efter "
+"betalning.."
+
+#: lib/core/core.php:148
+msgid "searchForm"
+msgstr "sökFormulär"
+
+#: lib/core/core.php:149
+msgid ""
+"New shortcode to let your guests search for available resources. No page "
+"reload for searching, compatible to calendar, show price, show unavailable "
+"resources, link to form with automatically selection. Each resource can have "
+"a small one-column calendar to show when its available. The results can be "
+"shown as list or table."
+msgstr ""
+"Ny shortcode för att låta dina gäster söka efter tillgängliga resurser. "
+"Ingen sida laddar om för sökning, kompatibel med kalender, visa pris, visa "
+"även otillgängliga resurser , länk till formulär med automatiskt val. Varje "
+"resurs kan ha en liten en kolumns kalender för att visa när det är "
+"tillgängligt. Resultaten kan visas som en lista eller tabell."
+
+#: lib/core/core.php:158
+msgid "Releated Posts Add-On"
+msgstr "Tillägg för relaterade poster"
+
+#: lib/core/core.php:159
+msgid "Link post or pages with resources for the search results"
+msgstr "Länk till inlägg eller sidor med resurser för sökresultatet"
+
+#: lib/core/core.php:169
+msgid "Resource Attributes Add-On"
+msgstr "Resursattribut för tillägg"
+
+#: lib/core/core.php:170
+msgid ""
+"Give resource different attributes to let your guests search more detailed"
+msgstr ""
+"Ge resurser olika attributer för att låta dina gäster söka mer detaljerat"
+
+#: lib/core/core.php:181
+msgid "hourlyCalendar"
+msgstr "Tim kalender"
+
+#: lib/core/core.php:182
+msgid "Show your guests the availability of the resources on a hourly basis."
+msgstr "Visa dina gäster tillgängligheten på timbasis."
+
+#: lib/core/core.php:190
+msgid "Export &amp; Import"
+msgstr "Exportera &amp; Importera"
+
+#: lib/core/core.php:191
+msgid ""
+"Export selectable reservation information by time, selection or all as ."
+"xls, .csv or .least and Import them from back from the .least files."
+msgstr ""
+"Exportera valbara reservations information per tid, val eller alla som ."
+"xls, .csv eller .least och importera dem bakåt från .least filer."
+
+#: lib/core/core.php:199
+msgid "Multilingual"
+msgstr "Flerspråkig"
+
+#: lib/core/core.php:200
+msgid ""
+"Function to make texts in forms, emails, search bar and invoices "
+"translatable."
+msgstr ""
+"Funktion för att göra texter i formulär, e-post, sökfältet och fakturor "
+"översättningsbara."
+
+#: lib/core/core.php:208 lib/modules/paypal/paypal.php:195
+#: lib/modules/paypal/paypal.php:211 lib/modules/paypal/paypal.php:226
+#: lib/modules/paypal/paypal.php:243 lib/modules/paypal/paypal.php:256
+#: lib/modules/paypal/paypal.php:272 lib/modules/useredit/useredit.php:250
+#: lib/modules/useredit/useredit.php:946
+msgid "User Control Panel"
+msgstr "Gästredigering"
+
+#: lib/core/core.php:209
+msgid ""
+" Let your guests login with their reservations ID and email to edit their "
+"reservation afterwards. They can switch between their reservations in a "
+"table. In addition it provides a chat-like feature. New messages in table, "
+"dummy message at start, admin notices, avatars and fully AJAX driven. The "
+"guest can see his invoice and cancel his reservation."
+msgstr ""
+"Låt dina gäster logga in med sitt reservations ID och e-post för att "
+"redigera sin reservation i efterhand. De kan växla mellan sina reservationer "
+"i en tabell. Dessutom ges en chatt-liknande funktion. Nya meddelanden i "
+"tabell, dummy meddelande vid start, admin meddelanden, avatarer och fullt "
+"AJAX driven. Gästen kan se sin faktura och avboka sin reservation."
+
+#: lib/core/core.php:218
+msgid "Detailed statistics, charts, resource usages and a dashboard widget."
+msgstr ""
+"Detaljerad statistik, diagram, resursanvändning och kontrollpanels widget."
+
+#: lib/core/core.php:226
+msgid "Stream"
+msgstr "Ström"
+
+#: lib/core/core.php:227
+msgid "Text."
+msgstr "Text."
+
+#: lib/core/core.php:236
+msgid "Synchronization"
+msgstr "Synkronisering"
+
+#: lib/core/core.php:237
+msgid "Add reservations to the shopping card of WooCommerce."
+msgstr "Lägg reservationer i kundvagnen i WooCommerce."
+
+#: lib/core/core.php:245
+msgid "Styles"
+msgstr "Utseenden"
+
+#: lib/core/core.php:246
+msgid ""
+"New Admin, Calendar and Form style. In addition it changes your datepickers "
+"style and disable unavailble dates in it."
+msgstr ""
+"Ny Admin, Kalender och Formulär utseende. Dessutom ändras din datumväljares "
+"stil och inaktiverar otillgängliga datum i den."
+
+#: lib/core/core.php:254 lib/functions/admin.php:146
+#: lib/modules/coupons/coupons.php:204 lib/modules/coupons/coupons.php:219
+#: lib/modules/useredit/useredit.php:843
+msgid "Coupon"
+msgstr "Kupong"
+
+#: lib/core/core.php:255
+msgid "Let your guests enter coupon codes for discounts."
+msgstr "Låt din gäst ange kupongkoder för rabatter"
+
+#: lib/core/core.php:263
+msgid "extentedCalendar"
+msgstr "utökadKalender"
+
+#: lib/core/core.php:264
+msgid ""
+"Extend the calendar shortcode to show multiple months in a flexible grid "
+"(x*y). Includes a new boxed calendar style."
+msgstr ""
+
+#: lib/core/core.php:288 lib/functions/admin.php:109
+#: lib/modules/paypal/creditcards.php:340
+msgid "Description"
+msgstr "Beskrivning"
+
+#: lib/core/core.php:289
+msgid "Installed"
+msgstr "Installerad"
+
+#: lib/core/core.php:290
+msgid "Actual"
+msgstr "Senaste"
+
+#: lib/core/core.php:291
+msgid "Link"
+msgstr "Länk"
+
+#: lib/core/core.php:321 lib/core/core.php:366
+msgid "Activate"
+msgstr "Aktivera"
+
+#: lib/core/core.php:322 lib/modules/paypal/creditcards.php:236
+msgid "Delete"
+msgstr "Radera"
+
+#: lib/core/core.php:323 lib/core/core.php:367
+msgid "Deactivate"
+msgstr "Avaktivera"
+
+#: lib/core/core.php:335 lib/core/core.php:371
+#, php-format
+msgid "Incompatibility - Update easyReservations to at least %s"
+msgstr "Inkompabilitet - Uppdatera easyReservation till minst %s"
+
+#: lib/core/core.php:336 lib/core/core.php:372
+#, php-format
+msgid ""
+"Incompatibility - This version of easyReservations needs at least version %s "
+"of this module"
+msgstr ""
+"Inkompabilitet - Denna version av easyReservations behöver minst version %s "
+"för den här modulen"
+
+#: lib/core/core.php:343
+msgid "Update"
+msgstr "Uppdatera"
+
+#: lib/core/core.php:344
+msgid "Reinstall"
+msgstr "Ominstallera"
+
+#: lib/core/core.php:345 lib/core/core.php:449
+msgid "Install"
+msgstr "Installera"
+
+#: lib/core/core.php:347 lib/core/core.php:377
+#: lib/modules/useredit/useredit.php:742
+msgid "Download"
+msgstr "Ladda ner"
+
+#: lib/core/core.php:388
+msgid "Premium Login"
+msgstr "Premiuminloggning"
+
+#: lib/core/core.php:388
+msgid "Premium Features"
+msgstr "Premium funktioner"
+
+#: lib/core/core.php:389
+msgid "Login"
+msgstr "Logga in"
+
+#: lib/core/core.php:400
+msgid "Username"
+msgstr "Användarnamn"
+
+#: lib/core/core.php:404
+msgid "Password"
+msgstr "Lösenord"
+
+#: lib/core/core.php:414
+msgid "Install all modules"
+msgstr "Installera alla moduler"
+
+#: lib/core/core.php:418
+msgid "Activate All"
+msgstr "Aktivera alla"
+
+#: lib/core/core.php:422
+msgid "Deactivate All"
+msgstr "Avaktivera alla"
+
+#: lib/core/core.php:425
+msgid "Check for updates"
+msgstr "Sök efter uppdateringar"
+
+#: lib/core/core.php:426
+msgid "Turn off update notifier"
+msgstr "Slå av uppdaterings anmälaren"
+
+#: lib/core/core.php:427
+msgid "Last check"
+msgstr "Senaste kontroll"
+
+#: lib/core/core.php:436
+msgid "Install or Update Module manually"
+msgstr "Installera eller uppdatera moduler manuellt"
+
+#: lib/core/core.php:539
+msgid "Wrong login data"
+msgstr "Fel inloggningsinformation"
+
+#: lib/core/core.php:540
+#, php-format
+msgid "No premium account - %s"
+msgstr "Inget premium konto - %s"
+
+#: lib/core/core.php:542
+msgid "cURL isnt installed on your server, please contact your host"
+msgstr "cURL är inte installead på din server. Kontakta ditt webbhotell"
+
+#: lib/core/core.php:553
+#, php-format
+msgid "Failure at copying module %1$s - %2$s"
+msgstr "Misslyckades att kopiera modul %1$s - %2$s"
+
+#: lib/core/core.php:652
+#, php-format
+msgid ""
+"Modules %1$s is incopatible to easyReservations %2$s - update to version %3$s"
+msgstr ""
+"Moduler %1$s är inkompatibel till easyReservations %2$s - uppdatera "
+"åtminstone till version %3$s"
+
+#: lib/core/core.php:654
+#, php-format
+msgid ""
+"easyReservations %1$s is incompatible to %2$s %3$s - update at least to "
+"version %4$s"
+msgstr ""
+"easyReservations %1$s är inkompatibel till %2$s %3$s - uppdatera åtminstone "
+"till version %4$s"
+
+#: lib/core/core.php:661
+msgid "Update easyReservations now"
+msgstr "Uppdatera easyReservation nu"
+
+#: lib/core/core.php:664
+msgid " Update Modules now"
+msgstr "Uppdatera moduler nu"
+
+#: lib/functions/admin.php:19
+msgid "easyReservation"
+msgstr "easyReservation"
+
+#: lib/functions/admin.php:109
+msgid "Price calculation"
+msgstr "Priskalkyl"
+
+#: lib/functions/admin.php:109
+msgid "Total"
+msgstr "Total"
+
+#: lib/functions/admin.php:122
+#, php-format
+msgid "Custom price %s"
+msgstr "Anpassat pris %s"
+
+#: lib/functions/admin.php:124 lib/functions/admin.php:126
+msgid "Custom price"
+msgstr "Eget pris"
+
+#: lib/functions/admin.php:128
+msgid "Stay filter"
+msgstr "Besöksfilter"
+
+#: lib/functions/admin.php:130
+msgid "Loyal filter"
+msgstr "Lojalitetsfilter"
+
+#: lib/functions/admin.php:132
+msgid "Person filter"
+msgstr "Personfilter"
+
+#: lib/functions/admin.php:134
+msgid "Adults filter"
+msgstr "Vuxna filter"
+
+#: lib/functions/admin.php:136
+msgid "Chrildren's filter"
+msgstr "Barn filter"
+
+#: lib/functions/admin.php:138
+msgid "Discount filter"
+msgstr "Rabattfilter"
+
+#: lib/functions/admin.php:140
+msgid "Extra charge filter"
+msgstr "Extra avgifts filter"
+
+#: lib/functions/admin.php:142
+msgid "Earlybird filter"
+msgstr "Framförhållningsfilter"
+
+#: lib/functions/admin.php:148
+msgid "Price per children"
+msgstr "Pris per barn"
+
+#: lib/functions/admin.php:150
+msgid "Tax"
+msgstr "Moms"
+
+#: lib/functions/admin.php:153
+msgid "Price filter"
+msgstr "Prisfilter"
+
+#: lib/functions/admin.php:156
+msgid "Base price"
+msgstr "Standardpris"
+
+#: lib/functions/admin.php:192
+msgid "active"
+msgstr "aktiv"
+
+#: lib/functions/admin.php:197
+msgid "future"
+msgstr "framtida"
+
+#: lib/functions/admin.php:202
+msgid "past"
+msgstr "tidigare"
+
+#: lib/functions/admin.php:210 lib/modules/statistics/statistics.php:105
+msgid "price"
+msgstr "pris"
+
+#: lib/functions/admin.php:215 lib/modules/statistics/statistics.php:117
+#: lib/modules/statistics/statistics.php:129
+msgid "paid"
+msgstr "betald"
+
+#: lib/functions/admin.php:223
+msgid "status"
+msgstr "status"
+
+#: lib/functions/admin.php:236
+msgid "Mail to guest from admin in dashboard"
+msgstr "E-post till gäst från admin i kontrollpanel"
+
+#: lib/functions/admin.php:237
+msgid "Mail to guest after new reservation"
+msgstr "E-post till gäst efter ny reservation"
+
+#: lib/functions/admin.php:238
+msgid "Mail to guest after approval"
+msgstr "E-post till gäst efter godkännande"
+
+#: lib/functions/admin.php:239
+msgid "Mail to guest after rejection"
+msgstr "E-post till gäst efter avslag"
+
+#: lib/functions/admin.php:240
+msgid "Mail to guest after admin edited"
+msgstr "E-post till gäst efter admin redigering"
+
+#: lib/functions/admin.php:241
+msgid "Mail to admin after new reservation"
+msgstr "E-post till admin efter ny reservation"
+
+#: lib/functions/admin.php:262 lib/functions/ajax.php:927
+#: lib/modules/invoice/editor.php:24
+msgid "Mail"
+msgstr "E-post"
+
+#: lib/functions/admin.php:326
+msgid "Reservations dashboard settings saved"
+msgstr "Inställningar för Reservationens översikt är sparad"
+
+#: lib/functions/admin.php:337
+msgid "Show/Hide content"
+msgstr "Visa/Dölj innehåll"
+
+#: lib/functions/admin.php:338 lib/functions/admin.php:391
+msgid "Overview"
+msgstr "Översikt"
+
+#: lib/functions/admin.php:340 lib/modules/search/search.php:26
+#: lib/modules/useredit/useredit.php:903
+msgid "Table"
+msgstr "Tabell"
+
+#: lib/functions/admin.php:343 lib/modules/import/import.php:58
+msgid "Export"
+msgstr "Exportera"
+
+#: lib/functions/admin.php:344
+msgid "What happen today"
+msgstr "Vad som händer idag"
+
+#: lib/functions/admin.php:347
+msgid "Table information"
+msgstr "Tabell information"
+
+#: lib/functions/admin.php:349
+msgid "Color"
+msgstr "Färg"
+
+#: lib/functions/admin.php:352
+msgid "Date  "
+msgstr "Datum"
+
+#: lib/functions/admin.php:353
+msgid "Reserved "
+msgstr "Reserverad"
+
+#: lib/functions/admin.php:358
+msgid "Resource number"
+msgstr "Resursnummer"
+
+#: lib/functions/admin.php:364 lib/functions/ajax.php:799
+#: lib/functions/ajax.php:840 lib/modules/htmlmails/htmlmails.php:392
+msgid "Custom fields"
+msgstr "Eget fält"
+
+#: lib/functions/admin.php:365 lib/functions/ajax.php:801
+#: lib/functions/ajax.php:842
+msgid "Custom prices"
+msgstr "Eget pris"
+
+#: lib/functions/admin.php:367
+msgid "Favourites"
+msgstr "Favoriter"
+
+#: lib/functions/admin.php:371
+msgid "Table actions"
+msgstr "Tabell åtgärder"
+
+#: lib/functions/admin.php:372
+msgid "Filter by month"
+msgstr "Filtrera per månad"
+
+#: lib/functions/admin.php:373
+msgid "Filter by resource"
+msgstr "Filtrera resurser"
+
+#: lib/functions/admin.php:374
+msgid "Filter by status"
+msgstr "Filtrera status"
+
+#: lib/functions/admin.php:375
+msgid "Choose days to show"
+msgstr "Välj dagar att visa"
+
+#: lib/functions/admin.php:376 lib/functions/ajax.php:759
+#: lib/modules/search/search.php:37 lib/modules/search/search.php:111
+#: lib/modules/search/search.php:211
+msgid "Search"
+msgstr "Sök"
+
+#: lib/functions/admin.php:377
+msgid "Bulk & Checkboxes"
+msgstr "Bulk & Kryssrutor"
+
+#: lib/functions/admin.php:380
+msgid "Show Resources"
+msgstr "Visa Resurser"
+
+#: lib/functions/admin.php:392
+msgid "Overview onMouseOver Date & Select animation"
+msgstr "Översikt för animering av onMouseOver Datum & Val."
+
+#: lib/functions/admin.php:393
+msgid "Overview autoselect with inputs on add/edit"
+msgstr "Översikt för autoval med data för lägg till/redigera"
+
+#: lib/functions/admin.php:394
+#, php-format
+msgid "Show empty space for each resource and day (+20% load)"
+msgstr "Visa tomt utrymme för varje resurs och dag (+ 20% belastning)"
+
+#: lib/functions/admin.php:395
+msgid "Hourly mode as standard"
+msgstr "Timvis läge som standard"
+
+#: lib/functions/admin.php:576
+msgid "easyReservations Premium"
+msgstr "easyReservations Premium"
+
+#: lib/functions/ajax.php:51
+msgid "prev"
+msgstr "föregående"
+
+#: lib/functions/ajax.php:53
+msgid "next"
+msgstr "nästa"
+
+#: lib/functions/ajax.php:277
+msgid "Please enter the correct captcha"
+msgstr "Ange rätt captcha kod"
+
+#: lib/functions/ajax.php:376
+msgid "Add reservation before submit"
+msgstr ""
+
+#: lib/functions/ajax.php:442 lib/functions/ajax.php:453
+#, php-format
+msgid "%1$s is required"
+msgstr "%1$s krävs"
+
+#: lib/functions/ajax.php:460
+msgid "Captcha is required"
+msgstr "Captcha kod krävs"
+
+#: lib/functions/ajax.php:463 lib/functions/ajax.php:471
+msgid "Enter correct captcha"
+msgstr "Ange rätt captcha kod"
+
+#: lib/functions/ajax.php:707
+msgid "of"
+msgstr "av"
+
+#: lib/functions/ajax.php:720
+msgid "Upcoming"
+msgstr "Kommande"
+
+#: lib/functions/ajax.php:721 lib/modules/useredit/useredit.php:360
+msgid "Current"
+msgstr "Aktuella"
+
+#: lib/functions/ajax.php:725
+msgid "Old"
+msgstr "Gamla"
+
+#: lib/functions/ajax.php:726
+msgid "Trash"
+msgstr "Papperskorg"
+
+#: lib/functions/ajax.php:733
+msgid "View all statuses"
+msgstr "Visa alla statusar"
+
+#: lib/functions/ajax.php:735
+msgid "Show all monthes"
+msgstr "Visa alla månader"
+
+#: lib/functions/ajax.php:749
+msgid "View all Resources"
+msgstr "Visa alla resurser"
+
+#: lib/functions/ajax.php:924 lib/functions/ajax.php:989
+msgid "Restore"
+msgstr "Återställ"
+
+#: lib/functions/ajax.php:925 lib/functions/ajax.php:989
+msgid "Delete Permanently"
+msgstr "Radera permanent"
+
+#: lib/functions/ajax.php:931 lib/modules/useredit/useredit.php:30
+#: lib/modules/useredit/useredit.php:58 lib/modules/useredit/useredit.php:138
+#: lib/modules/useredit/useredit.php:699
+msgid "ago"
+msgstr "sedan"
+
+#: lib/functions/ajax.php:981
+msgid "No Reservations found"
+msgstr ""
+
+#: lib/functions/ajax.php:989
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: lib/functions/ajax.php:989
+msgid "Move to Trash"
+msgstr "Flytta till papperskorg"
+
+#: lib/functions/ajax.php:989
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: lib/functions/ajax.php:995
+msgid "Elements"
+msgstr "Element"
+
+#: lib/functions/both.php:20
+msgctxt "easyReservations"
+msgid "Resources"
+msgstr ""
+
+#: lib/functions/both.php:21
+msgctxt "easyReservations"
+msgid "Resource"
+msgstr ""
+
+#: lib/functions/both.php:22
+msgctxt "easyReservations"
+msgid "Add Resource"
+msgstr ""
+
+#: lib/functions/both.php:23
+msgid "Add New Resource"
+msgstr "Lägg till ny resurs"
+
+#: lib/functions/both.php:24
+msgid "Edit Resource"
+msgstr "Redigera resurs"
+
+#: lib/functions/both.php:25
+msgid "New Resource"
+msgstr "Ny resurs"
+
+#: lib/functions/both.php:26
+msgid "All Resources"
+msgstr "Alla resurser"
+
+#: lib/functions/both.php:27
+msgid "View Resource"
+msgstr "Visa resurs"
+
+#: lib/functions/both.php:267
+#, fuzzy
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "timme"
+msgstr[1] "timme"
+
+#: lib/functions/both.php:269
+#, fuzzy
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dag"
+msgstr[1] "dag"
+
+#: lib/functions/both.php:271
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/both.php:273
+#, fuzzy
+msgid "month"
+msgid_plural "months"
+msgstr[0] "månad"
+msgstr[1] "månad"
+
+#: lib/functions/both.php:274
+#, fuzzy
+msgid "time"
+msgid_plural "times"
+msgstr[0] "tid"
+msgstr[1] "tid"
+
+#: lib/functions/both.php:356 lib/functions/both.php:362
+#, php-format
+msgid "%s is required"
+msgstr "%s krävs"
+
+#: lib/functions/both.php:596
+msgid "Monday"
+msgstr "Måndag"
+
+#: lib/functions/both.php:597
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: lib/functions/both.php:598
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: lib/functions/both.php:599
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: lib/functions/both.php:600
+msgid "Friday"
+msgstr "Fredag"
+
+#: lib/functions/both.php:601
+msgid "Saturday"
+msgstr "Lördag"
+
+#: lib/functions/both.php:602
+msgid "Sunday"
+msgstr "Söndag"
+
+#: lib/functions/both.php:604
+msgid "January"
+msgstr "Januari"
+
+#: lib/functions/both.php:605
+msgid "February"
+msgstr "Februari"
+
+#: lib/functions/both.php:606
+msgid "March"
+msgstr "Mars"
+
+#: lib/functions/both.php:607
+msgid "April"
+msgstr "April"
+
+#: lib/functions/both.php:608
+msgid "May"
+msgstr "Maj"
+
+#: lib/functions/both.php:609
+msgid "June"
+msgstr "Juni"
+
+#: lib/functions/both.php:610
+msgid "July"
+msgstr "Juli"
+
+#: lib/functions/both.php:611
+msgid "August"
+msgstr "Augusti"
+
+#: lib/functions/both.php:612
+msgid "September"
+msgstr "September"
+
+#: lib/functions/both.php:613
+msgid "October"
+msgstr "Oktober"
+
+#: lib/functions/both.php:614
+msgid "November"
+msgstr "November"
+
+#: lib/functions/both.php:615
+msgid "December"
+msgstr "December"
+
+#: lib/modules/coupons/coupons.php:18 lib/modules/coupons/coupons.php:179
+msgid "Coupons"
+msgstr "Kuponger"
+
+#: lib/modules/coupons/coupons.php:34 lib/modules/coupons/coupons.php:71
+msgid "Code"
+msgstr "Kod"
+
+#: lib/modules/coupons/coupons.php:36
+msgid "Used"
+msgstr "Använd"
+
+#: lib/modules/coupons/coupons.php:58 lib/modules/coupons/coupons.php:154
+msgid "No coupons"
+msgstr "Inga kuponger"
+
+#: lib/modules/coupons/coupons.php:66 lib/modules/coupons/coupons.php:187
+msgid "Add coupon"
+msgstr "Lägg till kupong"
+
+#: lib/modules/coupons/coupons.php:83
+msgid "Maximum usages"
+msgstr "Max antal användningstillfällen"
+
+#: lib/modules/coupons/coupons.php:87
+msgid "Amount"
+msgstr "Belopp"
+
+#: lib/modules/coupons/coupons.php:138
+#, php-format
+msgid "Coupon %s added"
+msgstr "Kupong %s tillagd"
+
+#: lib/modules/coupons/coupons.php:144
+#, php-format
+msgid "Coupon %s deleted"
+msgstr "Kupong %s raderad"
+
+#: lib/modules/coupons/coupons.php:205 lib/modules/coupons/coupons.php:219
+msgid "Text field to enter coupon codes"
+msgstr "Textfält för att ange kupong kod"
+
+#: lib/modules/hourlycal/hourlycal.php:193
+msgid "Clock"
+msgstr "Klocka"
+
+#: lib/modules/hourlycal/hourlycal.php:202
+msgid "Display"
+msgstr "Visa"
+
+#: lib/modules/hourlycal/hourlycal.php:202
+msgid "Navigation"
+msgstr "Navigering"
+
+#: lib/modules/hourlycal/hourlycal.php:206
+msgid "Display hours from"
+msgstr "Visa timmar från"
+
+#: lib/modules/hourlycal/hourlycal.php:206
+msgid "to"
+msgstr "till"
+
+#: lib/modules/hourlycal/hourlycal.php:236
+msgid "Hourly Calendar"
+msgstr "Timkalender"
+
+#: lib/modules/htmlmails/htmlmails.php:33
+msgid "Email Settings"
+msgstr "E-post inställningar"
+
+#: lib/modules/htmlmails/htmlmails.php:38
+msgid "Choose type of email"
+msgstr "Välj typ av e-post"
+
+#: lib/modules/htmlmails/htmlmails.php:42
+msgid "Subj"
+msgstr "Ärende"
+
+#: lib/modules/htmlmails/htmlmails.php:42
+msgid "Activate email"
+msgstr "Aktivera e-post"
+
+#: lib/modules/htmlmails/htmlmails.php:47
+msgid "Plain text"
+msgstr "Vanlig text"
+
+#: lib/modules/htmlmails/htmlmails.php:118
+msgid "Times of stay"
+msgstr "Antal besök"
+
+#: lib/modules/htmlmails/htmlmails.php:120
+msgid "Nights"
+msgstr "Nätter"
+
+#: lib/modules/htmlmails/htmlmails.php:121
+msgid "Weeks"
+msgstr "Veckor"
+
+#: lib/modules/htmlmails/htmlmails.php:123
+#: lib/modules/htmlmails/htmlmails.php:386
+#: lib/modules/useredit/useredit.php:349
+msgid "Resource Number"
+msgstr "Resursnummer"
+
+#: lib/modules/htmlmails/htmlmails.php:131
+msgid "Date today"
+msgstr "Dagens datum"
+
+#: lib/modules/htmlmails/htmlmails.php:132
+msgid "ID of reservation"
+msgstr "ID för reservation"
+
+#: lib/modules/htmlmails/htmlmails.php:133
+msgid "Message from admin"
+msgstr "Meddelande från admin"
+
+#: lib/modules/htmlmails/htmlmails.php:135
+msgid "Link to edit"
+msgstr "Länk för redigering"
+
+#: lib/modules/htmlmails/htmlmails.php:138
+#: lib/modules/htmlmails/htmlmails.php:393
+msgid "PayPal URL"
+msgstr "PayPal URL"
+
+#: lib/modules/htmlmails/htmlmails.php:378
+msgid "Line Break"
+msgstr "Radbrytning"
+
+#: lib/modules/htmlmails/htmlmails.php:379
+msgid "Arrival"
+msgstr "Ankomst"
+
+#: lib/modules/htmlmails/htmlmails.php:380
+msgid "Departure"
+msgstr "Avresa"
+
+#: lib/modules/htmlmails/htmlmails.php:381
+msgid "Times"
+msgstr "Gånger"
+
+#: lib/modules/htmlmails/htmlmails.php:383
+msgid "Childrens"
+msgstr "Barn"
+
+#: lib/modules/htmlmails/htmlmails.php:389
+msgid "Changlog"
+msgstr "Ändringslogg"
+
+#: lib/modules/htmlmails/htmlmails.php:390
+msgid "Editlink"
+msgstr "Redigeringslänk"
+
+#: lib/modules/htmlmails/htmlmails.php:391
+msgid "Admin Message"
+msgstr "Admin meddelande"
+
+#: lib/modules/import/import.php:15 lib/modules/import/import.php:25
+msgid "Import"
+msgstr "Importera"
+
+#: lib/modules/import/import.php:40
+#, php-format
+msgid "%s reservations imported"
+msgstr "%s reservationer importerade"
+
+#: lib/modules/import/import.php:42
+msgid "Error at access server"
+msgstr "Fel vid serveraccess"
+
+#: lib/modules/import/import.php:44
+msgid "Only admins can import reservations"
+msgstr "Enbart admin kan importera reservationer"
+
+#: lib/modules/import/import.php:68
+msgid "Reservations in table"
+msgstr "Reservationer i tabellen"
+
+#: lib/modules/import/import.php:68
+msgid "All reservations"
+msgstr "Alla reservationer"
+
+#: lib/modules/import/import.php:68
+msgid "Select reservations"
+msgstr "Välj reservationer"
+
+#: lib/modules/import/import.php:68
+msgid "Excel File"
+msgstr "Excel fil"
+
+#: lib/modules/import/import.php:68
+msgid "Backup (XML)"
+msgstr "Backup (XML)"
+
+#: lib/modules/import/import.php:68
+msgid "CSV File"
+msgstr "CSV Fil"
+
+#: lib/modules/import/import.php:71 lib/modules/useredit/useredit.php:341
+#: lib/modules/useredit/useredit.php:401 lib/modules/useredit/useredit.php:739
+msgid "Information"
+msgstr "Information"
+
+#: lib/modules/import/import.php:73
+msgid "Price/Paid"
+msgstr "Pris/Betalt"
+
+#: lib/modules/import/import.php:74
+msgid "Customs"
+msgstr "Egna"
+
+#: lib/modules/import/import.php:78
+msgid "Export reservations"
+msgstr "Exportera reservationer"
+
+#: lib/modules/invoice/editor.php:22
+msgid "Generate"
+msgstr "Generera"
+
+#: lib/modules/invoice/editor.php:23
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: lib/modules/invoice/invoice.php:154
+msgid "Due date"
+msgstr "Förfallodatum"
+
+#: lib/modules/invoice/invoice.php:464
+msgid "Invoice settings changed"
+msgstr "Fakturainställningar ändrade"
+
+#: lib/modules/invoice/invoice.php:571
+msgid "Invoice Settings"
+msgstr "Faktureringsinställningar"
+
+#: lib/modules/invoice/invoice.php:625
+msgid "with template"
+msgstr "med mall"
+
+#: lib/modules/invoice/invoice.php:650
+msgid "Copy & Add"
+msgstr "Kopiera och lägg till"
+
+#: lib/modules/lang/lang.php:63
+msgid "translateable content"
+msgstr "översättningsbart innehåll"
+
+#: lib/modules/lang/lang.php:107 lib/modules/lang/lang.php:132
+msgid "Translation"
+msgstr "Översättning"
+
+#: lib/modules/lang/lang.php:108
+msgid ""
+"For multilingual content. It can be used inside other tags and used in "
+"emails, the search bar or invoice templates."
+msgstr ""
+"För flerspråkigt innehåll. Den kan användas inuti andra taggar och används i "
+"e-postmeddelanden, sökfältet eller fakturamallar."
+
+#: lib/modules/lang/lang.php:117
+msgid "Translations"
+msgstr "Översättningar"
+
+#: lib/modules/lang/lang.php:126 lib/modules/paypal/paypal.php:194
+#: lib/modules/paypal/paypal.php:228 lib/modules/paypal/paypal.php:259
+#: lib/modules/paypal/paypal.php:275
+msgid "Language"
+msgstr "Språk"
+
+#: lib/modules/lang/lang.php:132
+msgid "For multilingual content"
+msgstr "För flerspråkigt innehåll"
+
+#: lib/modules/multical/multical.php:23
+msgid "Display months"
+msgstr "Visa månader"
+
+#: lib/modules/multical/multical.php:24 lib/modules/paypal/creditcards.php:252
+msgid "Month"
+msgstr "Månad"
+
+#: lib/modules/multical/multical.php:25
+msgid "Interval"
+msgstr "Intervall"
+
+#: lib/modules/multical/multical.php:28
+msgid "Display month name"
+msgstr "Visa månads namn"
+
+#: lib/modules/multical/multical.php:36
+msgid "boxes"
+msgstr "rutor"
+
+#: lib/modules/paypal/creditcards.php:103
+msgid "Credit card data deleted"
+msgstr "Kreditkortsuppgifter raderade"
+
+#: lib/modules/paypal/creditcards.php:104
+msgid "Credit card data couldn't be deleted"
+msgstr "Kreditkortsuppgifter kunde inte raderas"
+
+#: lib/modules/paypal/creditcards.php:122
+msgid "All credit cards deleted"
+msgstr "Alla kreditkort raderade"
+
+#: lib/modules/paypal/creditcards.php:129
+msgid "Unknown card type"
+msgstr "Okänd kort"
+
+#: lib/modules/paypal/creditcards.php:130
+msgid "No card number provided"
+msgstr "Inget kortnummer angivet"
+
+#: lib/modules/paypal/creditcards.php:131
+msgid "Credit card number has invalid format"
+msgstr "Kreditkortsnumret har ogiltigt format"
+
+#: lib/modules/paypal/creditcards.php:132
+msgid "Credit card number is invalid"
+msgstr "Kreditkortsnumret är ogiltigt"
+
+#: lib/modules/paypal/creditcards.php:133
+msgid "Credit card number is wrong length"
+msgstr "Kreditkortsnumret har fel längd"
+
+#: lib/modules/paypal/creditcards.php:134
+msgid "Please enter credit cards owner name"
+msgstr "Vänligen ange kreditkortets ägarnamn"
+
+#: lib/modules/paypal/creditcards.php:212
+#: lib/modules/paypal/creditcards.php:213
+msgid "Enter correct CVV code"
+msgstr "Ange rätt CVV kod"
+
+#: lib/modules/paypal/creditcards.php:225
+#: lib/modules/paypal/creditcards.php:251
+msgid "Number"
+msgstr "Nummer"
+
+#: lib/modules/paypal/creditcards.php:225
+#: lib/modules/paypal/creditcards.php:439
+msgid "Expires"
+msgstr "Utgångsdatum"
+
+#: lib/modules/paypal/creditcards.php:267
+msgid ""
+"Credit Card Number must be a number and between 12 and 16 characters long"
+msgstr "Kreditkortsnumret måste vara mellan 12 och 16 siffror"
+
+#: lib/modules/paypal/creditcards.php:291
+msgid "Credit Cards settings changed"
+msgstr "Kreditkortsinställningar ändrade"
+
+#: lib/modules/paypal/creditcards.php:292 lib/modules/paypal/paypal.php:95
+#: lib/modules/paypal/paypal.php:103 lib/modules/paypal/paypal.php:113
+#: lib/modules/paypal/paypal.php:123 lib/modules/paypal/paypal.php:131
+#: lib/modules/paypal/paypal.php:139
+msgid "settings changed"
+msgstr "inställningar ändrade"
+
+#: lib/modules/paypal/creditcards.php:304
+#, php-format
+msgid "Before using open the file %1$s and enter a long random password"
+msgstr ""
+"Innan användning, öppna filen %1$s och ange ett långt slumpmässigt lösenord"
+
+#: lib/modules/paypal/creditcards.php:305
+#, php-format
+msgid ""
+"Can't open the file %1$s with the security key. Try to give it and it's "
+"folder CHMOD 755 or higher."
+msgstr ""
+"Kan inte öppna fil %1$s med säkerhetsnyckeln. Prova att ge den, och dess "
+"mapp, CHMOD 755 eller högre."
+
+#: lib/modules/paypal/creditcards.php:306
+#, php-format
+msgid "Before using create a file named %1$s in %2$s and enter %3$s"
+msgstr "Innan användning skapa en fil med namn %1$s i %2$s och ange %3$s"
+
+#: lib/modules/paypal/creditcards.php:317 lib/modules/paypal/paypal.php:202
+#: lib/modules/paypal/paypal.php:215 lib/modules/paypal/paypal.php:232
+#: lib/modules/paypal/paypal.php:247 lib/modules/paypal/paypal.php:262
+#: lib/modules/paypal/paypal.php:280
+msgid "settings"
+msgstr "inställningar"
+
+#: lib/modules/paypal/creditcards.php:325 lib/modules/paypal/paypal.php:191
+#: lib/modules/paypal/paypal.php:208 lib/modules/paypal/paypal.php:222
+#: lib/modules/paypal/paypal.php:239 lib/modules/paypal/paypal.php:253
+#: lib/modules/paypal/paypal.php:268 lib/modules/sync/sync.php:30
+#: lib/modules/useredit/useredit.php:388
+msgid "Off"
+msgstr "Av"
+
+#: lib/modules/paypal/creditcards.php:326
+msgid "Normal credit card form get send to stripe"
+msgstr "Normalt kreditkorts formulär får skicka till stripe"
+
+#: lib/modules/paypal/creditcards.php:327
+msgid "Stripe button with blue style popup form"
+msgstr "Stripe knapp med blå stil i popup formuläret"
+
+#: lib/modules/paypal/creditcards.php:342
+msgid "Attach transaction to"
+msgstr "Bifoga transaktionen till"
+
+#: lib/modules/paypal/creditcards.php:347
+msgid "in Stripes system"
+msgstr "i Stripes system"
+
+#: lib/modules/paypal/creditcards.php:351
+msgid "Stripe button"
+msgstr "Stripe knapp"
+
+#: lib/modules/paypal/creditcards.php:353
+msgid "Ask for address in popup form"
+msgstr "Fråga efter adressen i popup formuläret"
+
+#: lib/modules/paypal/creditcards.php:354
+msgid "Title in popup"
+msgstr "Titel i popup"
+
+#: lib/modules/paypal/creditcards.php:355
+msgid "Subtitle in popup"
+msgstr "Undertitel i popup"
+
+#: lib/modules/paypal/creditcards.php:359 lib/modules/paypal/paypal.php:193
+#: lib/modules/paypal/paypal.php:245 lib/modules/paypal/paypal.php:258
+#: lib/modules/paypal/paypal.php:274
+msgid "Currency"
+msgstr "Valuta"
+
+#: lib/modules/paypal/creditcards.php:376
+msgid "Credit Card settings"
+msgstr "Kreditkortsinställningar"
+
+#: lib/modules/paypal/creditcards.php:376
+msgid "Delete all credit cards"
+msgstr "Radera alla kreditkort"
+
+#: lib/modules/paypal/creditcards.php:393
+msgid ""
+"Check to give your guests the opportunity to enter their credit card "
+"information after submit"
+msgstr ""
+"Kryssa i för att ge dina gäster möjlighet att ange deras "
+"kreditkortsinformation efter inskickning"
+
+#: lib/modules/paypal/creditcards.php:397 lib/modules/paypal/paypal.php:192
+msgid "Owner"
+msgstr "Ägare"
+
+#: lib/modules/paypal/creditcards.php:399
+msgid "Ask for name of card holder"
+msgstr "Fråga efter namn på kortinnehavaren"
+
+#: lib/modules/paypal/creditcards.php:403 lib/modules/paypal/paypal.php:344
+msgid "Automatically approval"
+msgstr "Automatiskt godkännande"
+
+#: lib/modules/paypal/creditcards.php:405
+msgid "Auto-approve after entered correctly credit card information"
+msgstr "Godkänn automatiskt efter att ha angett korrekt kreditkortsinformation"
+
+#: lib/modules/paypal/creditcards.php:409
+msgid "Available Credit Cards"
+msgstr "Tillgängliga kreditkort"
+
+#: lib/modules/paypal/creditcards.php:436
+msgid "Card Type"
+msgstr "Korttyp"
+
+#: lib/modules/paypal/creditcards.php:437
+msgid "Holders name"
+msgstr "Innehavarens namn"
+
+#: lib/modules/paypal/creditcards.php:438
+msgid "Card Number"
+msgstr "Kortnummer"
+
+#: lib/modules/paypal/creditcards.php:440
+msgid "CCV"
+msgstr "CCV"
+
+#: lib/modules/paypal/creditcards.php:467
+msgid "Pay"
+msgstr "Betala"
+
+#: lib/modules/paypal/creditcards.php:467
+msgid "Secure"
+msgstr "Säker"
+
+#: lib/modules/paypal/creditcards.php:472
+msgid "Pay with Card"
+msgstr ""
+
+#: lib/modules/paypal/paypal.php:179
+msgid "Title when paying multiple reservations"
+msgstr "Rubrik vid betalning av flera reservationer"
+
+#: lib/modules/paypal/paypal.php:180
+msgid "Deposit"
+msgstr "Handpenning"
+
+#: lib/modules/paypal/paypal.php:182
+msgid "General payment settings"
+msgstr "Allmän betalnings inställningar"
+
+#: lib/modules/paypal/paypal.php:191 lib/modules/paypal/paypal.php:208
+#: lib/modules/paypal/paypal.php:222 lib/modules/paypal/paypal.php:239
+#: lib/modules/paypal/paypal.php:253 lib/modules/paypal/paypal.php:268
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: lib/modules/paypal/paypal.php:191 lib/modules/paypal/paypal.php:208
+#: lib/modules/paypal/paypal.php:222 lib/modules/paypal/paypal.php:239
+#: lib/modules/paypal/paypal.php:253 lib/modules/paypal/paypal.php:268
+msgid "Live"
+msgstr "Live"
+
+#: lib/modules/paypal/paypal.php:191
+msgid "The validation only works with SSL in Sandbox"
+msgstr "Valideringen fungerar endast med SSL i Sandbox"
+
+#: lib/modules/paypal/paypal.php:192
+msgid "Paypal email or Secure Merchant ID"
+msgstr "PayPal e-post eller Secure Merchant ID"
+
+#: lib/modules/paypal/paypal.php:195 lib/modules/paypal/paypal.php:211
+#: lib/modules/paypal/paypal.php:226 lib/modules/paypal/paypal.php:243
+#: lib/modules/paypal/paypal.php:256 lib/modules/paypal/paypal.php:272
+msgid "After success return to"
+msgstr "Efter utförd betalningen återgå till"
+
+#: lib/modules/paypal/paypal.php:195 lib/modules/paypal/paypal.php:211
+#: lib/modules/paypal/paypal.php:226 lib/modules/paypal/paypal.php:243
+#: lib/modules/paypal/paypal.php:256 lib/modules/paypal/paypal.php:272
+msgid "Page"
+msgstr "Sida"
+
+#: lib/modules/paypal/paypal.php:195 lib/modules/paypal/paypal.php:211
+#: lib/modules/paypal/paypal.php:226 lib/modules/paypal/paypal.php:243
+#: lib/modules/paypal/paypal.php:256 lib/modules/paypal/paypal.php:272
+msgid "URL"
+msgstr "URL"
+
+#: lib/modules/paypal/paypal.php:197
+msgid "Label above note"
+msgstr "Etikett ovanför meddelande"
+
+#: lib/modules/paypal/paypal.php:198
+msgid "Charset"
+msgstr "Teckenuppsättning"
+
+#: lib/modules/paypal/paypal.php:199 lib/modules/paypal/paypal.php:213
+#: lib/modules/paypal/paypal.php:230 lib/modules/paypal/paypal.php:260
+#: lib/modules/paypal/paypal.php:277
+msgid "Button"
+msgstr "Knapp"
+
+#: lib/modules/paypal/paypal.php:200
+msgid "Instant Payment Notifications"
+msgstr "Instant Payment Meddelande"
+
+#: lib/modules/paypal/paypal.php:200
+msgid "Validate payment & set paid amount"
+msgstr "Validera betalning & ange betalt belopp"
+
+#: lib/modules/paypal/paypal.php:223
+msgid "Routine"
+msgstr "Rutin"
+
+#: lib/modules/paypal/paypal.php:223
+msgid "Multi-page Payment"
+msgstr "Flersidig betalning"
+
+#: lib/modules/paypal/paypal.php:223
+msgid "Single Page Payment"
+msgstr "Ensidig betalning"
+
+#: lib/modules/paypal/paypal.php:229
+msgid "Skip review page"
+msgstr "Hoppa över sida för förhandsgranskning"
+
+#: lib/modules/paypal/paypal.php:276
+msgid "Logo"
+msgstr "Logotyp"
+
+#: lib/modules/paypal/paypal.php:278
+msgid "Button Background"
+msgstr "Knapp bakgrund"
+
+#: lib/modules/paypal/paypal.php:284
+msgid "Don't forget the new email types!"
+msgstr ""
+
+#: lib/modules/paypal/paypal.php:338
+msgid "Payment button"
+msgstr "Betalnings knapp"
+
+#: lib/modules/paypal/paypal.php:344
+msgid "After submit"
+msgstr "Efter skickat"
+
+#: lib/modules/paypal/paypal.php:344
+msgid "After payment"
+msgstr "Efter betalning"
+
+#: lib/modules/paypal/paypal.php:344
+msgid "Both"
+msgstr "Båda"
+
+#: lib/modules/paypal/paypal.php:344
+msgid "If there's free space in resource"
+msgstr "Om resursen är ledig"
+
+#: lib/modules/paypal/paypal.php:355
+msgid "Mail to admin after payment"
+msgstr "E-post till admin efter betalning"
+
+#: lib/modules/paypal/paypal.php:356
+msgid "Mail to guest after payment"
+msgstr "E-post till gäst efter betalning"
+
+#: lib/modules/paypal/paypal.php:417
+msgid "or pay with credit card"
+msgstr "eller betala med kreditkort"
+
+#: lib/modules/paypal/paypal.php:423
+msgid "Choose payment gateway"
+msgstr "Välj betalning gateway"
+
+#: lib/modules/paypal/paypal.php:743 lib/modules/paypal/paypal.php:749
+msgid "Pay a deposit of"
+msgstr "Betala en deposition på"
+
+#: lib/modules/paypal/paypal.php:753
+msgid "Pay the full price of"
+msgstr "Betala fullt pris på"
+
+#: lib/modules/paypal/paypal.php:820
+#, php-format
+msgid "Payment about %1$s successful"
+msgstr "Betalning för %1$s lyckades"
+
+#: lib/modules/search/attributes.php:21
+msgid "Attribute deleted"
+msgstr "Attribut raderat"
+
+#: lib/modules/search/attributes.php:22
+msgid "Attribute not found"
+msgstr "Attribut hittades inte"
+
+#: lib/modules/search/attributes.php:28
+msgid "There is already an attribute with a similar title"
+msgstr "Det finns redan ett attribut med en liknande titel"
+
+#: lib/modules/search/attributes.php:35
+msgid "Select a type for the attribute"
+msgstr "Välj en typ för attributet"
+
+#: lib/modules/search/attributes.php:39
+msgid "No options provided"
+msgstr "Inga förutsatta alternativ"
+
+#: lib/modules/search/attributes.php:45
+msgid "Minimum value must be entered and be a number"
+msgstr "Min. värde måste anges och vara ett nummer"
+
+#: lib/modules/search/attributes.php:49 lib/modules/search/attributes.php:60
+msgid "Maximum value must be entered and be a number"
+msgstr "Max värde måste anges och vara ett nummer"
+
+#: lib/modules/search/attributes.php:58
+msgid "Attribute edited"
+msgstr "Attribut redigerad"
+
+#: lib/modules/search/attributes.php:64
+msgid "Attribute added"
+msgstr "Attribut tillsatt"
+
+#: lib/modules/search/attributes.php:80 lib/modules/search/attributes.php:199
+msgid "searchForm attributes"
+msgstr "sökFormulär attribut"
+
+#: lib/modules/search/attributes.php:105
+msgid "No attributes"
+msgstr "Inga attribut"
+
+#: lib/modules/search/attributes.php:110
+msgid "Add attribute"
+msgstr "Lägg till attribut"
+
+#: lib/modules/search/attributes.php:121
+msgid "Checkbox"
+msgstr "Kryssruta"
+
+#: lib/modules/search/attributes.php:121
+msgid "Min - Max"
+msgstr "Min - Max"
+
+#: lib/modules/search/attributes.php:154
+msgid "Comma separated options"
+msgstr "Komma separerade val"
+
+#: lib/modules/search/attributes.php:158
+msgid "Only numbers"
+msgstr "Enbart nummer"
+
+#: lib/modules/search/attributes.php:177
+msgid "Value of $s must be a number"
+msgstr "Värdet för $s måste vara ett nummer"
+
+#: lib/modules/search/search.php:25
+msgid "Theme"
+msgstr "Tema"
+
+#: lib/modules/search/search.php:26
+msgid "List"
+msgstr "Lista"
+
+#: lib/modules/search/search.php:34
+msgid "URL to page or post with form"
+msgstr "URL till sida eller inlägg med formuläret"
+
+#: lib/modules/search/search.php:38
+msgid "Search after page loaded"
+msgstr "Sök efter sido laddning"
+
+#: lib/modules/search/search.php:38
+msgid "Search after every change"
+msgstr "Sök efter varje förändring"
+
+#: lib/modules/search/search.php:42
+msgid "Exclude resource by comma saperated IDs"
+msgstr "Uteslut resurs genom kommaseparerade ID"
+
+#: lib/modules/search/search.php:45
+msgid "Unavailable"
+msgstr "Otillgänglig"
+
+#: lib/modules/search/search.php:46
+msgid "Show unavailable resources too"
+msgstr "Visa även otillgängliga resurser"
+
+#: lib/modules/search/search.php:49
+msgid "Thumbnail"
+msgstr "Miniatyr"
+
+#: lib/modules/search/search.php:53
+msgid "Show"
+msgstr "Visa"
+
+#: lib/modules/search/search.php:54
+msgid "first characters of content"
+msgstr "första tecknen i innehållet"
+
+#: lib/modules/search/search.php:54
+msgid "More link to resources post"
+msgstr "Mer länk till resurser inlägget"
+
+#: lib/modules/search/search.php:58
+#, php-format
+msgid "Show %s days in calendar with %s"
+msgstr "Visa %s dagar i kalendern med %s"
+
+#: lib/modules/search/search.php:58
+msgid "Nothing"
+msgstr "Inget"
+
+#: lib/modules/search/search.php:58
+msgid "Free space count"
+msgstr "Fritt utrymme räknas"
+
+#: lib/modules/search/search.php:62
+msgid "Text for seach button"
+msgstr "Text för sökknapp"
+
+#: lib/modules/search/search.php:65
+msgid "Reserve"
+msgstr "Reservera"
+
+#: lib/modules/search/search.php:66
+msgid "Text for reserve link/button"
+msgstr "Text för reservations länk/knapp"
+
+#: lib/modules/search/search.php:72
+msgid "This shortcode adds an availability search form to the post or page"
+msgstr ""
+"Denna shortcode lägger till ett tillgängligt sök formulär på inlägg eller "
+"sida"
+
+#: lib/modules/search/search.php:72
+msgid "You can combine it with a calendar by add it to the same page"
+msgstr ""
+"Du kan kombinera det med en kalender genom att lägga till det på samma sida"
+
+#: lib/modules/search/search.php:72
+msgid "Only add it once per page or post"
+msgstr "Lägg bara till det en gång per sida eller inlägg"
+
+#: lib/modules/search/search.php:123
+msgid "searchForm bar"
+msgstr "Sökformulär"
+
+#: lib/modules/search/search.php:178
+msgid "Search form settings saved"
+msgstr "Inställningar för sökformulär sparade"
+
+#: lib/modules/search/search.php:212 lib/widgets/form_widget.php:140
+#: lib/widgets/form_widget.php:147
+msgid "Reserve now!"
+msgstr "Boka nu!"
+
+#: lib/modules/search/search.php:381
+#, php-format
+msgid "min %s pers"
+msgstr "min %s pers"
+
+#: lib/modules/search/search.php:382
+#, php-format
+msgid "max %s pers"
+msgstr "max %s pers"
+
+#: lib/modules/search/search.php:383
+#, php-format
+msgid "min %1$s %2$s"
+msgstr "min %1$s %2$s"
+
+#: lib/modules/search/search.php:384
+#, php-format
+msgid "max %1$s %2$s"
+msgstr "max %1$s %2$s"
+
+#: lib/modules/search/search.php:385
+#, php-format
+msgid "arrival only %s"
+msgstr "ankomst enbart %s"
+
+#: lib/modules/search/search.php:386
+#, php-format
+msgid "departure only %s"
+msgstr "avresa enbart %s"
+
+#: lib/modules/search/search.php:436
+msgid "more"
+msgstr "mer"
+
+#: lib/modules/search/search.php:556
+msgid "None available in this period"
+msgstr "Inga tillgängliga under denna period"
+
+#: lib/modules/search/searchtypes.php:15
+msgid "Post Types"
+msgstr "Post typer"
+
+#: lib/modules/statistics/statistics.php:93
+msgid "reservations"
+msgstr "reservationer"
+
+#: lib/modules/statistics/statistics.php:147
+msgid "reserved"
+msgstr "reserverad"
+
+#: lib/modules/statistics/statistics.php:264
+msgid "Reservations Statistics"
+msgstr "Statistik för reservationer"
+
+#: lib/modules/statistics/statistics.php:265
+msgid "All resources"
+msgstr "Alla resurser"
+
+#: lib/modules/statistics/statistics.php:537
+msgid "Detailed Statistics"
+msgstr "Detaljerad statistik"
+
+#: lib/modules/statistics/statistics.php:542
+msgid "Total reservations"
+msgstr "Totala reservationer"
+
+#: lib/modules/statistics/statistics.php:546
+msgid "Future approved reservations"
+msgstr "Framtida godkända reservationer"
+
+#: lib/modules/statistics/statistics.php:550
+msgid "Past approved reservations"
+msgstr "Passerade godkända reservationer"
+
+#: lib/modules/statistics/statistics.php:554
+msgid "Pending reservations"
+msgstr "Väntande reservationer"
+
+#: lib/modules/statistics/statistics.php:558
+msgid "Rejected reservations"
+msgstr "Avvisade reservationer"
+
+#: lib/modules/statistics/statistics.php:562
+msgid "Trashed reservations"
+msgstr "Kastade reservationer"
+
+#: lib/modules/statistics/statistics.php:566
+msgid "Guests per reservations"
+msgstr "Gäster per reservation"
+
+#: lib/modules/statistics/statistics.php:570
+msgid "Times per reservations"
+msgstr "Gånger per reservation"
+
+#: lib/modules/statistics/statistics.php:574
+msgid "Paid amount of all reservations"
+msgstr "Betalt belopp för alla reservationer"
+
+#: lib/modules/statistics/statistics.php:578
+msgid "Paid per reservations"
+msgstr "Betalt per reservation"
+
+#: lib/modules/statistics/statistics.php:582
+msgid "Revenue of all reservations"
+msgstr "Intäkter för alla reservationer"
+
+#: lib/modules/statistics/statistics.php:586
+msgid "Revenue of future reservations"
+msgstr "Intäkter för framtida reservationer"
+
+#: lib/modules/statistics/statistics.php:590
+msgid "Revenue of past reservations"
+msgstr "Intälter för passerade reservationer"
+
+#: lib/modules/statistics/statistics.php:598
+#: lib/modules/statistics/statistics.php:603
+msgid "Gross"
+msgstr "Brutto"
+
+#: lib/modules/statistics/statistics.php:602
+msgid "Revenue per reservations"
+msgstr "Intäkter per reservation"
+
+#: lib/modules/statistics/statistics.php:603
+msgid "Net"
+msgstr "Netto"
+
+#: lib/modules/statistics/statistics.php:615
+msgid "Approved and reservated graph"
+msgstr "Godkända och reserverade diagram"
+
+#: lib/modules/statistics/statistics.php:629
+msgid "Add reservations first"
+msgstr "Lägg till reservation först"
+
+#: lib/modules/styles/styles.php:36
+msgid "premium"
+msgstr "premium"
+
+#: lib/modules/styles/styles.php:86
+msgid "Datepicker style"
+msgstr "Utseende för datumval"
+
+#: lib/modules/styles/styles.php:87
+msgid "Datepicker availability"
+msgstr "Tillgänglighet för datumval"
+
+#: lib/modules/styles/styles.php:87
+#, php-format
+msgid "Check availability for %s days"
+msgstr "Kontrollera tillgänglighet för %s days"
+
+#: lib/modules/styles/styles.php:87
+msgid "Cost at least one ms loading time per day and resource"
+msgstr "Kostar minst 1 ms laddningstid per dag och resurs"
+
+#: lib/modules/sync/google.cal.php:33
+msgid "Connect to google"
+msgstr "Anslut till google"
+
+#: lib/modules/sync/google.cal.php:51
+msgid "client id"
+msgstr "klient id"
+
+#: lib/modules/sync/google.cal.php:52
+msgid "client secret"
+msgstr "klienthemlighet"
+
+#: lib/modules/sync/google.cal.php:53
+msgid "developer key"
+msgstr "utvecklarnyckel"
+
+#: lib/modules/sync/google.cal.php:79
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: lib/modules/sync/google.cal.php:79
+msgid "New"
+msgstr "Ny"
+
+#: lib/modules/sync/sync.php:27
+msgid "This function will add reservations to the woocommerce cart."
+msgstr "Denna funktion kommer att lägga reservationer i woocommerce varukorg."
+
+#: lib/modules/sync/sync.php:28
+msgid "After first activation save the settings of each resource once."
+msgstr ""
+"Efter första aktiveringen spara inställningarna för varje resurs en gång."
+
+#: lib/modules/sync/sync.php:29
+msgid "On"
+msgstr "På"
+
+#: lib/modules/sync/sync.php:32
+msgid "WooCommerce compatibility"
+msgstr "WooCommerce kompatibilitet"
+
+#: lib/modules/sync/sync.php:57
+msgid "Sync"
+msgstr "Synk"
+
+#: lib/modules/useredit/useredit.php:72
+msgid "Message to guest"
+msgstr "Meddelande till gäst"
+
+#: lib/modules/useredit/useredit.php:72
+msgid "Message to admin or Note"
+msgstr "Meddelande till admin eller notering"
+
+#: lib/modules/useredit/useredit.php:239
+msgid "Mail to guest after guest edited"
+msgstr "Mail till gäst efter gäst redigering"
+
+#: lib/modules/useredit/useredit.php:240
+msgid "Mail to admin after guest edited"
+msgstr "E-post till admin efter gästs redigering"
+
+#: lib/modules/useredit/useredit.php:241
+msgid "Mail to admin after guest canceled"
+msgstr "E-post till admin efter gästs avbrytning"
+
+#: lib/modules/useredit/useredit.php:282
+msgid "User Control Panel settings saved"
+msgstr "Inställningar för gästredigering sparad"
+
+#: lib/modules/useredit/useredit.php:295
+msgid "User Control Panel settings"
+msgstr "Använd kontrollpanels inställningar"
+
+#: lib/modules/useredit/useredit.php:301
+msgid "URL of page with shortcode"
+msgstr "URL till sida med shortcode"
+
+#: lib/modules/useredit/useredit.php:312
+#, php-format
+msgid "Let the guest cancel his reservation till %s days before arrival"
+msgstr "Låt gästen avbryta sin reservation till %s dagar före ankomst"
+
+#: lib/modules/useredit/useredit.php:317
+msgid "Text after Submit"
+msgstr "Text efter inskickning"
+
+#: lib/modules/useredit/useredit.php:326
+msgid "Text over login area - optional"
+msgstr "Text ovanför inloggningen - valfri"
+
+#: lib/modules/useredit/useredit.php:330
+msgid "Text over edit area - optional"
+msgstr "Text ovanför redigeringsområdet - valfri"
+
+#: lib/modules/useredit/useredit.php:337
+msgid "Table Settings"
+msgstr "Tabellinställningar"
+
+#: lib/modules/useredit/useredit.php:338
+msgid "Table of other reservations from the same email"
+msgstr "Tabell över andra reservationer från samma e-postadress"
+
+#: lib/modules/useredit/useredit.php:346
+msgid "Reservated"
+msgstr "Reserverad"
+
+#: lib/modules/useredit/useredit.php:365
+msgid "Use style for table"
+msgstr "Använd stil för tabellen"
+
+#: lib/modules/useredit/useredit.php:366
+msgid "Only display table if guest reserved more than once"
+msgstr "Visa endast tabell om gästen reserverat mer än en gång"
+
+#: lib/modules/useredit/useredit.php:380
+msgid "Guest contact settings"
+msgstr "Kontaktinställningar gäst"
+
+#: lib/modules/useredit/useredit.php:389
+msgid "Only admin"
+msgstr "Enbart admin"
+
+#: lib/modules/useredit/useredit.php:390
+msgid "User Control Panel and admin"
+msgstr "Använd kontrollpanel och admin"
+
+#: lib/modules/useredit/useredit.php:397
+msgid "Title over textarea"
+msgstr "Titel över textområde"
+
+#: lib/modules/useredit/useredit.php:403
+msgid "Show avatars"
+msgstr "Visa avatarer"
+
+#: lib/modules/useredit/useredit.php:404
+msgid "Show time ago"
+msgstr "Visa tid sedan"
+
+#: lib/modules/useredit/useredit.php:405
+msgid "Show unanswered messages in table"
+msgstr "Visa obesvarade meddelanden i tabell"
+
+#: lib/modules/useredit/useredit.php:409
+msgid "Guest Avatar"
+msgstr "Gästs avatar"
+
+#: lib/modules/useredit/useredit.php:411
+msgid "Image as avatar for guests"
+msgstr "Bild för gästs avatar"
+
+#: lib/modules/useredit/useredit.php:415
+msgid "Dummy"
+msgstr "Dummy"
+
+#: lib/modules/useredit/useredit.php:417
+msgid "Show dummy"
+msgstr "Visa dummy"
+
+#: lib/modules/useredit/useredit.php:421
+msgid "Dummy user"
+msgstr "Dummy användare"
+
+#: lib/modules/useredit/useredit.php:422
+msgid "User of dummy"
+msgstr "Användare för dummy"
+
+#: lib/modules/useredit/useredit.php:425
+msgid "Dummy message"
+msgstr "Dummy meddelande"
+
+#: lib/modules/useredit/useredit.php:431
+msgid "Time to delete"
+msgstr "Tidsaspekt för radering"
+
+#: lib/modules/useredit/useredit.php:434
+msgid "Not at all"
+msgstr "Ingen"
+
+#: lib/modules/useredit/useredit.php:435 lib/modules/useredit/useredit.php:436
+#: lib/modules/useredit/useredit.php:437
+msgid "Minutes"
+msgstr "Minuter"
+
+#: lib/modules/useredit/useredit.php:438
+msgid "Hour"
+msgstr "Timmar"
+
+#: lib/modules/useredit/useredit.php:504 lib/modules/useredit/useredit.php:531
+#: lib/modules/useredit/useredit.php:556 lib/modules/useredit/useredit.php:615
+msgid "An error occurred, please try again"
+msgstr "Ett fel har påträffats, vänligen försök igen"
+
+#: lib/modules/useredit/useredit.php:504 lib/modules/useredit/useredit.php:516
+#: lib/modules/useredit/useredit.php:519 lib/modules/useredit/useredit.php:531
+#: lib/modules/useredit/useredit.php:556 lib/modules/useredit/useredit.php:615
+#: lib/modules/useredit/useredit.php:622 lib/modules/useredit/useredit.php:715
+#: lib/modules/useredit/useredit.php:862
+msgid "back"
+msgstr "tillbaka"
+
+#: lib/modules/useredit/useredit.php:516
+msgid "Please enter the correct captcha code"
+msgstr "Var god ange rätt captcha kod"
+
+#: lib/modules/useredit/useredit.php:519
+msgid "Link is only 24h valid"
+msgstr "Länker gäller endast i 24 timmar"
+
+#: lib/modules/useredit/useredit.php:622
+msgid "Reservation canceled"
+msgstr "Reservationen annulleras"
+
+#: lib/modules/useredit/useredit.php:623
+msgid "Too late to cancel"
+msgstr "För sent att avbryta"
+
+#: lib/modules/useredit/useredit.php:633
+msgid "Your Reservation was edited"
+msgstr "Din Reservation har ändrats"
+
+#: lib/modules/useredit/useredit.php:715
+msgid "Wrong email"
+msgstr "Fel e-post"
+
+#: lib/modules/useredit/useredit.php:719
+msgid "Please contact us to edit your reservation"
+msgstr "Var vänlig kontakta oss för att redigera din reservation"
+
+#: lib/modules/useredit/useredit.php:728
+msgid "Pay now"
+msgstr "Betala nu"
+
+#: lib/modules/useredit/useredit.php:747
+msgid "logout"
+msgstr "logga ut"
+
+#: lib/modules/useredit/useredit.php:785
+msgid "Your name"
+msgstr "Ditt namn"
+
+#: lib/modules/useredit/useredit.php:786 lib/modules/useredit/useredit.php:874
+msgid "Your email"
+msgstr "Din e-post"
+
+#: lib/modules/useredit/useredit.php:787
+msgid "The arrival date"
+msgstr "Ankomst datum"
+
+#: lib/modules/useredit/useredit.php:788
+msgid "The departure date"
+msgstr "Avresedatum"
+
+#: lib/modules/useredit/useredit.php:789
+msgid "Amount of persons"
+msgstr "Antal personer"
+
+#: lib/modules/useredit/useredit.php:790
+msgid "Amount of children"
+msgstr "Mängd barn"
+
+#: lib/modules/useredit/useredit.php:791
+msgid "Select your country"
+msgstr "Välj ditt land"
+
+#: lib/modules/useredit/useredit.php:794
+msgid "Choose the"
+msgstr "Välj"
+
+#: lib/modules/useredit/useredit.php:801 lib/modules/useredit/useredit.php:809
+msgid "Type in information"
+msgstr "Skriv in information"
+
+#: lib/modules/useredit/useredit.php:824 lib/modules/useredit/useredit.php:832
+msgid "Extra service"
+msgstr "Extra service"
+
+#: lib/modules/useredit/useredit.php:843
+msgid "Discount Code"
+msgstr "Rabattkod"
+
+#: lib/modules/useredit/useredit.php:851
+msgid "Cancel reservation"
+msgstr "Avbryt reservation"
+
+#: lib/modules/useredit/useredit.php:862
+msgid "Wrong ID or email"
+msgstr "Fel ID eller e-post"
+
+#: lib/modules/useredit/useredit.php:872
+msgid "ID of your reservation"
+msgstr "ID för din reservation"
+
+#: lib/modules/useredit/useredit.php:876
+msgid "Type in code"
+msgstr "Ange kod"
+
+#: lib/modules/useredit/useredit.php:899
+msgid "Reservations are editable till"
+msgstr "Reservationer kan redigeras till"
+
+#: lib/modules/useredit/useredit.php:900
+msgid "days before their arrival"
+msgstr "dagar före deras ankomst"
+
+#: lib/modules/useredit/useredit.php:904
+msgid "Show table with other reservations by the same email"
+msgstr "Visa tabell md andra reservationer från samma e-poset"
+
+#: lib/modules/useredit/useredit.php:908
+msgid "Show status"
+msgstr "Visa status"
+
+#: lib/modules/useredit/useredit.php:917
+msgid ""
+"Let your guests view and download their invoices by invoice guest template"
+msgstr ""
+"Låter dina gäster visa och ladda ner sin faktura via fakturamallen för gäster"
+
+#: lib/modules/useredit/useredit.php:921
+msgid "Name for resource"
+msgstr "Namn för resursen"
+
+#: lib/modules/useredit/useredit.php:922
+msgid "e.g. Apartment"
+msgstr "ex. Lägenhet"
+
+#: lib/modules/useredit/useredit.php:924
+msgid ""
+"This shortcode adds the function for your guests to edit their reservations "
+"afterwards"
+msgstr ""
+"Denna kortkort lägger till funktioner för din gäst att redigera deras "
+"reservation efteråt"
+
+#: lib/modules/useredit/useredit.php:924
+msgid ""
+"You have to copy the URL of this site to the easyReservations general "
+"settings"
+msgstr ""
+"Du måste kopiera URLen till denna site och klistra in i easyReservations "
+"generella inställningar"
+
+#: lib/modules/useredit/useredit.php:924
+msgid "Only add the edit-form on one page or post"
+msgstr "Lägg bara till formuläret en gång per sida eller inlägg"
+
+#: lib/widgets/form_widget.php:146
+msgid "type in URL to a form"
+msgstr "ange URL till formuläret"
+
+#: lib/widgets/form_widget.php:154
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: lib/widgets/form_widget.php:158
+msgid "Show calendar:"
+msgstr "Visa kalender:"
+
+#: lib/widgets/form_widget.php:162
+msgid "Calendar style:"
+msgstr "Kalender utseende:"
+
+#: lib/widgets/form_widget.php:166
+msgid "Default resource:"
+msgstr "Standard resurs:"
+
+#: lib/widgets/form_widget.php:170
+msgid "Calendar width:"
+msgstr "Kalender bredd:"
+
+#: lib/widgets/form_widget.php:174
+msgid "Show price in calendar:"
+msgstr "Visa pris i kalender:"
+
+#: lib/widgets/form_widget.php:178
+msgid "Widgets form template:"
+msgstr "Widgets formulärmall"
+
+#: lib/widgets/form_widget.php:183
+msgid "Form URL:"
+msgstr "Forumlärets URL:"
+
+#: lib/widgets/form_widget.php:187
+msgid "Submit button:"
+msgstr "Skicka knapp:"
+
+#~ msgid "Latest News"
+#~ msgstr "Senaste Nytt"
+
+#~ msgid ""
+#~ "Extend the calendar shortcode to show multiple months by an flexible grid "
+#~ "(x*y). Includes a new boxed calendar style."
+#~ msgstr ""
+#~ "Utöka kalenderns shortcode att visa flera månader av en flexibel grid "
+#~ "(x*y). Inkluderar en ny boxad kalender stil."
+
+#~ msgid "The amount of persons was edited"
+#~ msgstr "Antal personer redigerades"
+
+#~ msgid "The resource got changed"
+#~ msgstr "Resursen fick ändras"
+
+#~ msgid "The message was edited"
+#~ msgstr "Meddelandet redigerades"
+
+#~ msgid "Prices  got edited"
+#~ msgstr "Priserna redigerades"
+
+#~ msgid "Childs"
+#~ msgstr "Barn"
+
+#~ msgid "Informations"
+#~ msgstr "Informationer"
+
+#~ msgid "Dont forget the new email types!"
+#~ msgstr "Glöm inte bort de nya e-post typerna!"
+
+#~ msgid "Admin"
+#~ msgstr "Admin"
+
+#~ msgid "Guest"
+#~ msgstr "Gäst"
+
+#~ msgid "installed stream module"
+#~ msgstr "installerad stream modul"
+
+#~ msgid "added reservation"
+#~ msgstr "tillagd reservation"
+
+#~ msgid "No result"
+#~ msgstr "Inget resultat"
+
+#~ msgid "Everyone"
+#~ msgstr "Alla"
+
+#~ msgid "Day"
+#~ msgstr "Dag"
+
+#~ msgid "Days"
+#~ msgstr "Dagar"
+
+#~ msgid "hours"
+#~ msgstr "timmar"
+
+#~ msgid "days"
+#~ msgstr "dagar"
+
+#~ msgid "Departure Date"
+#~ msgstr "Avresedatum"
+
+#~ msgid "Week"
+#~ msgstr "Veckor"
+
+#~ msgid "Adult's"
+#~ msgstr "Vuxna"
+
+#~ msgid "No Reservations found!"
+#~ msgstr "Inga reservationer hittades!"
+
+#~ msgid "Price per"
+#~ msgstr "Pris per"
+
+#~ msgid "Price per Person"
+#~ msgstr "Pris per Person"
+
+#, fuzzy
+#~ msgid "Price per Child"
+#~ msgstr "Pris per barn"
+
+#, fuzzy
+#~ msgid "Text"
+#~ msgstr "Text."
+
+#, fuzzy
+#~ msgid "Textarea"
+#~ msgstr "Text."
+
+#~ msgid "Radio"
+#~ msgstr "Alternativknapp"
+
+#, fuzzy
+#~ msgid "Don't display price "
+#~ msgstr "Visa pris"
+
+#~ msgid "amount of %s from date of reservation"
+#~ msgstr "antal %s från reservationsdatum"
+
+#~ msgid "amount of childs"
+#~ msgstr "antal barn"
+
+#~ msgid "price fields"
+#~ msgstr "prisfält"
+
+#~ msgid "The room was edited"
+#~ msgstr "Resursen redigerades"
+
+#, fuzzy
+#~ msgid "Text field to enter coupon codes."
+#~ msgstr "Textfält med datumväljare"
+
+#~ msgid "<"
+#~ msgstr "<"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid ">"
+#~ msgstr ">"
+
+#~ msgid "Select default room"
+#~ msgstr "Välj förval resurs"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "Price fields"
+#~ msgstr "Prisfält"
+
+#, fuzzy
+#~ msgid "Stripe settings changed"
+#~ msgstr "Prisinställningar ändrade"
+
+#, fuzzy
+#~ msgid "Stripe settings"
+#~ msgstr "DIBS Inställningar"
+
+#~ msgid "Modus"
+#~ msgstr "Moduler"
+
+#, fuzzy
+#~ msgid "Secret Key"
+#~ msgstr "Säljar Nyckel"
+
+#~ msgid "Automatical Approval"
+#~ msgstr "Automatiskt godkännande"
+
+#~ msgid "PayPal settings changed"
+#~ msgstr "PayPal inställningar ändrade"
+
+#~ msgid "Authorize.Net settings changed"
+#~ msgstr "Authorize.Net inställningar ändrade"
+
+#~ msgid "2checkout settings changed"
+#~ msgstr "2checkout inställningar ändrade"
+
+#~ msgid "Google Wallet settings changed"
+#~ msgstr "Google Wallet inställningar ändrade"
+
+#, fuzzy
+#~ msgid "Ogone settings changed"
+#~ msgstr "Fakturainställningar ändrade"
+
+#, fuzzy
+#~ msgid "PayPal settings"
+#~ msgstr "PayPal inställningar"
+
+#, fuzzy
+#~ msgid "Login ID"
+#~ msgstr "Login ID"
+
+#~ msgid "Transaction Key"
+#~ msgstr "Transaktionsnyckel"
+
+#~ msgid "Authorize.Net settings"
+#~ msgstr "Authorize.Net inställningar"
+
+#~ msgid "2checkout settings"
+#~ msgstr "2checkout inställningar"
+
+#, fuzzy
+#~ msgid "Merchant ID"
+#~ msgstr "Säljar ID"
+
+#, fuzzy
+#~ msgid "Merchant Key"
+#~ msgstr "Säljar Nyckel"
+
+#~ msgid "Google Wallet settings"
+#~ msgstr "Google Wallet Inställningar"
+
+#, fuzzy
+#~ msgid "Mac Key"
+#~ msgstr "Säljar Nyckel"
+
+#~ msgid "DIBS settings"
+#~ msgstr "DIBS Inställningar"
+
+#, fuzzy
+#~ msgid "Ogone settings"
+#~ msgstr "Inställningar för Resurs"
+
+#, fuzzy
+#~ msgid "Deactive"
+#~ msgstr "Avaktivera"
+
+#~ msgid "Default room:"
+#~ msgstr "Förvald resurs:"
+
+#~ msgid "Groundprice edited"
+#~ msgstr "Standardpris redigerat"
+
+#~ msgid "Resource interval edited"
+#~ msgstr "Resursens intervall redigerad"
+
+#~ msgid "Enter a date"
+#~ msgstr "Ange ett datum"
+
+#~ msgid "else"
+#~ msgstr "annars"
+
+#~ msgid "Conditional"
+#~ msgstr "Villkorlig"
+
+#~ msgid "At"
+#~ msgstr "Den"
+
+#~ msgid "Time reservations"
+#~ msgstr "Tidsreservationer"
+
+#~ msgid "Enable time for reservations "
+#~ msgstr "Möjliggör klockslag för reservationer"
+
+#~ msgid "Reservation Form"
+#~ msgstr "Reservationsformulär"
+
+#~ msgid "Add Field"
+#~ msgstr "Lägg till fält"
+
+#~ msgid "Arrival Date"
+#~ msgstr "Ankomstdatum"
+
+#, fuzzy
+#~ msgid "Custom field"
+#~ msgstr "Eget fält"
+
+#, fuzzy
+#~ msgid "Hidden field"
+#~ msgstr "Dolt fält"
+
+#~ msgid "Infobox"
+#~ msgstr "Inforuta"
+
+#~ msgid "Submit Button"
+#~ msgstr "Skicka knapp"
+
+#~ msgid "Default Form"
+#~ msgstr "Standardformulär"
+
+#~ msgid "Reset Form"
+#~ msgstr "Återställ formulär"
+
+#~ msgid "Include to Page or Post with"
+#~ msgstr "Inkludera på sida eller i inlägg med"
+
+#~ msgid "Tag"
+#~ msgstr "Etikett"
+
+#~ msgid "If unused"
+#~ msgstr "Om ej vald"
+
+#~ msgid "Select from 00-23"
+#~ msgstr "Välj mellan 00-23"
+
+#~ msgid "Select from 00-59"
+#~ msgstr "Välj mellan 00-59"
+
+#~ msgid "Select of definable numbers"
+#~ msgstr "Urval av definerbara siffror"
+
+#~ msgid "Select of excludable resources"
+#~ msgstr "Urval av resurser att undanta"
+
+#~ msgid "Custom field, area, select, radio or checkbox"
+#~ msgstr "Eget fält, textområde, rullningslist, kryssruta eller valknapp"
+
+#~ msgid "Price Field"
+#~ msgstr "Prisfält"
+
+#~ msgid "Custom select, radio or checkbox with effect on price"
+#~ msgstr ""
+#~ "Valfri rullningslist, valknapp eller kryssruta med koppling till pris"
+
+#~ msgid "Show selected resources informations flexible"
+#~ msgstr "Visa flexibel information för valda resurser"
+
+#~ msgid "Fix &amp; hide informations in form"
+#~ msgstr "Fixa &amp; dölj information i formulär"
+
+#~ msgid "Text field and captcha image"
+#~ msgstr "Textruta och captcha bild"
+
+#~ msgid "Box with live price calculation"
+#~ msgstr "Ruta med beräkning av pris"
+
+#~ msgid "Box with errors"
+#~ msgstr "Ruta med felmeddelande"
+
+#~ msgid "Submit button with definable text"
+#~ msgstr "Skickaknapp med valfri text"
+
+#~ msgid "No"
+#~ msgstr "Nej"
+
+#~ msgid "Tag in Form"
+#~ msgstr "Tag i Formulär"
+
+#~ msgid "or"
+#~ msgstr "eller"
+
+#~ msgid "Dont use"
+#~ msgstr "Använd inte"
+
+#~ msgid "in the same Form"
+#~ msgstr "i samma formulär"
+
+#~ msgid "Custom field name entered multiple times - must be unique. Name:"
+#~ msgstr ""
+#~ "Namn för eget fält är angivit fler gånger - det måste vara unikt. Namn:"
+
+#~ msgid "Price field name entered multiple times - must be unique. Name:"
+#~ msgstr ""
+#~ "Namn för prisfält är angivit fler gånger - det måste vara unikt. Namn:"
+
+#~ msgid "This form is not valid"
+#~ msgstr "Detta formulär är ogitligt"
+
+#~ msgid "This form is valid"
+#~ msgstr "Detta formlär är giltigt"
+
+#~ msgid "Select type of Input you want to add"
+#~ msgstr "Välj typ av fält du vill lägga till"
+
+#~ msgid "Select Type of custom price field"
+#~ msgstr "Välj typ av eget prisfält"
+
+#~ msgid "Add a dropdown select field with effect on the price to the form"
+#~ msgstr "Lägg till en rullningslist med koppling till priset"
+
+#~ msgid "Add a radio select field with effect on the price to the form"
+#~ msgstr "Lägg till valknappar med koppling till priset"
+
+#~ msgid "Add a checkbox input with effect on the price to the form"
+#~ msgstr "Lägg till en kryssruta med koppling till priset"
+
+#~ msgid "Exclude by ID"
+#~ msgstr "Exkludera via ID"
+
+#~ msgid "Image"
+#~ msgstr "Bild"
+
+#~ msgid "Type in value of submit button"
+#~ msgstr "Skriv in värdet av Skicka knappen"
+
+#~ msgid "Select type of hidden input"
+#~ msgstr "Välj typ av dold information"
+
+#~ msgid ""
+#~ "Fix a resource to the form; dont use it with [resources] in the same form"
+#~ msgstr ""
+#~ "Ange resurs i formuläret; använd inte tillsammans med [resources] i samma "
+#~ "formulär"
+
+#~ msgid ""
+#~ "Fix an arrival date to the form; dont use it with [date-from] in the same "
+#~ "form"
+#~ msgstr ""
+#~ "Ange ankomstdatum i formuläret; använd inte tillsammans med [date-to] i "
+#~ "samma formulär"
+
+#~ msgid ""
+#~ "Fix a departure date to the form; dont use it with [date-to] in the same "
+#~ "form"
+#~ msgstr ""
+#~ "Ange avresedatum i formuläret; använd inte tillsammans med [date-to] i "
+#~ "samma formulär"
+
+#, fuzzy
+#~ msgid ""
+#~ "Fix billing units to the form; dont use it with [date-to] or [units] in "
+#~ "the same form"
+#~ msgstr ""
+#~ "Ange tider i formuläret; använd det inte tillsammans med [date-to] eller "
+#~ "[times] i samma formulär"
+
+#~ msgid ""
+#~ "Fix an amount of adults to the form; dont use it with [adults] in the "
+#~ "same form"
+#~ msgstr ""
+#~ "Ange antal vuxna i formuläret; använd det inte med [adults] i samma "
+#~ "formulär"
+
+#~ msgid ""
+#~ "Fix an amount of childrens to the form; dont use it with [childs] in the "
+#~ "same form"
+#~ msgstr ""
+#~ "Ange antal barn i formuläret; använd det inte med [childs] i samma "
+#~ "formulär"
+
+#~ msgid "Type in a name for the"
+#~ msgstr "Ange ett namn för"
+
+#~ msgid "input you want to add"
+#~ msgstr "värde du vill lägga till"
+
+#~ msgid "Type in a Name for the Checkbox"
+#~ msgstr "Ange namn för kryssrutan"
+
+#~ msgid "Type in a value for the checkbox"
+#~ msgstr "Ange värdet för kryssrutan"
+
+#~ msgid "The value has to match "
+#~ msgstr "Värdet måste matcha"
+
+#~ msgid ""
+#~ "Price: negative for reduction %1$s  zero for no change %2$s positiv for "
+#~ "increase %3$s "
+#~ msgstr ""
+#~ "Pris: negativt för avdrag %1$s  noll för oförändrad %2$s positiv för "
+#~ "ökning %3$s "
+
+#~ msgid "Type in a name for the dropdown select"
+#~ msgstr "Ange ett namn för rullningslisten"
+
+#~ msgid "Type in the options field for the"
+#~ msgstr "Ange värdet för valet "
+
+#~ msgid "The options field has to match "
+#~ msgstr "Fälten för valen måste överensstämma"
+
+#~ msgid "Type in a Name for the"
+#~ msgstr "Ange ett namn för"
+
+#~ msgid "Type in the options field"
+#~ msgstr "Ange värde för valen"
+
+#~ msgid "Fill in the date of the departure date you want to fix"
+#~ msgstr "Fyll i datumet för avresedatumet som du vill fastställa"
+
+#, fuzzy
+#~ msgid "Select the amount of billing units you want to fix"
+#~ msgstr "Ange antal gånger som du vill fastställa"
+
+#~ msgid "price per person"
+#~ msgstr "pris per person"
+
+#~ msgid "price per night"
+#~ msgstr "pris per natt"
+
+#~ msgid "show price"
+#~ msgstr "visa pris"
+
+#~ msgid "Show all Dates"
+#~ msgstr "Visa alla datum"
+
+#, fuzzy
+#~ msgid "If the %3$s to calculate is beween %1$s and %2$s"
+#~ msgstr "Om %3$s att beräkna är mellan %1$s och %2$s annars "
+
+#, fuzzy
+#~ msgid "If the %2$s to calculate is %1$s"
+#~ msgstr "Om %2$s att beräkna är %1$s annars"
+
+#, fuzzy
+#~ msgid "Automatically approvement"
+#~ msgstr "Automatiskt godkännande"
+
+#~ msgid "Edit form:"
+#~ msgstr "Redigera formulär:"
+
+#~ msgid "Give your filter a name"
+#~ msgstr "Namnge ditt filter"
+
+#~ msgid "Between"
+#~ msgstr "Mellan"
+
+#~ msgid "Mail to guest"
+#~ msgstr "E-post till gäst"
+
+#, fuzzy
+#~ msgid "Mail on new reservation"
+#~ msgstr "E-post vid ny reservation"
+
+#~ msgid "Mail to admin"
+#~ msgstr "E-post till admin"
+
+#, fuzzy
+#~ msgid "Mail on approvement"
+#~ msgstr "E-post vid godkännande"
+
+#, fuzzy
+#~ msgid "Mail on rejection"
+#~ msgstr "E-post vid avvisande"
+
+#, fuzzy
+#~ msgid "Mails on editing of admin"
+#~ msgstr "E-post vid redigering av admin"
+
+#~ msgid "Donate"
+#~ msgstr "Donera"
+
+#~ msgid "Invoice Module"
+#~ msgstr "Modul för Faktura"
+
+#~ msgid "Payment Module"
+#~ msgstr "Modul för Betalning"
+
+#~ msgid "searchForm Module"
+#~ msgstr "Modul för Sökformulär"
+
+#~ msgid "hourlyCalendar Module"
+#~ msgstr "Modul för timkalender"
+
+#, fuzzy
+#~ msgid "User Control Panel Module"
+#~ msgstr "Gästredigering"
+
+#~ msgid "Statistics Module"
+#~ msgstr "Modul för Statistik"
+
+#~ msgid "Stream Module"
+#~ msgstr "Modul för Strömning"
+
+#~ msgid "Coupon Module"
+#~ msgstr "Modul för Kuponger"
+
+#~ msgid "New Updates are available:"
+#~ msgstr "Nya uppdateringar finns tillgängliga:"
+
+#~ msgid "New Update is available:"
+#~ msgstr "Ny uppdatering finns tillgänglig:"
+
+#~ msgid "Mails after payment"
+#~ msgstr "E-post efter betalning"
+
+#, fuzzy
+#~ msgid "Mails on editing from guest"
+#~ msgstr "Mail efter redigering av användare"
+
+#, fuzzy
+#~ msgid "Mails on cancellation from guest"
+#~ msgstr "Mail efter redigering av användare"
+
+#~ msgid "eMail"
+#~ msgstr "e-post"
+
+#~ msgid "Count of resource"
+#~ msgstr "Antal resurser"
+
+#~ msgid "Per unit"
+#~ msgstr "Per enhet"
+
+#~ msgid "Per person"
+#~ msgstr "Pris per person"
+
+#~ msgid "Child discount"
+#~ msgstr "Barnrabatt"
+
+#~ msgid "Monthes"
+#~ msgstr "Månader"
+
+#~ msgid "eMails"
+#~ msgstr "E-post"
+
+#~ msgid "Reservation settings"
+#~ msgstr "Inställningar för reservation"
+
+#~ msgid "Currency sign"
+#~ msgstr "Valutasymbol"
+
+#~ msgid "Custom Field"
+#~ msgstr "Eget fält"
+
+#~ msgid "Standard Sendmail"
+#~ msgstr "Standard mail"
+
+#~ msgid "amount of"
+#~ msgstr "antal"
+
+#~ msgid "link to user edit"
+#~ msgstr "länk till gästredigering"
+
+#~ msgid "Formular"
+#~ msgstr "Formulär"
+
+#~ msgid "Min width"
+#~ msgstr "Min bredd"
+
+#~ msgid ""
+#~ "Your guest can pay their reservations directly through PayPal or leave "
+#~ "their credit card details for manually booking. Automatically approve new "
+#~ "reservations and/or paid reservations. Payment verification by IPN."
+#~ msgstr ""
+#~ "Dina gäster kan betala sina reservationer direkt via PayPal eller lämna "
+#~ "din kreditkortsinformation för manuell bokning. Automatiskt godkännande "
+#~ "för nya reservationer och/eller betalda reservationer. "
+#~ "Betalningsverifiering via IPN."
+
+#~ msgid "Guest Editing Module"
+#~ msgstr "Modul för Gästredigering"
+
+#~ msgid "Show welcome message"
+#~ msgstr "Visa välkomstmeddelande"
+
+#~ msgid "Admin mail to guest"
+#~ msgstr "E-post från Admin till gäst"
+
+#~ msgid "Mail after new reservation to guest"
+#~ msgstr "E-post till gäst efter ny reservation"
+
+#~ msgid "Mail after user-edit to admin"
+#~ msgstr "E-post till admin efter gästredigering"
+
+#~ msgid "Mail after user-edit to guest"
+#~ msgstr "E-post till gäst efter gästredigering"
+
+#~ msgid "Mail after payment to admin"
+#~ msgstr "E-post till admin efter betalning"
+
+#~ msgid "Mail after payment to guest"
+#~ msgstr "E-post till gäst efter betalning"
+
+#~ msgid "Show month"
+#~ msgstr "Visa månad"
+
+#~ msgid "Cancel Url"
+#~ msgstr "Ångra URL"
+
+#~ msgid "User ControlPanel"
+#~ msgstr "Gästredigering"
+
+#~ msgid "Insert URL"
+#~ msgstr "Infoga URL"
+
+#~ msgid "Language of PayPal"
+#~ msgstr "PayPal språk"
+
+#~ msgid "Language of 2checkout"
+#~ msgstr "Språk för 2checkout"
+
+#~ msgid ""
+#~ "To let users edit their reservations on your site add a page or post with "
+#~ "the shortcode"
+#~ msgstr ""
+#~ "För att låta gäster redigera sin reservation på din site, lägg till en "
+#~ "följande kortkod på en sida eller ett inlägg"
+
+#~ msgid "Other"
+#~ msgstr "Annat"
+
+#~ msgid "use style"
+#~ msgstr "använd stil"
+
+#~ msgid "only show for guest with >1 reservations"
+#~ msgstr "visa bara för gäster med mer än 1 reservation"
+
+#~ msgid "Days between arrival and today for last chance to edit"
+#~ msgstr "Dagar mellan ankomst och idag för sista chans att redigera"
+
+#~ msgid "Name for Resource"
+#~ msgstr "Namn för Resurs"
+
+#~ msgid "Useredit"
+#~ msgstr "Gästredigering"
+
+#~ msgid "whitespace"
+#~ msgstr "mellanslag"
+
+#~ msgid "Optionable to pay full price"
+#~ msgstr "Möjlighet att betala fullt pris"
+
+#~ msgid "Optionable to pay percentage based amounts"
+#~ msgstr "Möjlighet att betala procentuellt pris baserat på belopp"
+
+#~ msgid "Seperate percantage values by comma"
+#~ msgstr "Separera procentvärde med komma"
+
+#~ msgid "Optionable to pay a choosen amount"
+#~ msgstr "Möjlighet att betala ett valfritt belopp"
+
+#~ msgid "Turn on "
+#~ msgstr "Slå på"
+
+#~ msgid "Auto Return for Website Payments "
+#~ msgstr "Automatisk återvändning för webbsitesbetalningar "
+
+#~ msgid "in "
+#~ msgstr "i"
+
+#~ msgid "Website Payment Preferences "
+#~ msgstr "Website Payment Preferences "
+
+#~ msgid "for this feature "
+#~ msgstr "för den här funktionen"
+
+#~ msgid ""
+#~ "Replace message above the note field - \"Add special instructions to "
+#~ "merchant\" "
+#~ msgstr ""
+#~ "Byt ut meddelandet ovanför meddelandefältet - \"Lägg till instruktioner "
+#~ "till säljaren\" "
+
+#~ msgid "Use SSL "
+#~ msgstr "Använd SSL "
+
+#~ msgid "Recommended: "
+#~ msgstr "Rekommenderad: "
+
+#~ msgid ""
+#~ "To automatically set the paid amount and approve you have to log-in at "
+#~ msgstr ""
+#~ "För att automatiskt ange betalt belopp och godkänna, behöver du logga in "
+#~ "på "
+
+#~ msgid "go to "
+#~ msgstr "gå till"
+
+#~ msgid "Notifications -> Settings "
+#~ msgstr "Meddelande -> Inställningar"
+
+#~ msgid "enable the "
+#~ msgstr "aktivera"
+
+#~ msgid "Fraud Status Changed "
+#~ msgstr "Bedrägeristatus ändrad"
+
+#~ msgid "and enter "
+#~ msgstr "och ange"
+
+#~ msgid "in the text field."
+#~ msgstr "i textfältet"
+
+#~ msgid ""
+#~ "Unfortunatly their sandbox is awful and this feature cant be tested in "
+#~ "it. If it"
+#~ msgstr ""
+#~ "Tyvärr är deras sandbox hemsk och denna funktion kan det inte testas i. "
+#~ "Om det"
+
+#~ msgid "Use HTTPS"
+#~ msgstr "Använd HTTPS"
+
+#~ msgid "Start"
+#~ msgstr "Start"

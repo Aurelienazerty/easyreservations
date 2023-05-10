@@ -1,0 +1,19 @@
+This free (GPL) Scripts and Images get used in easyReservations.
+Thanks to the developers.
+
+Icons
+Oxygen Team - http://www.oxygen-icons.org/
+Yusuke Kamiyamane - http://p.yusukekamiyamane.com/
+Momenticons - http://momentumdesignlab.com/
+FatCow Web Hosting - http://www.fatcow.com/
+LED 24 - http://led24.de/
+jg-visuals - http://jg-visuals.deviantart.com/
+silvestre herrera - http://findicons.com/icon/185986/list_add?id=366061#
+Patricia Clausnitzer - http://pc.de/icons/
+famfamfam silk icon set - http://www.famfamfam.com/lab/icons/silk/
+
+Scripts
+flot - https://code.google.com/p/flot/
+Digg Style Paginator Class (Victor De la Rocha) - http://www.mis-algoritmos.com
+Really Simple CAPTCHA (Takayuki Miyoshi) - http://ideasilo.wordpress.com/
+ExportXLS Class (Leenix) - http://www.leenix.co.uk

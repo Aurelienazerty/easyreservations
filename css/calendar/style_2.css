@@ -1,0 +1,232 @@
+#CalendarFormular {
+    margin:0px;
+    padding:0px;
+    display:inline-block;
+}
+#showCalender {
+    margin-bottom: 0px;
+    margin-right:auto;margin-left:auto;vertical-align:middle;padding:0;width:100%
+}
+
+#showCalender table.calendar-table {
+    color: #666;
+    font-size: 12px;
+    margin:0px;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    border:none;
+    border-top:1px solid #383838;
+    border-right: 1px solid #898989;
+
+    border-spacing: 0;
+    border-collapse: separate;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    width: 100%;
+    min-heigth:auto;
+}
+#showCalender .calendar-table table {
+    border:none;
+    border-spacing:0px;
+}
+#showCalender .calendar-table > tbody > tr > td {
+    border-top: none;
+    border-right:none;
+}
+#showCalender .calendar-table > tbody {border-right:none;}
+#showCalender .calendarheader {
+    color: #e0e0e0;
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;
+    -webkit-box-shadow: inset 0 1px 0 #484848, 0 -1px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 0 #484848, 0 -1px 5px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 0 #484848, 0 -1px 5px rgba(0,0,0,0.3);
+    background: none repeat scroll 0 0 #383838;
+    border-left: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+}
+#showCalender .calendar-cell {
+    line-height: 1.8em;
+    color: #666;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    text-align: center;
+    font-weight: bold;
+    background-color: #ededed; /* Old browsers */
+    border-bottom: 1px solid #898989;
+    border-left: 1px solid #898989;
+    border-top:0px;
+    vertical-align: middle;
+    padding:2px 3px 4px 3px;
+    /* width:14.6%; */
+    min-width:14%;
+    width:14.28%;
+    max-width:15%;
+}
+#showCalender .calendar-table tbody td:first-of-type {border-left:1px solid #898989;}
+#showCalender .calendar-table tbody tr td:first-of-type {border-left:1px solid #898989;}
+#showCalender .calendar-table thead .calendar-header-cell:first-of-type {border-left:1px solid #898989}
+#showCalender .calendar-header-month {
+    background:#BFBFBF;
+    color: #3F3F3F;
+    text-align:center;
+    border-bottom: 1px solid #898989;
+    border-left:1px solid #898989;
+}
+#showCalender .calendar-header-cell {
+    vertical-align: middle;
+    font-size: 9px;
+    color: #666;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    border-bottom: 1px solid #bbbbbb;
+    background: #E5E5E5;
+    text-align:center;
+}
+#showCalender .calendar-cell-price {
+    display:block !important;
+    font-weight:normal;
+}
+#showCalender .calendar-cell-last {
+    border-left:none;
+    color: #666666;
+}
+#showCalender .calendar-cell-last span {display:none}
+#showCalender .calendar-cell-lastfixer {border-left:1px solid #898989}
+#showCalender .calendar-cell-full {
+    background:#ededed url(../../images/cal-2-red.png) repeat-x bottom center;
+    background:url(../../images/cal-2-red.png) repeat-x bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-red.png) repeat-x bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-red.png) repeat-x bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-red.png) repeat-x bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-red.png) repeat-x bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-red.png) repeat-x bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+#showCalender .calendar-cell-occupied {
+    cursor:pointer;
+    background:#ededed url(../../images/cal-2-yel.png) repeat-x bottom center;
+    background:url(../../images/cal-2-yel.png) repeat-x bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-yel.png) repeat-x bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-yel.png) repeat-x bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-yel.png) repeat-x bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-yel.png) repeat-x bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-yel.png) repeat-x bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+#showCalender .calendar-cell-empty {
+    cursor:pointer;
+    background:#ededed url(../../images/cal-2-green.png) repeat-x bottom center;
+    background:url(../../images/cal-2-green.png) repeat-x bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-green.png) repeat-x bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-green.png) repeat-x bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-green.png) repeat-x bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-green.png) repeat-x bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-green.png) repeat-x bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+#showCalender .calendar-header-month-prev {
+    cursor:pointer;
+    text-align:left;
+    vertical-align: middle;
+    color: #E0E0E0;
+    text-transform: capitalize;
+    text-shadow: 0 -1px 0 #000;
+    font-size:14px;
+    padding-left: 5px;
+
+}
+#showCalender .calendar-header-month-next {
+    cursor:pointer;
+    text-align:right;
+    vertical-align: middle;
+    color: #E0E0E0;
+    text-shadow: 0 -1px 0 #000;
+    font-size:14px;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+
+#showCalender .calendar-header-show-month {
+    text-align:center;
+    color: #E0E0E0;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+#showCalender .calendar-cell-today {
+    color: #000;
+    font-weight:bold;
+}
+#showCalender .calendar-table tbody tr .calendar-cell-selected {
+    color:#fff;
+    background-color: #757575;
+}
+#showCalender .calendar-full {
+    -webkit-box-shadow: 0 1px 5px rgba(226,24,24,0.6);
+    -moz-box-shadow: 0 1px 5px rgba(226,24,24,0.6);
+    box-shadow: 0 1px 5px rgba(226,24,24,0.6);
+}
+
+#showCalender td.calendar-cell-empty.calendar-cell-occupied2 {
+    background:#ededed url(../../images/cal-2-end-yel.png) no-repeat bottom center;
+    background:url(../../images/cal-2-end-yel.png) no-repeat bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-end-yel.png) no-repeat bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-end-yel.png) no-repeat bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-end-yel.png) no-repeat bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-end-yel.png) no-repeat bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-end-yel.png) no-repeat bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+
+#showCalender td.calendar-cell-empty.calendar-cell-full2 {
+    background:#ededed url(../../images/cal-2-end-red.png) no-repeat bottom center;
+    background:url(../../images/cal-2-end-red.png) no-repeat bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-end-red.png) no-repeat bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-end-red.png) no-repeat bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-end-red.png) no-repeat bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-end-red.png) no-repeat bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-end-red.png) no-repeat bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+
+#showCalender td.calendar-cell-occupied.calendar-cell-empty2 {
+    background:#ededed url(../../images/cal-2-start-yel.png) no-repeat bottom center;
+    background:url(../../images/cal-2-start-yel.png) no-repeat bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-start-yel.png) no-repeat bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-start-yel.png) no-repeat bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-start-yel.png) no-repeat bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-start-yel.png) no-repeat bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-start-yel.png) no-repeat bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+
+#showCalender td.calendar-cell-occupied.calendar-cell-full2 {
+    background:#ededed url(../../images/cal-2-red-yel.png) no-repeat bottom center;
+    background:url(../../images/cal-2-red-yel.png) no-repeat bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-red-yel.png) no-repeat bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-red-yel.png) no-repeat bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-red-yel.png) no-repeat bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-red-yel.png) no-repeat bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-red-yel.png) no-repeat bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+
+#showCalender td.calendar-cell-full.calendar-cell-empty2 {
+    background:#ededed url(../../images/cal-2-start-red.png) no-repeat bottom center;
+    background:url(../../images/cal-2-start-red.png) no-repeat bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-start-red.png) no-repeat bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-start-red.png) no-repeat bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-start-red.png) no-repeat bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-start-red.png) no-repeat bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-start-red.png) no-repeat bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+
+#showCalender td.calendar-cell-full.calendar-cell-occupied2 {
+    background:#ededed url(../../images/cal-2-yel-red.png) no-repeat bottom center;
+    background:url(../../images/cal-2-yel-red.png) no-repeat bottom center, -moz-linear-gradient(top,  #ededed 0%, #d8d8d8 100%); /* FF3.6+ */
+    background:url(../../images/cal-2-yel-red.png) no-repeat bottom center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#d8d8d8)); /* Chrome,Safari4+ */
+    background:url(../../images/cal-2-yel-red.png) no-repeat bottom center, -webkit-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Chrome10+,Safari5.1+ */
+    background:url(../../images/cal-2-yel-red.png) no-repeat bottom center, -o-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* Opera 11.10+ */
+    background:url(../../images/cal-2-yel-red.png) no-repeat bottom center, -ms-linear-gradient(top,  #ededed 0%,#d8d8d8 100%); /* IE10+ */
+    background:url(../../images/cal-2-yel-red.png) no-repeat bottom center, linear-gradient(to bottom,  #ededed 0%,#d8d8d8 100%); /* W3C */
+}
+
+#showCalender .reqdisabled {cursor: default;}

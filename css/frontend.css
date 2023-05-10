@@ -1,0 +1,335 @@
+#resource_infobox {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#resource_infobox.only-image {
+	display:inline-block;
+}
+
+div.easy_infobox_border {
+	margin-bottom: 15px;
+}
+
+div.easy_infobox_border.only-image {
+	margin-bottom: 0px;
+	display:inline-block;
+}
+
+div.easy_infobox_border.big span.easy_infobox_title {
+	float:left;
+	border-bottom: 1px solid #EAEAEA;
+	margin-bottom: 8px;
+	padding:5px;
+}
+div.easy_infobox_border.medium span.easy_infobox_title {
+	margin-bottom: 4px;
+	padding:5px 5px 5px 0px;
+}
+
+div.easy_infobox_border span.easy_infobox_title {
+	width:100%;
+	display:block;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+div.easy_infobox_border img.easy_infobox_thumb {
+	float:left;
+	margin:3px 3px 15px 3px;
+	margin-top: 0px;
+}
+
+div.easy_infobox_border.medium img.easy_infobox_thumb {
+	display:inline-block;
+	margin-right: 10px;
+}
+
+div.easy_infobox_border span.easy_infobox_excerpt, div.easy_infobox_border span.easy_infobox_content {
+	margin-bottom: 15px;
+	white-space: normal;
+	padding-top:3px;
+}
+
+div.easy_infobox_border.only-image img {
+	margin:0px;
+	float:none;
+}
+.easyloading {
+	background-image: url(images/formloading.gif);
+	background-repeat: no-repeat;
+	background-position: center 15%;
+	background-position-x: center;
+	background-position-y: 15%;
+}
+#easyFormOverlay {
+	position:absolute;
+	display:none;
+	-moz-opacity:0.80;
+	opacity:0.80;
+    z-index: 1;
+	-ms-filter:\'progid:DXImageTransform.Microsoft.Alpha\'(Opacity=80);
+}
+
+#easyFormOverlay.full {
+	-moz-opacity:1;
+	opacity:1;
+	-ms-filter:\'progid:DXImageTransform.Microsoft.Alpha\'(Opacity=100);
+}
+
+#easyFormInnerlay {
+	display:none;
+	position:absolute;
+	margin-top:50px;
+	background:#fff;
+	border:1px solid #b5b5b5;
+	padding:10px;
+	color:#000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    min-width: 400px;
+    z-index:2;
+}
+
+#easyFormInnerlay a {
+	cursor: pointer;
+}
+
+#easyFormInnerlay .easy_validate_message {
+	display:block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#easyFormInnerlay .easy_overlay_count {
+	display: block;
+	margin-left: 10px;
+}
+
+#easyFormInnerlay .easy_overlay_price {
+	display: block;
+	margin-left: 10px;
+}
+
+#easyFormInnerlay ul {
+	margin-top: 5px;
+	color: #008cff;
+	margin-bottom:0px;
+}
+
+#easyFormInnerlay .easy_overlay_submit {
+	font-weight: bold;
+}
+
+#easyFormInnerlay img {
+	max-width:100%;
+}
+
+#easyFormInnerlay input[type="button"] {
+	margin-top:10px;
+	width:48%;
+}
+
+#easyFormInnerlay .easy_overlay_submit {
+	float:right;
+}
+
+#easy_overlay_table {
+	width: 99%;
+	margin:0px;
+	border-bottom: 0px;
+	border-collapse: collapse;
+}
+
+#easy_overlay_table tbody tr:last-of-type td {
+	font-weight: bold;
+	border-bottom: none;
+	border-top: none;
+}
+
+#easy_overlay_table td {
+	border-top:none;
+	border-bottom: 1px solid #DDD;
+}
+
+#easy_overlay_table table thead th {
+	text-transform: capitalize;
+}
+
+#easyFormInnerlay th {
+	color:#000;
+	text-transform: capitalize;
+	border-bottom: 1px solid #000;
+	font-size:12px;
+}
+
+#easyFormInnerlay td {
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+#easy_overlay_table tbody tr td:first-child{
+	padding: 3px;
+}
+
+#easy_overlay_table tbody tr td:nth-child(3), #easy_overlay_table thead tr th:nth-child(3){
+	text-align: center;
+}
+
+#easy_overlay_table tbody tr td:nth-last-child(2), #easy_overlay_table thead tr th:nth-last-child(2){
+	text-align: right !important;
+}
+
+#easy_overlay_table tbody tr td:last-child{
+	text-align: center;
+}
+
+#easyFormInnerlay.full {
+	border: 0px;
+	margin-left:15px;
+	padding:10px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#easyFormInnerlay input[type="button"] {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	display:inline-block;
+	background-color:#ededed;
+	border:1px solid #bfbfbf;
+	font-family: Arial;
+	color:#333 !important;
+	line-height:1.1;
+	font-size:12px;
+	font-weight:bold;
+	padding:8px 16px;
+	text-decoration:none;
+	cursor:pointer;
+}
+#easyFormInnerlay input[type="button"]:hover {
+	-moz-box-shadow: 0px 0px 5px #bfbfbf;
+	-webkit-box-shadow: 0px 0px 5px #bfbfbf;
+	-o-box-shadow: 0px 0px 5px #bfbfbf;
+	box-shadow: 0px 0px 5px #bfbfbf;
+	border:1px solid #bfbfbf;
+}
+
+#easycreditform {
+	text-align:left;
+	min-width: 250px;
+	width:300px;
+	margin-left:15%;
+	display:inline-block
+}
+
+#easyFormInnerlay #easycreditform {
+	margin-left:5%;
+	max-width:70%;
+}
+
+span.creditor {
+	margin: 10px 0px 10px 0px;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+
+#easycreditform label {
+	display: inline-block;
+	width:35%;
+	font-weight: bold;
+}
+
+#easycreditform #easycccvv {
+	width:50px;
+}
+
+#easycreditform #easyccnumber, #easycreditform #easycctype {
+	width:130px;
+}
+
+#easycreditform .form-error {
+	border: 1px solid #f00;
+}
+
+#easyccerror {
+	color:#f00;
+    display: block;
+}
+
+#easyccsubmited {
+	text-align: center;
+}
+	
+#easyccsubmited b {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.easy_form_success {
+	margin-left:auto;
+	text-align:center;
+	margin-right:auto;
+}
+
+#easy_paypal_form {
+	margin-top:10px;
+	margin-bottom: 5px;
+}
+
+#easy_form_success input[type="text"]{
+	line-height: 1;
+}
+
+#easy_form_success span.submitrow {
+	display:inline-block;
+	width: 100%;
+}
+
+#easy_form_success b.easy_submit {
+	color:#009B1C;
+	display:block;
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#easy_form_success span {
+    display:block;
+    margin: 6px 0px;
+}
+#easy_form_success select { margin-bottom:5px;}
+
+.depositbox {
+    color:#000;font-weight:normal;text-align:left;width:250px;display:block;margin: 0 auto !important;
+}
+
+
+#easy_form_success .easy_show_price_submit {
+	margin-bottom: 5px;
+}
+
+#easy_form_success span.creditor:before, #easy_form_success span.creditor:after {
+    content: "\2014";
+}​
+
+#easy_payment_div {
+    margin: 15px;
+}
+
+#easy_overlay_table img {
+	cursor: pointer;
+}
+
+.captcha-image {
+    background-color:#fff;
+}

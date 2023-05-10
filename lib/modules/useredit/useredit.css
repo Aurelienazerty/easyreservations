@@ -1,0 +1,199 @@
+.avatar-15 {
+	width:15px;
+	height:15px;
+	margin:0px 5px 0px 5px;
+	vertical-align:text-bottom; 	
+}
+div.chat-container{
+	float:right;
+	width:40%;
+	height:auto;
+	min-height:100%;
+	border-left:solid 1px #EAEAEA;
+}
+span.radio {	display: block; }
+.chat-entry-h1{
+	font-size:10px;
+	color:#666666;
+	margin: 0px 0px 8px 0px !important;
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+	padding: 9px 10px 9px 10px;
+}
+.chat-entry-h1:first-of-type {
+	border-top: 0px;
+}
+.chat-admin {
+	background:#FAFFE6;
+}
+.chat-user {
+	background:#fff;
+}
+.chat-entry-bold {
+	color:#000;
+	font-size:14px !important;
+	font-weight:bold !important;
+}
+.chat-entry-message {
+	display:inline-block;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 10px  0px;
+	color: #666666;
+	font-size: 11px;
+	font-weight: normal;
+}
+.chat-entry-p {
+	padding: 8px 10px 10px 10px !important;
+	margin: 0px 0px 0px 0px !important;
+	font-size: 12px;
+}
+.chat-entry-time {
+	float:right;
+	padding-right: 6px;
+}
+.easy-edit-status {
+	background:#f9f9f9;
+	border: 1px solid #EAEAEA;
+	height:auto;
+	overflow: visible;
+	margin-left:auto;
+	font-size:13px;
+	margin-right:auto;
+	color: #727272;
+	display:inline-block;
+	width:99.8%;
+}
+.easy-edit-status span {
+	padding:5px 7px;
+	height:100%;
+}
+.easy-edit-status a {
+	display:inline-block;
+	height:100%;
+	padding:5px 7px;
+	font-weight: bold;
+	border-right: 1px solid #EAEAEA;
+}
+.easy-edit-status a.paypal {
+	border-left: 1px solid #EAEAEA;
+	border-right:0px;
+	background:#efefef;
+	color:#494949;
+}
+.easy-edit-status > a.current {
+	background:#f2f2f2;
+}
+.easy-edit-status form {
+	float:right;
+	display:inline-block;
+	vertical-align:middle;
+	margin: 0px !important;
+	padding: 0px !important;
+	height:100%;
+}
+.easy-edit-status form img {
+	vertical-align:text-bottom;
+}
+/* FRONTEND TABLE */
+
+.easy-front-table {
+	margin-bottom:0px !important;
+	border-bottom-width: 0px !important;
+	margin:5px 0 0 0 !important;
+	border-bottom:0px !important;
+}
+
+.easy-front-table .center {
+	text-align:center;
+}
+.easy-front-table .right {
+	text-align:right;
+}
+.easy-front-table > tfoot > tr > th,
+.easy-front-table > thead > tr > th {
+	font-size:12px;
+	letter-spacing:0em;
+	line-height:1.7em;
+	color:#666;
+	font-family: Verdana, sans-serif;
+	padding:4px 3px !important;
+	text-transform:capitalize;
+	background:#F8F8F7;
+	border-bottom: 1px solid #EAEAEA;
+	border-top: 1px solid #EAEAEA;
+}
+.easy-front-table > thead > tr > th:first-child,
+.easy-front-table > tfoot > tr > th:first-child,
+.easy-front-table > tbody > tr > td:first-child {
+	border-left: 1px solid #EAEAEA;
+}
+.easy-front-table tfoot th {
+	border-bottom: 0px;
+}
+.easy-front-table > thead > tr > th:last-child,
+.easy-front-table > tfoot > tr > th:last-child,
+.easy-front-table > tbody > tr > td:last-child {
+	border-right: 1px solid #EAEAEA;
+	text-align:center;
+}
+.easy-front-table > tfoot > tr > th {
+	border-top:none;
+}
+
+.easy-front-table > tbody > tr:nth-child(even) {
+	background:#F9F9F9;
+}
+
+.easy-front-table > tbody > tr > td {
+	color: #666;
+	padding: 3px;
+	font-size:12px;
+	border:none;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.easy-front-table .current, .easy-front-table > tbody > tr > .current {
+	background:#fff9c9 !important;
+}
+/* END FRONTEND TABLE */ 
+#invoice th, #invoice .seperator td {
+	border-bottom:1px solid black !important;
+}
+#invoice p, #invoice td, #invoice table {
+	border:0px !important;
+	border-top:0px !important;
+}
+div.breakline{
+	margin:0px !important;
+}
+div.footerdiv {
+	position:relative !important;
+	margin-bottom: 0px !important;
+}
+#invoice .seperator td, #invoice .total td { border-top:1px solid black !important; }
+#invoice div.headerdiv {
+	height:120px;
+	margin-bottom: 0mm;
+}
+#invoice div.breakline {
+	height:3px;
+	display: block;
+	width:100%;
+}
+table.addresstable { padding-top:0mm; }
+
+.thetextarea {
+	width:100%;
+	height:700px;
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+
+.usereditdiv #easy-show-error-div {
+	width:85%;
+	margin-left: 20px;
+}
+.usereditdiv .easy-show-error-div ul {
+	margin-top:5px;
+}

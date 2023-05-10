@@ -1,0 +1,179 @@
+#showCalender {
+    margin-bottom: 0px;
+    margin-right:auto;margin-left:auto;vertical-align:middle;padding:0;width:100%
+}
+#showCalender .calendar-table {
+    border-spacing: 0;
+    margin:0;
+    font-family: 'Droid Sans', Arial,sans-serif;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    width: 100%;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color:#ffffff;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+#showCalender .calendar-table table {
+    border:0px;
+    border-spacing:0px;
+}
+#showCalender .calendar-direct-table  {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+#showCalender .calendar-direct-table th {}
+#showCalender .calendarheader {padding:0px 4px 6px 4px}
+#showCalender .calendarheader th {
+    border-top: 1px solid #cccccc;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    padding:10px;
+}
+#showCalender .calendarheader th:first-of-type {
+    border-left: 1px solid #cccccc;
+
+}
+
+#showCalender .calendar-cell {
+    line-height: 1.8em;
+    border: 0px ;
+    color: #fff;
+    font-weight: bold;
+    text-align:center;
+    border-bottom:1px solid #fff;
+    border-left: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size:12px;
+    padding:3px;
+    min-width:14%;
+    width:14.28%;
+    max-width:15%;
+}
+#showCalender tr > .calendar-cell:first-of-type {
+    border-left:0px
+}
+#showCalender tr:last-of-type > .calendar-cell {
+    border-bottom: 0px;
+}
+#showCalender .calendar-direct-table th:first-of-type {
+    border-left: 1px solid #cccccc;
+}
+#showCalender .calendar-header-cell {
+    cursor:default;
+    text-align:center;
+    color:#807f8a !important;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    vertical-align: middle !important;
+}
+#showCalender .calendar-header-month {
+    font-size: 14px;
+    cursor:default;
+    text-align:center;
+    color:#000;
+    border-top: 1px solid #cccccc;
+}
+#showCalender .calendar-table th {
+    line-height: 2em;
+}
+#showCalender .calendar-cell-last div {display:hidden}
+
+#showCalender .calendar-cell-last span {display: none}
+
+#showCalender td.calendar-cell-last .calendar-cell-price{}
+
+#showCalender .calendar-direct-table > tbody > tr > td:first-of-type {border-left:1px solid #cccccc}
+
+#showCalender .calendar-cell-last {
+    cursor:default;
+    height: auto;
+}
+#showCalender .float {border-right:1px solid #fff}
+#showCalender .calendar-cell-occupied {
+    cursor:pointer;
+    background-color: #ffd06b;
+    color:#fff;
+}
+
+#showCalender .calendar-cell-empty {
+    cursor:pointer;
+    background-color: #7cd877;
+    color:#fff;
+}
+#showCalender .calendar-cell-full {
+    background-color: #f26571;
+    color:#fff;
+}
+#showCalender .calendar-header-month-prev {
+    cursor:pointer;
+    text-align:left;
+    vertical-align: middle !important;
+    text-transform: capitalize !important;
+}
+
+#showCalender .calendar-header-month-next {
+    cursor:pointer;
+    text-align:right;
+    vertical-align: middle !important;
+    text-transform: capitalize !important;
+}
+
+#showCalender .calendar-header-show-month {
+    cursor:default;
+    text-align:center;
+    vertical-align: middle !important;
+}
+
+#showCalender .calendar-cell-today {font-weight:bold}
+#showCalender .calendar-table tbody tr .calendar-cell-selected {
+    color:#fff;
+    background: #757575;
+}
+#showCalender .calendar-full {
+    -webkit-box-shadow: 0 1px 5px rgba(226,24,24,0.6) !important;
+    -moz-box-shadow: 0 1px 5px rgba(226,24,24,0.6) !important;
+    box-shadow: 0 1px 5px rgba(226,24,24,0.6) !important;
+}
+#showCalender .calendar-cell-price {
+    display: block !important;
+    font-weight: normal;
+}
+
+
+#showCalender td.calendar-cell-empty.calendar-cell-occupied2 {
+
+}
+#showCalender td.calendar-cell-empty.calendar-cell-full2 {
+
+}
+#showCalender td.calendar-cell-occupied.calendar-cell-empty2 {
+
+}
+#showCalender td.calendar-cell-full2 {
+    background-image:url(cal-premium-end-red.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+#showCalender td.calendar-cell-empty2 {
+    background-image:url(cal-premium-end-gre.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+#showCalender td.calendar-cell-occupied2 {
+    background-image:url(cal-premium-end-yel.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+
+#showCalender .reqdisabled {cursor: default;}

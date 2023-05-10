@@ -1,0 +1,244 @@
+#HourlyCalendarFormular {
+	margin:0px !important;
+	padding:0px !important;
+	display:inline-block;
+	width:100%;
+}
+
+#showHourlyCalendar {
+	margin-right:auto;margin-left:auto;vertical-align:middle;padding:0;
+}
+
+.hcalendar-table {
+	width:100%;
+	color: #000 !important;
+	font-size: 12px;
+	border:none !important;
+	border-spacing: 0;
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	display:inline-table;
+    min-heigth:auto;
+}
+
+.hcalendar-table table {
+	border:none !important;
+	border-spacing:0px;
+	padding:0px !important;
+}
+
+.hcalendar-table > tbody > tr > td {
+	border-top: none;
+	border-right:none;
+}
+.hcalendar-table > thead > tr > th {
+	width: 100%;
+	white-space: nowrap;
+	background: #EFEFEF; /* Old browsers */
+	vertical-align: middle !important;
+	border-top: 1px solid #A5A5A5;
+	color: #666666 !important;
+	font-size: 11px !important;
+	font-family:"Verdana" !important;
+	text-shadow: 0 1px 0 #fff;
+	line-height:1.7em !important;
+	padding:8px !important;
+	text-align:left;
+}
+
+.hcalendar-table > thead > tr > th:first-of-type {
+	border-left: 1px solid #A5A5A5 !important;
+	text-transform: capitalize !important;
+}
+
+.hcalendar-table > thead > tr > th:last-of-type {
+	border-right: 1px solid #A5A5A5 !important;
+	text-transform: none !important;
+}
+
+.hcalendar-table > thead > tr > th > div{
+	display:inline-block;
+}
+.hcalendar-table > thead > tr > th > select {
+	border: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+	color: #999999 !important;
+	margin: 0 2px;
+	padding: 4px;
+}
+.hcalendar-table > thead > tr > th > div > a {
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	border: 1px solid #BABABA;
+	border-right: 0px;
+	font-size: 9px !important;
+	text-decoration: none;
+	padding:4px;
+	color:#696969;
+	cursor: pointer;
+	font-weight: bold;
+	margin:0px !important;
+}
+
+.hcalendar-table > thead > tr > th > div > a.active {
+	background:#E5E5E5;
+}
+
+.hcalendar-table > thead > tr > th > div > a:hover {
+	color:#000;
+	-webkit-box-shadow: 0px 0px 5px #c6c6c6; /* webkit browser*/ -moz-box-shadow: 0px 0px 5px #c6c6c6; /* firefox */ box-shadow: 0px 0px 5px #c6c6c6;
+	background:#F9F9F9;
+}
+
+.hcalendar-table > thead > tr > th > div > a:active {
+	background:#E5E5E5;
+}
+
+.hcalendar-table > thead > tr > th > div > a:first-of-type {
+	border-right: 0px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.hcalendar-table > thead > tr > th > div > a:last-of-type {
+	border-right: 1px solid #BABABA;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.hcalendar-table > tbody {
+	border-right:none;
+}
+.hcalendar-cell {
+	color: #323232;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #CBCBCB;
+	border-left: 1px solid #CBCBCB;
+	border-top:none !important;
+	vertical-align: middle;
+	padding:3px !important;
+	background: #ffffff; /* Old browsers */
+}
+.hcalendar-header-cell {
+	background: #EFEFEF; /* Old browsers */
+	background: -moz-linear-gradient(top,  #EFEFEF 0%, #EAEAEA 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFEFEF), color-stop(100%,#EAEAEA)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #EFEFEF 0%,#EAEAEA 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #EFEFEF 0%,#EAEAEA 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #EFEFEF 0%,#EAEAEA 100%); /* IE10+ */
+	background: linear-gradient(top,  #EFEFEF 0%,#EAEAEA 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2E2E2', endColorstr='#D6D6D6',GradientType=0 ); /* IE6-9 */
+	vertical-align: middle !important;
+	text-transform: capitalize !important;
+	border-left: 1px solid #A5A5A5 !important;
+	border-top: 1px solid #A5A5A5;
+	border-bottom: 1px solid #848484 !important;
+	color: #666666 !important;
+	font-size: 9px !important;
+	font-family:"Verdana" !important;
+	text-align:center;
+	text-shadow: 0 1px 0 #fff;
+	line-height:1.7em !important;
+	padding:3px !important;
+}
+.hcalendar-header-cell:last-of-type {
+	border-right: 1px solid #A5A5A5 !important;
+}
+.hcalendar-header-cell:first-of-type {
+	border-bottom: 1px solid #A5A5A5 !important;
+}
+.hcalendar-hour-cell {
+	background: #EFEFEF; /* Old browsers */
+	background: -moz-linear-gradient(top,  #EAEAEA 0%, #E0E0E0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EAEAEA), color-stop(100%,#E0E0E0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #EAEAEA 0%,#E0E0E0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #EAEAEA 0%,#E0E0E0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #EAEAEA 0%,#E0E0E0 100%); /* IE10+ */
+	background: linear-gradient(top,  #EAEAEA 0%,#E0E0E0 100%); /* W3C */
+	vertical-align: middle !important;
+	text-transform: capitalize !important;
+	border:0px !important;
+	border-left: 1px solid #A5A5A5 !important;
+	border-bottom: 1px solid #A5A5A5 !important;
+	color:#696969;
+	font-size: 14px !important;
+	font-family:"Verdana" !important;
+	width:50px;
+	max-width: 80px;
+	text-align:left;
+	text-shadow: 0 1px 0 #fff;
+	line-height:1.7em !important;
+	padding: 3px 3px 3px 10px !important;
+}
+.hcalendar-direct-table tr td:nth-child(2) {
+	border-left: 1px solid #A5A5A5  !important;
+}
+.hcalendar-direct-table tr:last-child td {
+	border-bottom: 1px solid #A5A5A5  !important;
+}
+.hcalendar-direct-table tr td:last-child {
+	border-right: 1px solid #A5A5A5  !important;
+}
+.hcalendar-hour-cell small {
+	font-size: 9px !important;
+	vertical-align: 12%;
+}
+
+.hcalendar-header-cell p {
+	margin-bottom: 0px;
+}
+.hcalendar-cell-price {
+	display:block !important;
+	font-weight:normal;
+}
+.hcalendar-table tbody tr .hcalendar-cell-selected span {
+	color:#fff;
+}
+.hcalendar-cell-lastfixer {
+	border-left:1px solid #cccccc;
+}
+/* Modif AWI */
+.hcalendar-cell-indispo {
+	background: black;
+	border-color: black;
+}
+/* Fin modif AWI */
+.hcalendar-cell-full {
+	background: #FC5855;
+	color:#FFFFFF;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.hcalendar-cell-occupied {
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	cursor:pointer;
+	background: #FFAE00;
+	color:#FFFFFF;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.hcalendar-cell-empty {
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	cursor:pointer;
+	background: #4DD658;
+	color:#FFFFFF;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.hcalendar-cell-today {
+	color: #000 !important;
+	font-weight:bold;
+}
+.hcalendar-table tbody tr .hcalendar-cell-selected {
+	color:#000000 !important;
+	background: #B5B5B5; /* Old browsers */
+}
+#showHourlyCalendar .hcalendar-full {
+	-webkit-box-shadow: 0 1px 5px rgba(226,24,24,0.6) !important;
+	-moz-box-shadow: 0 1px 5px rgba(226,24,24,0.6) !important;
+	box-shadow: 0 1px 5px rgba(226,24,24,0.6) !important;
+}

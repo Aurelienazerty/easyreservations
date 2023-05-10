@@ -1,0 +1,191 @@
+<style type="text/css">
+body {
+	font-family:arial;
+}
+table.header, table.addresstable {
+	width:100%;
+}
+table.header tbody, table.header tr,  table.addresstable tbody, table.addresstable tr{
+	width:100%;
+}
+td.right {
+	width:30%;
+	text-align: right;
+	vertical-align: bottom;
+	padding-bottom:7px
+}
+td.left {
+	width:20%;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Verdana;
+	font-size:13px;
+}
+td.middle {
+	width:50%;
+	padding: 5px;
+	text-align: left;
+	font-size:11px;
+	vertical-align:middle;
+	line-height:14px;
+}
+td.right strong {
+	font-size:30px;
+	color:#666;
+	text-align: right;
+}
+td.left strong {
+	font-size:18px;
+}
+table.addresstable {
+	padding-top:2mm
+}
+td.address span {
+	color: #ccc;
+	font-size: 11px;
+}
+td.address {
+	width:70%;
+	padding-left:18px;
+	line-height:18px;
+}
+div.addressblock {
+	display: inline-block;
+	padding: 5px;
+}
+table.footer td {
+	color:#B2B2B2;
+	width:31%;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 10px;
+}
+table.footer td span {
+	display:inline-block;
+	text-align: left;
+}
+td.infoblock {
+	width:30%;
+	padding-top: 10px;
+	vertical-align:top;
+	text-align: right;
+	line-height:18px;
+}
+div.content {
+	margin-top: 10px;
+	padding-left:15px;
+}
+th {
+	text-align: left;
+	padding:6px;
+	font-size:16px;
+}
+table.invoice td {
+	padding:8px 6px;
+}
+th.pricehead {
+	text-align: right !important;
+	text-align: right;
+}
+td.price {
+	text-align: right;
+	width:90px;
+}
+td.message {
+	width:528px;
+}
+tr.seperator td {
+	border-top: 0.0001mm solid black;
+	border-bottom: 0.0001mm solid black;
+}
+tr.seperator td.price, tr.total td.price {
+	font-weight: bold;
+}
+tr.total td {
+	border-top: 0.0001mm solid black;
+}
+tr.tax td {
+	border-top: 0.0001mm solid black;
+}
+
+div.breakline {
+	height:1px;
+	background:#E5E5E5;
+	display:inline-block;
+	margin: 0px;
+	margin-left: 15px;
+}
+div.content h1 {
+	margin-bottom:5px;
+}
+p.content-header {
+	margin-top:5px;
+	margin-bottom:10px;
+}
+table, td, th, tr, thead, tbody, tfoot, colgroup, col {
+    border-color: black;
+}
+tr.sum td.price {
+	text-decoration: underline;
+}
+tr.obe td, tr.obe td.price {
+	border-top: 0.001mm solid black;
+}
+p.content-header, p.content-footer {
+	line-height:17px;
+}
+h1 {
+	font-size:22px;
+}
+div.headerdiv {
+	display:inline-block;
+	width:100%;
+	height:33mm;
+	margin: 2px;
+	vertical-align: bottom;
+	margin-bottom: 5mm;
+}
+</style>
+<page backtop="7mm" backbottom="7mm" backleft="10mm" backright="10mm" footer="page">
+	<div style="position: absolute; top: 89mm; height: 0.2px; left:-56px; width:15px;background:#000"></div>
+	<div style="position: absolute; top: 136.5mm; height: 0.2px; left:-51px; width:10px;background:#000"></div>
+	<div style="position: absolute; top: 194mm; height: 0.2px; left:-56px; width:15px;background:#000"></div>
+	<div class="headerdiv" contenteditable="true">
+		<table class="header" cellpadding="0" cellspacing="0">
+			<tr>	
+				<td class="left">[logo]</td>
+				<td class="middle"><div style=""><strong>[header-title]</strong><br>[header-content]</div></td>
+				<td class="right" style="text-align: right;"><strong>[header-h1]</strong><br><b>[header-h1-sub]</b> [header-date]</td>
+			</tr>
+		</table>
+	</div>
+	<div class="breakline"></div>
+	<table class="addresstable"  style="" contenteditable="true">
+		<tr>	
+			<td class="address">
+				<span class="small">[address-header]</span><br>
+				<div class="addressblock">[address]</div>
+			</td>
+			<td class="infoblock">[infoblock]</td>
+		</tr>
+	</table>
+	<div class="content" contenteditable="true">
+		<h1>[content-h1]</h1>
+		<p class="content-header">[content-header]</p>
+			[table]
+		<p class="content-footer">[content-footer]</p>
+	</div>
+
+	<div class="footerdiv" style="position: absolute;height:100%;width:100%; vertical-align: bottom;margin-bottom: 18px;" contenteditable="true">
+		<div class="breakline"></div>
+		<table class="footer" cellpadding="0" cellspacing="0" style="width:100%">
+			<tr>
+				<td style="width:50px"> </td>
+				<td>[footer-1] </td>
+				<td>[footer-2]</td>
+				<td>[footer-3]</td>
+			</tr>
+		</table>
+	</div>
+</page>

@@ -1,0 +1,25 @@
+.er-adminbar-item .er-adminbar-icon {
+    background: url('../images/toolbar.png') no-repeat;
+    float: left;
+    height: 16px !important;
+    margin-top: 5px !important;margin-right: 1px !important;
+    position: absolute;
+    width: 16px !important;
+}
+.hover .er-adminbar-icon {
+    background: url('../images/toolbar_hover.png') no-repeat;
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    .er-adminbar-item .er-adminbar-icon {
+        background: url('../images/toolbar32.png') no-repeat;
+        background-size: 16px 16px;
+    }
+    .hover .er-adminbar-icon {
+        background: url('../images/toolbar32_hover.png') no-repeat;
+        background-size: 16px 16px;
+    }
+}
